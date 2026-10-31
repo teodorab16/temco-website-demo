@@ -67,7 +67,7 @@ export function home() {
     </div>
   </section>
 
-  <section class="section" style="padding-top:0">
+  <section class="section">
     <div class="container">
       ${sectionHead('Produse', more('/produsele-noastre/', 'Explorează toate'))}
       ${mosaic()}
