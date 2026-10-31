@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /cautare/
+
+Sitemap: https://www.temco.ro/sitemap.xml

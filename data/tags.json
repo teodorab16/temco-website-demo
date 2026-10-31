@@ -1,0 +1,740 @@
+[
+ {
+  "id": 118,
+  "slug": "a9",
+  "name": "a9",
+  "count": 1
+ },
+ {
+  "id": 146,
+  "slug": "aspiratei-6-unituri",
+  "name": "aspiratei 6 unituri",
+  "count": 1
+ },
+ {
+  "id": 154,
+  "slug": "aspiratei-chirurgicala",
+  "name": "aspiratei chirurgicala",
+  "count": 1
+ },
+ {
+  "id": 156,
+  "slug": "aspiratei-durr",
+  "name": "aspiratei durr",
+  "count": 1
+ },
+ {
+  "id": 163,
+  "slug": "aspiratei-durr-dental",
+  "name": "aspiratei durr dental",
+  "count": 2
+ },
+ {
+  "id": 164,
+  "slug": "aspiratei-separator-de-amalgam",
+  "name": "aspiratei separator de amalgam",
+  "count": 1
+ },
+ {
+  "id": 155,
+  "slug": "aspiratei-stoma",
+  "name": "aspiratei stoma",
+  "count": 1
+ },
+ {
+  "id": 160,
+  "slug": "aspiratei-umeda-durr-dental",
+  "name": "aspiratei umeda durr dental",
+  "count": 1
+ },
+ {
+  "id": 142,
+  "slug": "aspiratei-uscata",
+  "name": "aspiratei uscata",
+  "count": 1
+ },
+ {
+  "id": 134,
+  "slug": "aspiratie",
+  "name": "aspiratie",
+  "count": 3
+ },
+ {
+  "id": 141,
+  "slug": "aspiratie-3-unituri",
+  "name": "aspiratie 3 unituri",
+  "count": 2
+ },
+ {
+  "id": 147,
+  "slug": "aspiratie-4-unituri-simultan",
+  "name": "aspiratie 4 unituri simultan",
+  "count": 1
+ },
+ {
+  "id": 152,
+  "slug": "aspiratie-chirurgicala",
+  "name": "aspiratie chirurgicala",
+  "count": 1
+ },
+ {
+  "id": 161,
+  "slug": "aspiratie-cu-separator-amalgam",
+  "name": "aspiratie cu separator amalgam",
+  "count": 2
+ },
+ {
+  "id": 137,
+  "slug": "aspiratie-dentara",
+  "name": "aspiratie dentara",
+  "count": 1
+ },
+ {
+  "id": 140,
+  "slug": "aspiratie-dnetara",
+  "name": "aspiratie dnetara",
+  "count": 2
+ },
+ {
+  "id": 138,
+  "slug": "aspiratie-doua-unituri",
+  "name": "aspiratie doua unituri",
+  "count": 1
+ },
+ {
+  "id": 150,
+  "slug": "aspiratie-durr",
+  "name": "aspiratie durr",
+  "count": 1
+ },
+ {
+  "id": 153,
+  "slug": "aspiratie-durr-dental",
+  "name": "aspiratie durr dental",
+  "count": 4
+ },
+ {
+  "id": 175,
+  "slug": "aspiratie-mgf",
+  "name": "aspiratie MGF",
+  "count": 1
+ },
+ {
+  "id": 151,
+  "slug": "aspiratie-stoma",
+  "name": "aspiratie stoma",
+  "count": 1
+ },
+ {
+  "id": 143,
+  "slug": "aspiratie-stomatologie",
+  "name": "aspiratie stomatologie",
+  "count": 1
+ },
+ {
+  "id": 149,
+  "slug": "aspiratie-umeda",
+  "name": "aspiratie umeda",
+  "count": 5
+ },
+ {
+  "id": 158,
+  "slug": "aspiratie-umeda-durr-dental",
+  "name": "aspiratie umeda durr dental",
+  "count": 1
+ },
+ {
+  "id": 136,
+  "slug": "aspiratie-un-unit",
+  "name": "aspiratie un unit",
+  "count": 3
+ },
+ {
+  "id": 174,
+  "slug": "aspiratie-unit",
+  "name": "aspiratie unit",
+  "count": 1
+ },
+ {
+  "id": 144,
+  "slug": "aspiratie-uscata",
+  "name": "aspiratie uscata",
+  "count": 1
+ },
+ {
+  "id": 139,
+  "slug": "aspirator-chirurgical",
+  "name": "aspirator chirurgical",
+  "count": 1
+ },
+ {
+  "id": 195,
+  "slug": "autoclav",
+  "name": "autoclav",
+  "count": 1
+ },
+ {
+  "id": 194,
+  "slug": "autoclav-18-litri",
+  "name": "autoclav 18 litri",
+  "count": 1
+ },
+ {
+  "id": 197,
+  "slug": "autoclav-60-litri",
+  "name": "autoclav 60 litri",
+  "count": 1
+ },
+ {
+  "id": 198,
+  "slug": "autoclav-60-litri-cu-osmoza",
+  "name": "autoclav 60 litri cu osmoza",
+  "count": 1
+ },
+ {
+  "id": 193,
+  "slug": "autoclav-cu-osmoza",
+  "name": "autoclav cu osmoza",
+  "count": 1
+ },
+ {
+  "id": 208,
+  "slug": "autoclav-durr",
+  "name": "autoclav durr",
+  "count": 1
+ },
+ {
+  "id": 207,
+  "slug": "autoclav-stoma",
+  "name": "autoclav stoma",
+  "count": 1
+ },
+ {
+  "id": 184,
+  "slug": "axano",
+  "name": "axano",
+  "count": 1
+ },
+ {
+  "id": 196,
+  "slug": "b23-rosi",
+  "name": "b23 rosi",
+  "count": 1
+ },
+ {
+  "id": 202,
+  "slug": "baie-cu-ultrasunate",
+  "name": "baie cu ultrasunate",
+  "count": 1
+ },
+ {
+  "id": 199,
+  "slug": "baie-cu-ultrasunete",
+  "name": "baie cu ultrasunete",
+  "count": 1
+ },
+ {
+  "id": 203,
+  "slug": "baie-instrumentar",
+  "name": "baie instrumentar",
+  "count": 1
+ },
+ {
+  "id": 201,
+  "slug": "baie-intrumentar",
+  "name": "baie intrumentar",
+  "count": 1
+ },
+ {
+  "id": 91,
+  "slug": "cbct",
+  "name": "CBCT",
+  "count": 10
+ },
+ {
+  "id": 115,
+  "slug": "cel-mai-mare-fov",
+  "name": "cel mai mare FOV",
+  "count": 1
+ },
+ {
+  "id": 116,
+  "slug": "cel-mai-muc-voxel",
+  "name": "cel mai muc voxel",
+  "count": 1
+ },
+ {
+  "id": 117,
+  "slug": "cnct",
+  "name": "cnct",
+  "count": 1
+ },
+ {
+  "id": 127,
+  "slug": "compresor",
+  "name": "compresor",
+  "count": 4
+ },
+ {
+  "id": 172,
+  "slug": "compresor-1-unit",
+  "name": "compresor 1 unit",
+  "count": 1
+ },
+ {
+  "id": 128,
+  "slug": "compresor-cu-uscare",
+  "name": "compresor cu uscare",
+  "count": 2
+ },
+ {
+  "id": 173,
+  "slug": "compresor-cu-uscare-pentru-un-unit",
+  "name": "compresor cu uscare pentru un unit",
+  "count": 1
+ },
+ {
+  "id": 166,
+  "slug": "compresor-dentar",
+  "name": "compresor dentar",
+  "count": 5
+ },
+ {
+  "id": 167,
+  "slug": "compresor-fara-uscare",
+  "name": "compresor fara uscare",
+  "count": 1
+ },
+ {
+  "id": 165,
+  "slug": "compresor-pentru-un-unit",
+  "name": "compresor pentru un unit",
+  "count": 1
+ },
+ {
+  "id": 169,
+  "slug": "compresor-stoma",
+  "name": "compresor stoma",
+  "count": 1
+ },
+ {
+  "id": 170,
+  "slug": "compresor-stomatologie",
+  "name": "compresor stomatologie",
+  "count": 1
+ },
+ {
+  "id": 168,
+  "slug": "comprsor-mgf",
+  "name": "comprsor mgf",
+  "count": 1
+ },
+ {
+  "id": 171,
+  "slug": "comrpesor-fara-uscare",
+  "name": "comrpesor fara uscare",
+  "count": 1
+ },
+ {
+  "id": 112,
+  "slug": "ct",
+  "name": "ct",
+  "count": 4
+ },
+ {
+  "id": 93,
+  "slug": "ct-dentar",
+  "name": "CT dentar",
+  "count": 2
+ },
+ {
+  "id": 215,
+  "slug": "cybird",
+  "name": "cybird",
+  "count": 1
+ },
+ {
+  "id": 178,
+  "slug": "dentsply-sirona",
+  "name": "Dentsply SIrona",
+  "count": 4
+ },
+ {
+  "id": 129,
+  "slug": "durr-dental",
+  "name": "durr dental",
+  "count": 6
+ },
+ {
+  "id": 96,
+  "slug": "endo",
+  "name": "endo",
+  "count": 2
+ },
+ {
+  "id": 107,
+  "slug": "endodontie",
+  "name": "endodontie",
+  "count": 2
+ },
+ {
+  "id": 87,
+  "slug": "ezray",
+  "name": "ezray",
+  "count": 1
+ },
+ {
+  "id": 88,
+  "slug": "ezray-premium",
+  "name": "ezray premium",
+  "count": 1
+ },
+ {
+  "id": 109,
+  "slug": "fov",
+  "name": "FOV",
+  "count": 1
+ },
+ {
+  "id": 94,
+  "slug": "green-x",
+  "name": "green x",
+  "count": 4
+ },
+ {
+  "id": 114,
+  "slug": "green-x-18",
+  "name": "green x 18",
+  "count": 2
+ },
+ {
+  "id": 126,
+  "slug": "imprimanta-filme",
+  "name": "imprimanta filme",
+  "count": 1
+ },
+ {
+  "id": 125,
+  "slug": "imprimanta-radiologie",
+  "name": "imprimanta radiologie",
+  "count": 1
+ },
+ {
+  "id": 130,
+  "slug": "insonorizare",
+  "name": "insonorizare",
+  "count": 1
+ },
+ {
+  "id": 177,
+  "slug": "intego",
+  "name": "intego",
+  "count": 2
+ },
+ {
+  "id": 179,
+  "slug": "intego-ambidextru",
+  "name": "Intego AMbidextru",
+  "count": 1
+ },
+ {
+  "id": 181,
+  "slug": "intego-pro",
+  "name": "intego pro",
+  "count": 1
+ },
+ {
+  "id": 89,
+  "slug": "intraoral",
+  "name": "intraoral",
+  "count": 1
+ },
+ {
+  "id": 209,
+  "slug": "lampa",
+  "name": "lampa",
+  "count": 2
+ },
+ {
+  "id": 210,
+  "slug": "lampa-chirurgicala",
+  "name": "lampa chirurgicala",
+  "count": 3
+ },
+ {
+  "id": 212,
+  "slug": "lampa-chirurgicala-stoma",
+  "name": "lampa chirurgicala stoma",
+  "count": 1
+ },
+ {
+  "id": 216,
+  "slug": "lampa-foto",
+  "name": "lampa foto",
+  "count": 1
+ },
+ {
+  "id": 214,
+  "slug": "lampa-fotopolimerizare",
+  "name": "lampa fotopolimerizare",
+  "count": 1
+ },
+ {
+  "id": 211,
+  "slug": "lampa-stoma",
+  "name": "lampa stoma",
+  "count": 1
+ },
+ {
+  "id": 213,
+  "slug": "lampa-stomatologica",
+  "name": "lampa stomatologica",
+  "count": 1
+ },
+ {
+  "id": 122,
+  "slug": "laser",
+  "name": "laser",
+  "count": 1
+ },
+ {
+  "id": 123,
+  "slug": "laser-dentar",
+  "name": "laser dentar",
+  "count": 1
+ },
+ {
+  "id": 206,
+  "slug": "masina-sigilat-pungi",
+  "name": "masina sigilat pungi",
+  "count": 1
+ },
+ {
+  "id": 90,
+  "slug": "panoramic",
+  "name": "panoramic",
+  "count": 3
+ },
+ {
+  "id": 159,
+  "slug": "pompa-aspiratei-umeda-cu-separare-amalgam",
+  "name": "pompa aspiratei umeda cu separare amalgam",
+  "count": 1
+ },
+ {
+  "id": 145,
+  "slug": "pompa-aspiratie",
+  "name": "pompa aspiratie",
+  "count": 2
+ },
+ {
+  "id": 157,
+  "slug": "pompa-aspiratie-stoma",
+  "name": "pompa aspiratie stoma",
+  "count": 1
+ },
+ {
+  "id": 148,
+  "slug": "pompa-aspiratie-umeda",
+  "name": "pompa aspiratie umeda",
+  "count": 3
+ },
+ {
+  "id": 135,
+  "slug": "pompa-aspiratie-uscata",
+  "name": "pompa aspiratie uscata",
+  "count": 1
+ },
+ {
+  "id": 131,
+  "slug": "primo",
+  "name": "primo",
+  "count": 1
+ },
+ {
+  "id": 133,
+  "slug": "quattro",
+  "name": "quattro",
+  "count": 1
+ },
+ {
+  "id": 106,
+  "slug": "radiologie",
+  "name": "radiologie",
+  "count": 9
+ },
+ {
+  "id": 85,
+  "slug": "radiologie-dentara",
+  "name": "radiologie dentara",
+  "count": 2
+ },
+ {
+  "id": 92,
+  "slug": "radiologie-dnetara",
+  "name": "radiologie dnetara",
+  "count": 0
+ },
+ {
+  "id": 110,
+  "slug": "radiologie-panoramica",
+  "name": "radiologie panoramica",
+  "count": 1
+ },
+ {
+  "id": 86,
+  "slug": "retroalveolar",
+  "name": "retroalveolar",
+  "count": 1
+ },
+ {
+  "id": 120,
+  "slug": "scanner-placute-fosforice",
+  "name": "scanner placute fosforice",
+  "count": 1
+ },
+ {
+  "id": 191,
+  "slug": "scaun-dentsply-sirona",
+  "name": "scaun dentsply sirona",
+  "count": 1
+ },
+ {
+  "id": 190,
+  "slug": "scaun-hugo",
+  "name": "scaun hugo",
+  "count": 1
+ },
+ {
+  "id": 185,
+  "slug": "scaun-medic",
+  "name": "scaun medic",
+  "count": 4
+ },
+ {
+  "id": 187,
+  "slug": "scaun-medic-carl",
+  "name": "scaun medic Carl",
+  "count": 1
+ },
+ {
+  "id": 188,
+  "slug": "scaun-medic-dentsply-sirona",
+  "name": "Scaun medic Dentsply Sirona",
+  "count": 2
+ },
+ {
+  "id": 189,
+  "slug": "scaun-medic-tip-sa",
+  "name": "scaun medic tip sa",
+  "count": 1
+ },
+ {
+  "id": 186,
+  "slug": "scaun-paul",
+  "name": "scaun paul",
+  "count": 1
+ },
+ {
+  "id": 162,
+  "slug": "separator-amalgam",
+  "name": "separator amalgam",
+  "count": 1
+ },
+ {
+  "id": 204,
+  "slug": "sigilator",
+  "name": "sigilator",
+  "count": 1
+ },
+ {
+  "id": 205,
+  "slug": "sigilator-pungi",
+  "name": "sigilator pungi",
+  "count": 1
+ },
+ {
+  "id": 132,
+  "slug": "silver-line",
+  "name": "silver line",
+  "count": 1
+ },
+ {
+  "id": 182,
+  "slug": "sinius",
+  "name": "sinius",
+  "count": 1
+ },
+ {
+  "id": 124,
+  "slug": "sirolaser",
+  "name": "SIROLaser",
+  "count": 1
+ },
+ {
+  "id": 113,
+  "slug": "smart",
+  "name": "smart",
+  "count": 0
+ },
+ {
+  "id": 192,
+  "slug": "sterilizator",
+  "name": "sterilizator",
+  "count": 2
+ },
+ {
+  "id": 111,
+  "slug": "stomatologie",
+  "name": "stomatologie",
+  "count": 1
+ },
+ {
+  "id": 200,
+  "slug": "ultrasunete",
+  "name": "ultrasunete",
+  "count": 1
+ },
+ {
+  "id": 176,
+  "slug": "unit-dentar",
+  "name": "unit dentar",
+  "count": 4
+ },
+ {
+  "id": 183,
+  "slug": "unit-dentar-dentsply-sirona",
+  "name": "unit dentar Dentsply Sirona",
+  "count": 2
+ },
+ {
+  "id": 180,
+  "slug": "unit-pentru-stangaci",
+  "name": "unit pentru stangaci",
+  "count": 1
+ },
+ {
+  "id": 95,
+  "slug": "vatech",
+  "name": "vatech",
+  "count": 6
+ },
+ {
+  "id": 119,
+  "slug": "vatech-a9",
+  "name": "vatech a9",
+  "count": 2
+ },
+ {
+  "id": 108,
+  "slug": "voxel",
+  "name": "voxel",
+  "count": 1
+ },
+ {
+  "id": 121,
+  "slug": "vsp",
+  "name": "vsp",
+  "count": 1
+ }
+]

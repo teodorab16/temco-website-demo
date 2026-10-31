@@ -1,0 +1,13 @@
+{
+  "name": "temco-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TEMCO — Tehno Electro Medical Company: static website (replacement for www.temco.ro)",
+  "type": "module",
+  "scripts": {
+    "build": "node build/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node build/build.mjs && node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

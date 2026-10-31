@@ -1,0 +1,6722 @@
+{
+ "https://www.temco.ro/wp-content/uploads/2017/12/Screen-Shot-2017-12-19-at-17.59.33.png": {
+  "w": 1422,
+  "h": 1408,
+  "alpha": true,
+  "color": "#5d4343",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2017/12/Screen-Shot-2017-12-19-at-17-59-33-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2017/12/Screen-Shot-2017-12-19-at-17-59-33-960.webp"
+   },
+   {
+    "w": 1422,
+    "src": "media/2017/12/Screen-Shot-2017-12-19-at-17-59-33-1422.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/1.Visera-Elite-II-OTV-S300-1.png": {
+  "w": 427,
+  "h": 364,
+  "alpha": false,
+  "color": "#c4c5c7",
+  "variants": [
+   {
+    "w": 427,
+    "src": "media/2018/03/1-Visera-Elite-II-OTV-S300-1-427.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/1.gif_hq190_product_brochure.jpg": {
+  "w": 1508,
+  "h": 2141,
+  "alpha": false,
+  "color": "#d0d3d7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/1-gif_hq190_product_brochure-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/1-gif_hq190_product_brochure-960.webp"
+   },
+   {
+    "w": 1508,
+    "src": "media/2018/03/1-gif_hq190_product_brochure-1508.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/11.GF-UCT180.jpg": {
+  "w": 1020,
+  "h": 1375,
+  "alpha": false,
+  "color": "#353233",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/11-GF-UCT180-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/11-GF-UCT180-960.webp"
+   },
+   {
+    "w": 1020,
+    "src": "media/2018/03/11-GF-UCT180-1020.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/12.GF-UE160-al5.jpg": {
+  "w": 1124,
+  "h": 1505,
+  "alpha": false,
+  "color": "#a6a8ae",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/12-GF-UE160-al5-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/12-GF-UE160-al5-960.webp"
+   },
+   {
+    "w": 1124,
+    "src": "media/2018/03/12-GF-UE160-al5-1124.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/17.BF-1TH190.jpg": {
+  "w": 1457,
+  "h": 2063,
+  "alpha": false,
+  "color": "#dcdfe3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/17-BF-1TH190-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/17-BF-1TH190-960.webp"
+   },
+   {
+    "w": 1457,
+    "src": "media/2018/03/17-BF-1TH190-1457.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/18.BF-H190.jpg": {
+  "w": 1452,
+  "h": 2061,
+  "alpha": false,
+  "color": "#d7dade",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/18-BF-H190-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/18-BF-H190-960.webp"
+   },
+   {
+    "w": 1452,
+    "src": "media/2018/03/18-BF-H190-1452.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/19.BF-P190.jpg": {
+  "w": 1511,
+  "h": 2140,
+  "alpha": false,
+  "color": "#c9d1d8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/19-BF-P190-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/19-BF-P190-960.webp"
+   },
+   {
+    "w": 1511,
+    "src": "media/2018/03/19-BF-P190-1511.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/2.CF-HQ190L.jpg": {
+  "w": 1518,
+  "h": 2143,
+  "alpha": false,
+  "color": "#d1d4d8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/2-CF-HQ190L-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/2-CF-HQ190L-960.webp"
+   },
+   {
+    "w": 1518,
+    "src": "media/2018/03/2-CF-HQ190L-1518.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/2.Visera-Elite-EndoEye-3D.png": {
+  "w": 1134,
+  "h": 759,
+  "alpha": true,
+  "color": "#767777",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/2-Visera-Elite-EndoEye-3D-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/2-Visera-Elite-EndoEye-3D-960.webp"
+   },
+   {
+    "w": 1134,
+    "src": "media/2018/03/2-Visera-Elite-EndoEye-3D-1134.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/20.BF-XP190.jpg": {
+  "w": 1511,
+  "h": 2141,
+  "alpha": false,
+  "color": "#d5d9de",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/20-BF-XP190-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/20-BF-XP190-960.webp"
+   },
+   {
+    "w": 1511,
+    "src": "media/2018/03/20-BF-XP190-1511.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/21.BF-F260.jpg": {
+  "w": 651,
+  "h": 872,
+  "alpha": false,
+  "color": "#bac5d3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/21-BF-F260-480.webp"
+   },
+   {
+    "w": 651,
+    "src": "media/2018/03/21-BF-F260-651.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/22.SIF-Q180.jpg": {
+  "w": 1514,
+  "h": 2016,
+  "alpha": false,
+  "color": "#2f5895",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/22-SIF-Q180-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/22-SIF-Q180-960.webp"
+   },
+   {
+    "w": 1514,
+    "src": "media/2018/03/22-SIF-Q180-1514.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/23.EU-ME2.jpg": {
+  "w": 751,
+  "h": 1066,
+  "alpha": false,
+  "color": "#d3dbe2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/23-EU-ME2-480.webp"
+   },
+   {
+    "w": 751,
+    "src": "media/2018/03/23-EU-ME2-751.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/24-10-GENESI-S.jpg": {
+  "w": 500,
+  "h": 554,
+  "alpha": false,
+  "color": "#c0c5c8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/24-10-GENESI-S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2018/03/24-10-GENESI-S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/24.CV-190.jpg": {
+  "w": 1454,
+  "h": 2065,
+  "alpha": false,
+  "color": "#e2e5e9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/24-CV-190-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/24-CV-190-960.webp"
+   },
+   {
+    "w": 1454,
+    "src": "media/2018/03/24-CV-190-1454.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/25.CLV-190.jpg": {
+  "w": 1449,
+  "h": 2059,
+  "alpha": false,
+  "color": "#dfe1e4",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/25-CLV-190-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/25-CLV-190-960.webp"
+   },
+   {
+    "w": 1449,
+    "src": "media/2018/03/25-CLV-190-1449.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/26.CV-290.jpg": {
+  "w": 1503,
+  "h": 2013,
+  "alpha": false,
+  "color": "#cbd4df",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/26-CV-290-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/26-CV-290-960.webp"
+   },
+   {
+    "w": 1503,
+    "src": "media/2018/03/26-CV-290-1503.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/27.CLV-290SL.jpg": {
+  "w": 1504,
+  "h": 2018,
+  "alpha": false,
+  "color": "#c7cfda",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/27-CLV-290SL-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/27-CLV-290SL-960.webp"
+   },
+   {
+    "w": 1504,
+    "src": "media/2018/03/27-CLV-290SL-1504.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/28.ENDOCAPSULE.jpg": {
+  "w": 751,
+  "h": 1070,
+  "alpha": false,
+  "color": "#eae9ed",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/28-ENDOCAPSULE-480.webp"
+   },
+   {
+    "w": 751,
+    "src": "media/2018/03/28-ENDOCAPSULE-751.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/29.ETD4_.jpg": {
+  "w": 1508,
+  "h": 2140,
+  "alpha": false,
+  "color": "#c4cad2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/29-ETD4_-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/29-ETD4_-960.webp"
+   },
+   {
+    "w": 1508,
+    "src": "media/2018/03/29-ETD4_-1508.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/3.Visera-Elite-II-OTV-S200.png": {
+  "w": 439,
+  "h": 380,
+  "alpha": false,
+  "color": "#c5c6c7",
+  "variants": [
+   {
+    "w": 439,
+    "src": "media/2018/03/3-Visera-Elite-II-OTV-S200-439.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/3.gif-xp190N.jpg": {
+  "w": 1517,
+  "h": 2147,
+  "alpha": false,
+  "color": "#c8ced3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/3-gif-xp190N-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/3-gif-xp190N-960.webp"
+   },
+   {
+    "w": 1517,
+    "src": "media/2018/03/3-gif-xp190N-1517.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/30.miniETD2.jpg": {
+  "w": 749,
+  "h": 1002,
+  "alpha": false,
+  "color": "#c9d6e0",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/30-miniETD2-480.webp"
+   },
+   {
+    "w": 749,
+    "src": "media/2018/03/30-miniETD2-749.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/32.EDC-PLUS.jpg": {
+  "w": 1141,
+  "h": 1596,
+  "alpha": false,
+  "color": "#dadddf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/32-EDC-PLUS-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/32-EDC-PLUS-960.webp"
+   },
+   {
+    "w": 1141,
+    "src": "media/2018/03/32-EDC-PLUS-1141.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/33.ETD-Double.jpg": {
+  "w": 751,
+  "h": 1064,
+  "alpha": false,
+  "color": "#97a8bb",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/33-ETD-Double-480.webp"
+   },
+   {
+    "w": 751,
+    "src": "media/2018/03/33-ETD-Double-751.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/34.TJF-Q180V.jpg": {
+  "w": 649,
+  "h": 863,
+  "alpha": false,
+  "color": "#b8cbd7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/34-TJF-Q180V-480.webp"
+   },
+   {
+    "w": 649,
+    "src": "media/2018/03/34-TJF-Q180V-649.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/4.PCF-PH190L.jpg": {
+  "w": 1450,
+  "h": 2060,
+  "alpha": false,
+  "color": "#d6d9dd",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/4-PCF-PH190L-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/4-PCF-PH190L-960.webp"
+   },
+   {
+    "w": 1450,
+    "src": "media/2018/03/4-PCF-PH190L-1450.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/4.Visera-Elite-II-CLV-S200-IR.png": {
+  "w": 449,
+  "h": 263,
+  "alpha": false,
+  "color": "#b9bcc1",
+  "variants": [
+   {
+    "w": 449,
+    "src": "media/2018/03/4-Visera-Elite-II-CLV-S200-IR-449.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/410000.jpg": {
+  "w": 600,
+  "h": 600,
+  "alpha": false,
+  "color": "#f9f5f7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/410000-480.webp"
+   },
+   {
+    "w": 600,
+    "src": "media/2018/03/410000-600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/420000.jpg": {
+  "w": 600,
+  "h": 600,
+  "alpha": false,
+  "color": "#fbf7f7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/420000-480.webp"
+   },
+   {
+    "w": 600,
+    "src": "media/2018/03/420000-600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/430000.jpg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#dad9dc",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2018/03/430000-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/440000.png": {
+  "w": 492,
+  "h": 534,
+  "alpha": false,
+  "color": "#c6d3d4",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/440000-480.webp"
+   },
+   {
+    "w": 492,
+    "src": "media/2018/03/440000-492.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/460500.png": {
+  "w": 492,
+  "h": 644,
+  "alpha": false,
+  "color": "#bdb2af",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/460500-480.webp"
+   },
+   {
+    "w": 492,
+    "src": "media/2018/03/460500-492.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/470100.png": {
+  "w": 492,
+  "h": 534,
+  "alpha": false,
+  "color": "#c6c9ce",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/470100-480.webp"
+   },
+   {
+    "w": 492,
+    "src": "media/2018/03/470100-492.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/5.GIF-H190.jpg": {
+  "w": 1452,
+  "h": 2058,
+  "alpha": false,
+  "color": "#cbcfd3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/5-GIF-H190-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/5-GIF-H190-960.webp"
+   },
+   {
+    "w": 1452,
+    "src": "media/2018/03/5-GIF-H190-1452.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/5.Visera-Elite-II-Telescop-IR-2.png": {
+  "w": 376,
+  "h": 269,
+  "alpha": false,
+  "color": "#939d83",
+  "variants": [
+   {
+    "w": 376,
+    "src": "media/2018/03/5-Visera-Elite-II-Telescop-IR-2-376.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/6.CF-H190L.jpg": {
+  "w": 1458,
+  "h": 2060,
+  "alpha": false,
+  "color": "#d4d7db",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/6-CF-H190L-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/6-CF-H190L-960.webp"
+   },
+   {
+    "w": 1458,
+    "src": "media/2018/03/6-CF-H190L-1458.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/6.Visera-Elite-II-UHI-4.png": {
+  "w": 389,
+  "h": 242,
+  "alpha": false,
+  "color": "#8999ab",
+  "variants": [
+   {
+    "w": 389,
+    "src": "media/2018/03/6-Visera-Elite-II-UHI-4-389.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/7.GIF-1TH190.jpg": {
+  "w": 1513,
+  "h": 2147,
+  "alpha": false,
+  "color": "#c3ccd3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/7-GIF-1TH190-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/7-GIF-1TH190-960.webp"
+   },
+   {
+    "w": 1513,
+    "src": "media/2018/03/7-GIF-1TH190-1513.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/7.Visera-Elite-II-CH-S200.png": {
+  "w": 1708,
+  "h": 715,
+  "alpha": true,
+  "color": "#848483",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/7-Visera-Elite-II-CH-S200-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/7-Visera-Elite-II-CH-S200-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/7-Visera-Elite-II-CH-S200-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/800x455p400x228.jpg": {
+  "w": 800,
+  "h": 455,
+  "alpha": false,
+  "color": "#d8d7d9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/800x455p400x228-480.webp"
+   },
+   {
+    "w": 800,
+    "src": "media/2018/03/800x455p400x228-800.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/84543-19090948.jpg": {
+  "w": 589,
+  "h": 589,
+  "alpha": false,
+  "color": "#b1b0b1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/84543-19090948-480.webp"
+   },
+   {
+    "w": 589,
+    "src": "media/2018/03/84543-19090948-589.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/A9163_ENF-XP.jpg": {
+  "w": 980,
+  "h": 300,
+  "alpha": false,
+  "color": "#94a4b9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/A9163_ENF-XP-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/A9163_ENF-XP-960.webp"
+   },
+   {
+    "w": 980,
+    "src": "media/2018/03/A9163_ENF-XP-980.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Angio-endovascular.jpg": {
+  "w": 991,
+  "h": 744,
+  "alpha": false,
+  "color": "#c5c9d1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Angio-endovascular-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Angio-endovascular-960.webp"
+   },
+   {
+    "w": 991,
+    "src": "media/2018/03/Angio-endovascular-991.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Artro.png": {
+  "w": 394,
+  "h": 364,
+  "alpha": false,
+  "color": "#dfdbda",
+  "variants": [
+   {
+    "w": 394,
+    "src": "media/2018/03/Artro-394.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/AsCARD-Green-v.05.101.jpg": {
+  "w": 1280,
+  "h": 809,
+  "alpha": false,
+  "color": "#e0e5e8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/AsCARD-Green-v-05-101-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/AsCARD-Green-v-05-101-960.webp"
+   },
+   {
+    "w": 1280,
+    "src": "media/2018/03/AsCARD-Green-v-05-101-1280.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/AsCARD-Grey-v.07.205.jpg": {
+  "w": 1280,
+  "h": 805,
+  "alpha": false,
+  "color": "#dbdbdc",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/AsCARD-Grey-v-07-205-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/AsCARD-Grey-v-07-205-960.webp"
+   },
+   {
+    "w": 1280,
+    "src": "media/2018/03/AsCARD-Grey-v-07-205-1280.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/AsCARD-Grey-v.07.305.jpg": {
+  "w": 1280,
+  "h": 805,
+  "alpha": false,
+  "color": "#dbdbdc",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/AsCARD-Grey-v-07-305-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/AsCARD-Grey-v-07-305-960.webp"
+   },
+   {
+    "w": 1280,
+    "src": "media/2018/03/AsCARD-Grey-v-07-305-1280.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/AsCARD-Orange.jpg": {
+  "w": 1280,
+  "h": 831,
+  "alpha": false,
+  "color": "#e6e7e9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/AsCARD-Orange-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/AsCARD-Orange-960.webp"
+   },
+   {
+    "w": 1280,
+    "src": "media/2018/03/AsCARD-Orange-1280.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/BX63-system.jpg": {
+  "w": 1600,
+  "h": 1063,
+  "alpha": false,
+  "color": "#c8c7cd",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/BX63-system-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/BX63-system-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/BX63-system-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Bi-Mask-silicone-foto.jpg": {
+  "w": 950,
+  "h": 525,
+  "alpha": false,
+  "color": "#d6d7d7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Bi-Mask-silicone-foto-480.webp"
+   },
+   {
+    "w": 950,
+    "src": "media/2018/03/Bi-Mask-silicone-foto-950.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/CER-image-asset-galery-CEREC-SpeedFire-CEREC-Primescan-AC-CEREC-Primemill-front-grey-1.jpg": {
+  "w": 3543,
+  "h": 2504,
+  "alpha": false,
+  "color": "#ccc8c9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/CER-image-asset-galery-CEREC-SpeedFire-CEREC-Primescan-AC-CEREC-Primemill-front-grey-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/CER-image-asset-galery-CEREC-SpeedFire-CEREC-Primescan-AC-CEREC-Primemill-front-grey-1-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/CER-image-asset-galery-CEREC-SpeedFire-CEREC-Primescan-AC-CEREC-Primemill-front-grey-1-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/CH-S200-XZ-EA.jpg": {
+  "w": 1221,
+  "h": 774,
+  "alpha": false,
+  "color": "#202020",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/CH-S200-XZ-EA-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/CH-S200-XZ-EA-960.webp"
+   },
+   {
+    "w": 1221,
+    "src": "media/2018/03/CH-S200-XZ-EA-1221.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/COMBO_IX-HighRes_V03_Transparent.jpg": {
+  "w": 1200,
+  "h": 1008,
+  "alpha": false,
+  "color": "#b2b2b2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/COMBO_IX-HighRes_V03_Transparent-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/COMBO_IX-HighRes_V03_Transparent-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "media/2018/03/COMBO_IX-HighRes_V03_Transparent-1200.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/CV-170.jpg": {
+  "w": 980,
+  "h": 300,
+  "alpha": false,
+  "color": "#8497ac",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/CV-170-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/CV-170-960.webp"
+   },
+   {
+    "w": 980,
+    "src": "media/2018/03/CV-170-980.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Cellvizio-system.png": {
+  "w": 300,
+  "h": 787,
+  "alpha": false,
+  "color": "#ced3d2",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2018/03/Cellvizio-system-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Celon-Elite.jpg": {
+  "w": 1006,
+  "h": 537,
+  "alpha": false,
+  "color": "#b8bdc4",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Celon-Elite-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Celon-Elite-960.webp"
+   },
+   {
+    "w": 1006,
+    "src": "media/2018/03/Celon-Elite-1006.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Combo_BX_ePhys_HighRes_V03_Transparent.jpg": {
+  "w": 1200,
+  "h": 1008,
+  "alpha": false,
+  "color": "#a8a8a9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Combo_BX_ePhys_HighRes_V03_Transparent-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Combo_BX_ePhys_HighRes_V03_Transparent-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "media/2018/03/Combo_BX_ePhys_HighRes_V03_Transparent-1200.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/DE-210.jpeg": {
+  "w": 1121,
+  "h": 1333,
+  "alpha": false,
+  "color": "#f4f6f8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/DE-210-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/DE-210-960.webp"
+   },
+   {
+    "w": 1121,
+    "src": "media/2018/03/DE-210-1121.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/DIEGO-ELITE.jpg": {
+  "w": 981,
+  "h": 355,
+  "alpha": false,
+  "color": "#e6e7e8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/DIEGO-ELITE-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/DIEGO-ELITE-960.webp"
+   },
+   {
+    "w": 981,
+    "src": "media/2018/03/DIEGO-ELITE-981.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/ENDORIZON.jpg": {
+  "w": 980,
+  "h": 300,
+  "alpha": false,
+  "color": "#99acc2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/ENDORIZON-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/ENDORIZON-960.webp"
+   },
+   {
+    "w": 980,
+    "src": "media/2018/03/ENDORIZON-980.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/ENF-GP.jpg": {
+  "w": 980,
+  "h": 300,
+  "alpha": false,
+  "color": "#96a8bc",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/ENF-GP-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/ENF-GP-960.webp"
+   },
+   {
+    "w": 980,
+    "src": "media/2018/03/ENF-GP-980.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/ENF-P4.jpg": {
+  "w": 980,
+  "h": 300,
+  "alpha": false,
+  "color": "#92a3b8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/ENF-P4-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/ENF-P4-960.webp"
+   },
+   {
+    "w": 980,
+    "src": "media/2018/03/ENF-P4-980.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/ENF-T3.jpg": {
+  "w": 208,
+  "h": 208,
+  "alpha": false,
+  "color": "#c9c7c2",
+  "variants": [
+   {
+    "w": 208,
+    "src": "media/2018/03/ENF-T3-208.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/ENF-V2.jpg": {
+  "w": 266,
+  "h": 190,
+  "alpha": false,
+  "color": "#9ca6b7",
+  "variants": [
+   {
+    "w": 266,
+    "src": "media/2018/03/ENF-V2-266.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/ENF-V3.jpg": {
+  "w": 438,
+  "h": 350,
+  "alpha": false,
+  "color": "#c2cdd5",
+  "variants": [
+   {
+    "w": 438,
+    "src": "media/2018/03/ENF-V3-438.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/ENF-VH.jpg": {
+  "w": 433,
+  "h": 350,
+  "alpha": false,
+  "color": "#c2ccd4",
+  "variants": [
+   {
+    "w": 433,
+    "src": "media/2018/03/ENF-VH-433.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/ENF-VT2_tip_70x52.jpg": {
+  "w": 70,
+  "h": 52,
+  "alpha": false,
+  "color": "#afbbc9",
+  "variants": [
+   {
+    "w": 70,
+    "src": "media/2018/03/ENF-VT2_tip_70x52-70.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/ESG-300.jpg": {
+  "w": 748,
+  "h": 1067,
+  "alpha": false,
+  "color": "#babfc4",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/ESG-300-480.webp"
+   },
+   {
+    "w": 748,
+    "src": "media/2018/03/ESG-300-748.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/ESG-400.png": {
+  "w": 310,
+  "h": 185,
+  "alpha": false,
+  "color": "#adb5c5",
+  "variants": [
+   {
+    "w": 310,
+    "src": "media/2018/03/ESG-400-310.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/EzRay-AirW-Sales-Material_Pers-01left.png": {
+  "w": 11811,
+  "h": 11260,
+  "alpha": true,
+  "color": "#fafafa",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/EzRay-AirW-Sales-Material_Pers-01left-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/EzRay-AirW-Sales-Material_Pers-01left-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/EzRay-AirW-Sales-Material_Pers-01left-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/FM801.jpg": {
+  "w": 575,
+  "h": 358,
+  "alpha": false,
+  "color": "#cccfd8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/FM801-480.webp"
+   },
+   {
+    "w": 575,
+    "src": "media/2018/03/FM801-575.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Fibroscan-430C.jpg": {
+  "w": 1667,
+  "h": 1112,
+  "alpha": false,
+  "color": "#bec7cf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Fibroscan-430C-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Fibroscan-430C-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/Fibroscan-430C-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Fibroscan-502T.jpg": {
+  "w": 1873,
+  "h": 2808,
+  "alpha": false,
+  "color": "#e1e3e5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Fibroscan-502T-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Fibroscan-502T-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/Fibroscan-502T-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Fibroscan-530C.jpg": {
+  "w": 1762,
+  "h": 2362,
+  "alpha": false,
+  "color": "#858c96",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Fibroscan-530C-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Fibroscan-530C-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/Fibroscan-530C-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/GI-Bronch-1.png": {
+  "w": 628,
+  "h": 515,
+  "alpha": false,
+  "color": "#d0d2d5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/GI-Bronch-1-480.webp"
+   },
+   {
+    "w": 628,
+    "src": "media/2018/03/GI-Bronch-1-628.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/HI_top-view.jpg": {
+  "w": 1772,
+  "h": 2996,
+  "alpha": false,
+  "color": "#8c8c8c",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/HI_top-view-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/HI_top-view-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/HI_top-view-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Heliantus-Bym3D.png": {
+  "w": 412,
+  "h": 412,
+  "alpha": false,
+  "color": "#bcb6a8",
+  "variants": [
+   {
+    "w": 412,
+    "src": "media/2018/03/Heliantus-Bym3D-412.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Heliantus-DBT.png": {
+  "w": 421,
+  "h": 532,
+  "alpha": false,
+  "color": "#e0dacf",
+  "variants": [
+   {
+    "w": 421,
+    "src": "media/2018/03/Heliantus-DBT-421.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Heliantus-achizitie.png": {
+  "w": 357,
+  "h": 474,
+  "alpha": false,
+  "color": "#d1cdb9",
+  "variants": [
+   {
+    "w": 357,
+    "src": "media/2018/03/Heliantus-achizitie-357.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Hermes.jpg": {
+  "w": 614,
+  "h": 876,
+  "alpha": false,
+  "color": "#6e90aa",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Hermes-480.webp"
+   },
+   {
+    "w": 614,
+    "src": "media/2018/03/Hermes-614.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/HolCARD-24W-Alfa-System-A703-v.201.jpg": {
+  "w": 1155,
+  "h": 800,
+  "alpha": false,
+  "color": "#dad7c5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/HolCARD-24W-Alfa-System-A703-v-201-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/HolCARD-24W-Alfa-System-A703-v-201-960.webp"
+   },
+   {
+    "w": 1155,
+    "src": "media/2018/03/HolCARD-24W-Alfa-System-A703-v-201-1155.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/HolCARD-24W-Alfa-System-A703-v.301-1.jpg": {
+  "w": 931,
+  "h": 800,
+  "alpha": false,
+  "color": "#dcd9ca",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/HolCARD-24W-Alfa-System-A703-v-301-1-480.webp"
+   },
+   {
+    "w": 931,
+    "src": "media/2018/03/HolCARD-24W-Alfa-System-A703-v-301-1-931.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/HolCARD-24W-Alfa-System-A712-v.201.jpg": {
+  "w": 1147,
+  "h": 800,
+  "alpha": false,
+  "color": "#dad6c3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/HolCARD-24W-Alfa-System-A712-v-201-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/HolCARD-24W-Alfa-System-A712-v-201-960.webp"
+   },
+   {
+    "w": 1147,
+    "src": "media/2018/03/HolCARD-24W-Alfa-System-A712-v-201-1147.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/HolCARD-24W-Alfa-System-A712-v.301.jpg": {
+  "w": 958,
+  "h": 800,
+  "alpha": false,
+  "color": "#d3d0c1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/HolCARD-24W-Alfa-System-A712-v-301-480.webp"
+   },
+   {
+    "w": 958,
+    "src": "media/2018/03/HolCARD-24W-Alfa-System-A712-v-301-958.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/IC60.jpg": {
+  "w": 575,
+  "h": 358,
+  "alpha": false,
+  "color": "#c1c4c5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/IC60-480.webp"
+   },
+   {
+    "w": 575,
+    "src": "media/2018/03/IC60-575.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/IC90.jpg": {
+  "w": 575,
+  "h": 358,
+  "alpha": false,
+  "color": "#c1c0bf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/IC90-480.webp"
+   },
+   {
+    "w": 575,
+    "src": "media/2018/03/IC90-575.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/IM12.jpg": {
+  "w": 575,
+  "h": 358,
+  "alpha": false,
+  "color": "#babbb8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/IM12-480.webp"
+   },
+   {
+    "w": 575,
+    "src": "media/2018/03/IM12-575.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/IM15.jpg": {
+  "w": 575,
+  "h": 358,
+  "alpha": false,
+  "color": "#bcbdbb",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/IM15-480.webp"
+   },
+   {
+    "w": 575,
+    "src": "media/2018/03/IM15-575.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Imagine-JP-33.jpg": {
+  "w": 487,
+  "h": 398,
+  "alpha": false,
+  "color": "#ececea",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Imagine-JP-33-480.webp"
+   },
+   {
+    "w": 487,
+    "src": "media/2018/03/Imagine-JP-33-487.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/InstaClear.jpg": {
+  "w": 864,
+  "h": 351,
+  "alpha": false,
+  "color": "#cbcdd5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/InstaClear-480.webp"
+   },
+   {
+    "w": 864,
+    "src": "media/2018/03/InstaClear-864.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Isolab-HR.jpg": {
+  "w": 1000,
+  "h": 1413,
+  "alpha": false,
+  "color": "#86b0b9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Isolab-HR-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Isolab-HR-960.webp"
+   },
+   {
+    "w": 1000,
+    "src": "media/2018/03/Isolab-HR-1000.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/KermaX-plus-C.png": {
+  "w": 248,
+  "h": 253,
+  "alpha": false,
+  "color": "#bcbfc1",
+  "variants": [
+   {
+    "w": 248,
+    "src": "media/2018/03/KermaX-plus-C-248.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/KermaX-plus-DDP.png": {
+  "w": 245,
+  "h": 253,
+  "alpha": false,
+  "color": "#cbccd2",
+  "variants": [
+   {
+    "w": 245,
+    "src": "media/2018/03/KermaX-plus-DDP-245.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/KermaX-plus-IDP.png": {
+  "w": 239,
+  "h": 245,
+  "alpha": false,
+  "color": "#d9dadf",
+  "variants": [
+   {
+    "w": 239,
+    "src": "media/2018/03/KermaX-plus-IDP-239.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/KermaX-plus-SDP.png": {
+  "w": 239,
+  "h": 245,
+  "alpha": false,
+  "color": "#d5d6d9",
+  "variants": [
+   {
+    "w": 239,
+    "src": "media/2018/03/KermaX-plus-SDP-239.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Kit-Sophy.jpeg": {
+  "w": 1200,
+  "h": 1125,
+  "alpha": false,
+  "color": "#e5e5e6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Kit-Sophy-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Kit-Sophy-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "media/2018/03/Kit-Sophy-1200.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/LAP-team.jpg": {
+  "w": 2136,
+  "h": 1202,
+  "alpha": false,
+  "color": "#e9e8e8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/LAP-team-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/LAP-team-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/LAP-team-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/LarynxFK-Set.jpg": {
+  "w": 980,
+  "h": 300,
+  "alpha": false,
+  "color": "#94a6bc",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/LarynxFK-Set-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/LarynxFK-Set-960.webp"
+   },
+   {
+    "w": 980,
+    "src": "media/2018/03/LarynxFK-Set-980.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Lylium.png": {
+  "w": 330,
+  "h": 515,
+  "alpha": false,
+  "color": "#e3e1e3",
+  "variants": [
+   {
+    "w": 330,
+    "src": "media/2018/03/Lylium-330.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/MPE_appimage_Multiphoton-Imaging-Made-Simple-edit.jpg": {
+  "w": 1200,
+  "h": 862,
+  "alpha": false,
+  "color": "#5e5c5b",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/MPE_appimage_Multiphoton-Imaging-Made-Simple-edit-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/MPE_appimage_Multiphoton-Imaging-Made-Simple-edit-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "media/2018/03/MPE_appimage_Multiphoton-Imaging-Made-Simple-edit-1200.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/MPE_appimage_Outstanding-Images-at-Depth-edit.jpg": {
+  "w": 1200,
+  "h": 394,
+  "alpha": false,
+  "color": "#474442",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/MPE_appimage_Outstanding-Images-at-Depth-edit-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/MPE_appimage_Outstanding-Images-at-Depth-edit-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "media/2018/03/MPE_appimage_Outstanding-Images-at-Depth-edit-1200.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Masca-anestezie-UF-poza.jpg": {
+  "w": 313,
+  "h": 235,
+  "alpha": false,
+  "color": "#f0f1f5",
+  "variants": [
+   {
+    "w": 313,
+    "src": "media/2018/03/Masca-anestezie-UF-poza-313.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/PIC01456_88-10-190_Silikon_Beatmungsbeutel_Set_Erwachsener_002_4zu3.webp": {
+  "w": 1920,
+  "h": 1440,
+  "alpha": true,
+  "color": "#d3d5df",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/PIC01456_88-10-190_Silikon_Beatmungsbeutel_Set_Erwachsener_002_4zu3-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/PIC01456_88-10-190_Silikon_Beatmungsbeutel_Set_Erwachsener_002_4zu3-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/PIC01456_88-10-190_Silikon_Beatmungsbeutel_Set_Erwachsener_002_4zu3-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/PRODUS-Arc-Essentia.png": {
+  "w": 1343,
+  "h": 2048,
+  "alpha": true,
+  "color": "#212121",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/PRODUS-Arc-Essentia-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/PRODUS-Arc-Essentia-960.webp"
+   },
+   {
+    "w": 1343,
+    "src": "media/2018/03/PRODUS-Arc-Essentia-1343.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/PRODUS-Cascade-IOMAX.jpg": {
+  "w": 1200,
+  "h": 660,
+  "alpha": false,
+  "color": "#aeaaa8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/PRODUS-Cascade-IOMAX-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/PRODUS-Cascade-IOMAX-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "media/2018/03/PRODUS-Cascade-IOMAX-1200.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/PRODUS-EuroProbe-3-1-1.png": {
+  "w": 2268,
+  "h": 2308,
+  "alpha": true,
+  "color": "#b8babe",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/PRODUS-EuroProbe-3-1-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/PRODUS-EuroProbe-3-1-1-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/PRODUS-EuroProbe-3-1-1-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/PRODUS-Sierra-Summit.png": {
+  "w": 1563,
+  "h": 2048,
+  "alpha": true,
+  "color": "#1f1f1f",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/PRODUS-Sierra-Summit-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/PRODUS-Sierra-Summit-960.webp"
+   },
+   {
+    "w": 1563,
+    "src": "media/2018/03/PRODUS-Sierra-Summit-1563.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/PRODUS-Sisteme-de-Iluminat-Medical.jpg": {
+  "w": 941,
+  "h": 1200,
+  "alpha": false,
+  "color": "#d3e2e4",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/PRODUS-Sisteme-de-Iluminat-Medical-480.webp"
+   },
+   {
+    "w": 941,
+    "src": "media/2018/03/PRODUS-Sisteme-de-Iluminat-Medical-941.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Pages-from-FV4000_Brochure_EN_A4_2023_11_Web-1.jpg": {
+  "w": 844,
+  "h": 1298,
+  "alpha": false,
+  "color": "#5e5c6c",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Pages-from-FV4000_Brochure_EN_A4_2023_11_Web-1-480.webp"
+   },
+   {
+    "w": 844,
+    "src": "media/2018/03/Pages-from-FV4000_Brochure_EN_A4_2023_11_Web-1-844.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Pelvic-Mentor.jpg": {
+  "w": 566,
+  "h": 360,
+  "alpha": false,
+  "color": "#b5b3b9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Pelvic-Mentor-480.webp"
+   },
+   {
+    "w": 566,
+    "src": "media/2018/03/Pelvic-Mentor-566.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Portfolio_VBM_Anaesthesia_Intensiv_Care.webp": {
+  "w": 1920,
+  "h": 738,
+  "alpha": false,
+  "color": "#dce1e2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Portfolio_VBM_Anaesthesia_Intensiv_Care-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Portfolio_VBM_Anaesthesia_Intensiv_Care-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/Portfolio_VBM_Anaesthesia_Intensiv_Care-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-BX43.jpg": {
+  "w": 800,
+  "h": 662,
+  "alpha": false,
+  "color": "#d3d4d6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-BX43-480.webp"
+   },
+   {
+    "w": 800,
+    "src": "media/2018/03/Poza-BX43-800.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-BX46.jpg": {
+  "w": 400,
+  "h": 300,
+  "alpha": false,
+  "color": "#bfc2c4",
+  "variants": [
+   {
+    "w": 400,
+    "src": "media/2018/03/Poza-BX46-400.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-BX53.jpg": {
+  "w": 361,
+  "h": 500,
+  "alpha": false,
+  "color": "#a6a8a5",
+  "variants": [
+   {
+    "w": 361,
+    "src": "media/2018/03/Poza-BX53-361.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-CKX-CCSV.jpg": {
+  "w": 769,
+  "h": 500,
+  "alpha": false,
+  "color": "#cfd1d3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-CKX-CCSV-480.webp"
+   },
+   {
+    "w": 769,
+    "src": "media/2018/03/Poza-CKX-CCSV-769.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-CKX53.jpg": {
+  "w": 600,
+  "h": 628,
+  "alpha": false,
+  "color": "#c5c3c1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-CKX53-480.webp"
+   },
+   {
+    "w": 600,
+    "src": "media/2018/03/Poza-CKX53-600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-CX23.jpg": {
+  "w": 800,
+  "h": 800,
+  "alpha": false,
+  "color": "#b8babc",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-CX23-480.webp"
+   },
+   {
+    "w": 800,
+    "src": "media/2018/03/Poza-CX23-800.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-CX43-33.jpg": {
+  "w": 781,
+  "h": 469,
+  "alpha": false,
+  "color": "#d3d3d3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-CX43-33-480.webp"
+   },
+   {
+    "w": 781,
+    "src": "media/2018/03/Poza-CX43-33-781.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-Camera-monocrom.jpg": {
+  "w": 680,
+  "h": 429,
+  "alpha": false,
+  "color": "#9da3ab",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-Camera-monocrom-480.webp"
+   },
+   {
+    "w": 680,
+    "src": "media/2018/03/Poza-Camera-monocrom-680.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-IX73.jpg": {
+  "w": 577,
+  "h": 600,
+  "alpha": false,
+  "color": "#b3b4b3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-IX73-480.webp"
+   },
+   {
+    "w": 577,
+    "src": "media/2018/03/Poza-IX73-577.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-LV200.jpg": {
+  "w": 680,
+  "h": 429,
+  "alpha": false,
+  "color": "#d5dadf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-LV200-480.webp"
+   },
+   {
+    "w": 680,
+    "src": "media/2018/03/Poza-LV200-680.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-MVX10.jpg": {
+  "w": 321,
+  "h": 500,
+  "alpha": false,
+  "color": "#cccbc9",
+  "variants": [
+   {
+    "w": 321,
+    "src": "media/2018/03/Poza-MVX10-321.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-Pax-i.jpg": {
+  "w": 600,
+  "h": 360,
+  "alpha": false,
+  "color": "#f8f8f8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-Pax-i-480.webp"
+   },
+   {
+    "w": 600,
+    "src": "media/2018/03/Poza-Pax-i-600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-SPINSR10.jpg": {
+  "w": 2176,
+  "h": 1283,
+  "alpha": false,
+  "color": "#c3c3c3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-SPINSR10-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Poza-SPINSR10-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/Poza-SPINSR10-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-SZX10.jpg": {
+  "w": 900,
+  "h": 1111,
+  "alpha": false,
+  "color": "#d1d3d5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-SZX10-480.webp"
+   },
+   {
+    "w": 900,
+    "src": "media/2018/03/Poza-SZX10-900.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-SZX16.jpg": {
+  "w": 900,
+  "h": 1382,
+  "alpha": false,
+  "color": "#c0c3c6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-SZX16-480.webp"
+   },
+   {
+    "w": 900,
+    "src": "media/2018/03/Poza-SZX16-900.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-SZX7.jpg": {
+  "w": 1800,
+  "h": 1292,
+  "alpha": false,
+  "color": "#eceded",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-SZX7-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Poza-SZX7-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/Poza-SZX7-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-SZX7_SZ61_SZ51-lineup.jpg": {
+  "w": 801,
+  "h": 426,
+  "alpha": false,
+  "color": "#d5d7d8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-SZX7_SZ61_SZ51-lineup-480.webp"
+   },
+   {
+    "w": 801,
+    "src": "media/2018/03/Poza-SZX7_SZ61_SZ51-lineup-801.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-Tornado-2.jpg": {
+  "w": 800,
+  "h": 600,
+  "alpha": false,
+  "color": "#c0c1c2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-Tornado-2-480.webp"
+   },
+   {
+    "w": 800,
+    "src": "media/2018/03/Poza-Tornado-2-800.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-V-300-S.jpg": {
+  "w": 600,
+  "h": 600,
+  "alpha": false,
+  "color": "#aaabac",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-V-300-S-480.webp"
+   },
+   {
+    "w": 600,
+    "src": "media/2018/03/Poza-V-300-S-600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-VS-300-S.jpg": {
+  "w": 600,
+  "h": 600,
+  "alpha": false,
+  "color": "#aaabac",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-VS-300-S-480.webp"
+   },
+   {
+    "w": 600,
+    "src": "media/2018/03/Poza-VS-300-S-600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-camere-color-1.jpg": {
+  "w": 2108,
+  "h": 1516,
+  "alpha": false,
+  "color": "#7e8890",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-camere-color-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Poza-camere-color-1-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/Poza-camere-color-1-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-cellFRAP.jpg": {
+  "w": 1050,
+  "h": 816,
+  "alpha": false,
+  "color": "#e0e0e0",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-cellFRAP-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Poza-cellFRAP-960.webp"
+   },
+   {
+    "w": 1050,
+    "src": "media/2018/03/Poza-cellFRAP-1050.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-cellSens.jpg": {
+  "w": 520,
+  "h": 230,
+  "alpha": false,
+  "color": "#aaadb7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-cellSens-480.webp"
+   },
+   {
+    "w": 520,
+    "src": "media/2018/03/Poza-cellSens-520.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-cellTIRF.jpg": {
+  "w": 1024,
+  "h": 586,
+  "alpha": false,
+  "color": "#d8dbdf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-cellTIRF-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Poza-cellTIRF-960.webp"
+   },
+   {
+    "w": 1024,
+    "src": "media/2018/03/Poza-cellTIRF-1024.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-ix83.jpg": {
+  "w": 1200,
+  "h": 965,
+  "alpha": false,
+  "color": "#b4b4b7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-ix83-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Poza-ix83-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "media/2018/03/Poza-ix83-1200.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Poza-scanR.jpg": {
+  "w": 2126,
+  "h": 1545,
+  "alpha": false,
+  "color": "#adbcb6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Poza-scanR-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Poza-scanR-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/Poza-scanR-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Quicktrach-poza.jpg": {
+  "w": 490,
+  "h": 368,
+  "alpha": false,
+  "color": "#dfe1e2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Quicktrach-poza-480.webp"
+   },
+   {
+    "w": 490,
+    "src": "media/2018/03/Quicktrach-poza-490.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Rhinology-Instruments_1_980x300-1.jpg": {
+  "w": 980,
+  "h": 300,
+  "alpha": false,
+  "color": "#9aabbf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Rhinology-Instruments_1_980x300-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Rhinology-Instruments_1_980x300-1-960.webp"
+   },
+   {
+    "w": 980,
+    "src": "media/2018/03/Rhinology-Instruments_1_980x300-1-980.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Robotix-Mentor.png": {
+  "w": 459,
+  "h": 421,
+  "alpha": false,
+  "color": "#c3bfbe",
+  "variants": [
+   {
+    "w": 459,
+    "src": "media/2018/03/Robotix-Mentor-459.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/SOPHY.jpeg": {
+  "w": 983,
+  "h": 752,
+  "alpha": false,
+  "color": "#f3f3f3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/SOPHY-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/SOPHY-960.webp"
+   },
+   {
+    "w": 983,
+    "src": "media/2018/03/SOPHY-983.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Sistem-video-4K-OTV-S400.png": {
+  "w": 349,
+  "h": 335,
+  "alpha": false,
+  "color": "#5c5356",
+  "variants": [
+   {
+    "w": 349,
+    "src": "media/2018/03/Sistem-video-4K-OTV-S400-349.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/SmartDyn.jpg": {
+  "w": 334,
+  "h": 528,
+  "alpha": false,
+  "color": "#efeff5",
+  "variants": [
+   {
+    "w": 334,
+    "src": "media/2018/03/SmartDyn-334.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/SmartFlow.jpg": {
+  "w": 520,
+  "h": 360,
+  "alpha": false,
+  "color": "#5f828b",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/SmartFlow-480.webp"
+   },
+   {
+    "w": 520,
+    "src": "media/2018/03/SmartFlow-520.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/StapesPros.jpg": {
+  "w": 980,
+  "h": 300,
+  "alpha": false,
+  "color": "#99aabe",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/StapesPros-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/StapesPros-960.webp"
+   },
+   {
+    "w": 980,
+    "src": "media/2018/03/StapesPros-980.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Stratos.png": {
+  "w": 607,
+  "h": 454,
+  "alpha": false,
+  "color": "#d9d9d9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Stratos-480.webp"
+   },
+   {
+    "w": 607,
+    "src": "media/2018/03/Stratos-607.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/StrobeLED_002_V1_20120312_980x300.jpg": {
+  "w": 980,
+  "h": 300,
+  "alpha": false,
+  "color": "#91a2b5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/StrobeLED_002_V1_20120312_980x300-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/StrobeLED_002_V1_20120312_980x300-960.webp"
+   },
+   {
+    "w": 980,
+    "src": "media/2018/03/StrobeLED_002_V1_20120312_980x300-980.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/TCA-6SR.png": {
+  "w": 346,
+  "h": 347,
+  "alpha": false,
+  "color": "#dfdfdb",
+  "variants": [
+   {
+    "w": 346,
+    "src": "media/2018/03/TCA-6SR-346.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/TLX-masa.png": {
+  "w": 442,
+  "h": 222,
+  "alpha": false,
+  "color": "#6d9fbd",
+  "variants": [
+   {
+    "w": 442,
+    "src": "media/2018/03/TLX-masa-442.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/TMS-320.png": {
+  "w": 354,
+  "h": 332,
+  "alpha": false,
+  "color": "#e5e8ec",
+  "variants": [
+   {
+    "w": 354,
+    "src": "media/2018/03/TMS-320-354.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Thunderbeat.png": {
+  "w": 309,
+  "h": 321,
+  "alpha": false,
+  "color": "#d5d4d5",
+  "variants": [
+   {
+    "w": 309,
+    "src": "media/2018/03/Thunderbeat-309.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Tub-laringian-pentru-intubatie-cu-tub-de-drenare-poza.jpg": {
+  "w": 490,
+  "h": 551,
+  "alpha": false,
+  "color": "#eae9ea",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Tub-laringian-pentru-intubatie-cu-tub-de-drenare-poza-480.webp"
+   },
+   {
+    "w": 490,
+    "src": "media/2018/03/Tub-laringian-pentru-intubatie-cu-tub-de-drenare-poza-490.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/US-Mentor.png": {
+  "w": 732,
+  "h": 410,
+  "alpha": false,
+  "color": "#d6d0ce",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/US-Mentor-480.webp"
+   },
+   {
+    "w": 732,
+    "src": "media/2018/03/US-Mentor-732.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Ultra-telescoape.jpg": {
+  "w": 981,
+  "h": 301,
+  "alpha": false,
+  "color": "#d4d8da",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Ultra-telescoape-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Ultra-telescoape-960.webp"
+   },
+   {
+    "w": 981,
+    "src": "media/2018/03/Ultra-telescoape-981.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Untitled-1.jpg": {
+  "w": 1420,
+  "h": 1600,
+  "alpha": false,
+  "color": "#babbbc",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Untitled-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Untitled-1-960.webp"
+   },
+   {
+    "w": 1420,
+    "src": "media/2018/03/Untitled-1-1420.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Uro-Perc-Mentor.png": {
+  "w": 1000,
+  "h": 1009,
+  "alpha": false,
+  "color": "#d7dada",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/Uro-Perc-Mentor-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/Uro-Perc-Mentor-960.webp"
+   },
+   {
+    "w": 1000,
+    "src": "media/2018/03/Uro-Perc-Mentor-1000.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/VistaScan_Mini_Easy2.01-Produktbild-1.jpg": {
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "color": "#d4d4d4",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/VistaScan_Mini_Easy2-01-Produktbild-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/VistaScan_Mini_Easy2-01-Produktbild-1-960.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/Vizion.jpg": {
+  "w": 279,
+  "h": 364,
+  "alpha": false,
+  "color": "#d5dad9",
+  "variants": [
+   {
+    "w": 279,
+    "src": "media/2018/03/Vizion-279.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/aspirator-Boscarol.jpg": {
+  "w": 768,
+  "h": 614,
+  "alpha": false,
+  "color": "#ece6e7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/aspirator-Boscarol-480.webp"
+   },
+   {
+    "w": 768,
+    "src": "media/2018/03/aspirator-Boscarol-768.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/imprimanta-medicala-fuji-drypix-edge.png": {
+  "w": 800,
+  "h": 800,
+  "alpha": false,
+  "color": "#e0e2e3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/imprimanta-medicala-fuji-drypix-edge-480.webp"
+   },
+   {
+    "w": 800,
+    "src": "media/2018/03/imprimanta-medicala-fuji-drypix-edge-800.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/installed_control_valve_installed-1569-web.jpg": {
+  "w": 1067,
+  "h": 1600,
+  "alpha": false,
+  "color": "#b2c4c3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/installed_control_valve_installed-1569-web-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/installed_control_valve_installed-1569-web-960.webp"
+   },
+   {
+    "w": 1067,
+    "src": "media/2018/03/installed_control_valve_installed-1569-web-1067.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/mgf-Aspir-QC_01.jpg": {
+  "w": 350,
+  "h": 277,
+  "alpha": false,
+  "color": "#ccd9db",
+  "variants": [
+   {
+    "w": 350,
+    "src": "media/2018/03/mgf-Aspir-QC_01-350.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/microscop-endodontic-carl-zeiss-opmi-pico.png": {
+  "w": 452,
+  "h": 452,
+  "alpha": true,
+  "color": "#c8cbd2",
+  "variants": [
+   {
+    "w": 452,
+    "src": "media/2018/03/microscop-endodontic-carl-zeiss-opmi-pico-452.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/nemo-use-3.jpg": {
+  "w": 1800,
+  "h": 1200,
+  "alpha": false,
+  "color": "#9a9c9a",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/nemo-use-3-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/nemo-use-3-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/nemo-use-3-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/nr00392_00001.jpg": {
+  "w": 280,
+  "h": 210,
+  "alpha": false,
+  "color": "#b3b4b6",
+  "variants": [
+   {
+    "w": 280,
+    "src": "media/2018/03/nr00392_00001-280.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/poza-SiroLaser-Blue.jpg": {
+  "w": 1200,
+  "h": 675,
+  "alpha": false,
+  "color": "#cbd4dd",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/poza-SiroLaser-Blue-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/poza-SiroLaser-Blue-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "media/2018/03/poza-SiroLaser-Blue-1200.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/pressio.jpg": {
+  "w": 500,
+  "h": 325,
+  "alpha": false,
+  "color": "#b8c2cc",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/pressio-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2018/03/pressio-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/tornado_1_compresor-cu-uscator.jpg": {
+  "w": 700,
+  "h": 525,
+  "alpha": false,
+  "color": "#ced3d6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/tornado_1_compresor-cu-uscator-480.webp"
+   },
+   {
+    "w": 700,
+    "src": "media/2018/03/tornado_1_compresor-cu-uscator-700.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/vistascan_mini_easy2.0_header.jpg": {
+  "w": 1920,
+  "h": 1080,
+  "alpha": false,
+  "color": "#c2c1c5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/vistascan_mini_easy2-0_header-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/vistascan_mini_easy2-0_header-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2018/03/vistascan_mini_easy2-0_header-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/zapp18.jpg": {
+  "w": 700,
+  "h": 729,
+  "alpha": false,
+  "color": "#dde0e6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/zapp18-480.webp"
+   },
+   {
+    "w": 700,
+    "src": "media/2018/03/zapp18-700.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/03/zapp80.jpg": {
+  "w": 1550,
+  "h": 684,
+  "alpha": false,
+  "color": "#e9eaec",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/03/zapp80-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/03/zapp80-960.webp"
+   },
+   {
+    "w": 1550,
+    "src": "media/2018/03/zapp80-1550.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/04/SPINE-Mentor_0.png": {
+  "w": 960,
+  "h": 635,
+  "alpha": true,
+  "color": "#363332",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/04/SPINE-Mentor_0-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2018/04/SPINE-Mentor_0-960.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/04/cropped-fav.png": {
+  "w": 512,
+  "h": 512,
+  "alpha": true,
+  "color": "#6e2113",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/04/cropped-fav-480.webp"
+   },
+   {
+    "w": 512,
+    "src": "media/2018/04/cropped-fav-512.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/06/JI5220-1.png": {
+  "w": 497,
+  "h": 497,
+  "alpha": true,
+  "color": "#d8d9d9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/06/JI5220-1-480.webp"
+   },
+   {
+    "w": 497,
+    "src": "media/2018/06/JI5220-1-497.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/06/JI5220-2.png": {
+  "w": 601,
+  "h": 400,
+  "alpha": true,
+  "color": "#dcdedf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/06/JI5220-2-480.webp"
+   },
+   {
+    "w": 601,
+    "src": "media/2018/06/JI5220-2-601.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/06/JI5220-3.png": {
+  "w": 601,
+  "h": 437,
+  "alpha": true,
+  "color": "#d6d7d8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/06/JI5220-3-480.webp"
+   },
+   {
+    "w": 601,
+    "src": "media/2018/06/JI5220-3-601.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/06/JI5230-1.png": {
+  "w": 546,
+  "h": 546,
+  "alpha": true,
+  "color": "#afb0b3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/06/JI5230-1-480.webp"
+   },
+   {
+    "w": 546,
+    "src": "media/2018/06/JI5230-1-546.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2018/06/JI5230.png": {
+  "w": 545,
+  "h": 600,
+  "alpha": true,
+  "color": "#bfc0c1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2018/06/JI5230-480.webp"
+   },
+   {
+    "w": 545,
+    "src": "media/2018/06/JI5230-545.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/Ghid-de-intubatie-malebil-poza.jpg": {
+  "w": 490,
+  "h": 368,
+  "alpha": false,
+  "color": "#f2eeec",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2019/12/Ghid-de-intubatie-malebil-poza-480.webp"
+   },
+   {
+    "w": 490,
+    "src": "media/2019/12/Ghid-de-intubatie-malebil-poza-490.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/Videoecobronhoscop-EVIS-EXERA-BF-UC180F.jpg": {
+  "w": 231,
+  "h": 300,
+  "alpha": false,
+  "color": "#bac4cf",
+  "variants": [
+   {
+    "w": 231,
+    "src": "media/2019/12/Videoecobronhoscop-EVIS-EXERA-BF-UC180F-231.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art1.jpg": {
+  "w": 212,
+  "h": 300,
+  "alpha": false,
+  "color": "#7c848e",
+  "variants": [
+   {
+    "w": 212,
+    "src": "media/2019/12/art1-212.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art10.jpg": {
+  "w": 600,
+  "h": 380,
+  "alpha": false,
+  "color": "#a2bcbf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2019/12/art10-480.webp"
+   },
+   {
+    "w": 600,
+    "src": "media/2019/12/art10-600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art11.jpg": {
+  "w": 300,
+  "h": 200,
+  "alpha": false,
+  "color": "#44333c",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art11-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art12.jpg": {
+  "w": 300,
+  "h": 200,
+  "alpha": false,
+  "color": "#736557",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art12-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art13.jpg": {
+  "w": 300,
+  "h": 199,
+  "alpha": false,
+  "color": "#34546a",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art13-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art14.jpg": {
+  "w": 300,
+  "h": 199,
+  "alpha": false,
+  "color": "#2d4b60",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art14-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art15.jpg": {
+  "w": 300,
+  "h": 200,
+  "alpha": false,
+  "color": "#35618a",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art15-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art16.jpg": {
+  "w": 300,
+  "h": 200,
+  "alpha": false,
+  "color": "#1d6384",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art16-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art17.jpg": {
+  "w": 1140,
+  "h": 380,
+  "alpha": false,
+  "color": "#5f5d58",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2019/12/art17-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2019/12/art17-960.webp"
+   },
+   {
+    "w": 1140,
+    "src": "media/2019/12/art17-1140.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art18.jpg": {
+  "w": 225,
+  "h": 300,
+  "alpha": false,
+  "color": "#5a554f",
+  "variants": [
+   {
+    "w": 225,
+    "src": "media/2019/12/art18-225.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art19.jpg": {
+  "w": 225,
+  "h": 300,
+  "alpha": false,
+  "color": "#6d686e",
+  "variants": [
+   {
+    "w": 225,
+    "src": "media/2019/12/art19-225.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art2.jpg": {
+  "w": 225,
+  "h": 300,
+  "alpha": false,
+  "color": "#444944",
+  "variants": [
+   {
+    "w": 225,
+    "src": "media/2019/12/art2-225.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art20.jpg": {
+  "w": 225,
+  "h": 300,
+  "alpha": false,
+  "color": "#706764",
+  "variants": [
+   {
+    "w": 225,
+    "src": "media/2019/12/art20-225.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art21.jpg": {
+  "w": 225,
+  "h": 300,
+  "alpha": false,
+  "color": "#716a66",
+  "variants": [
+   {
+    "w": 225,
+    "src": "media/2019/12/art21-225.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art22-2.jpg": {
+  "w": 300,
+  "h": 225,
+  "alpha": false,
+  "color": "#67625f",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art22-2-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art22.jpg": {
+  "w": 300,
+  "h": 225,
+  "alpha": false,
+  "color": "#67625f",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art22-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art23.jpg": {
+  "w": 169,
+  "h": 300,
+  "alpha": false,
+  "color": "#66635c",
+  "variants": [
+   {
+    "w": 169,
+    "src": "media/2019/12/art23-169.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art24.jpeg": {
+  "w": 750,
+  "h": 380,
+  "alpha": false,
+  "color": "#f1f1f1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2019/12/art24-480.webp"
+   },
+   {
+    "w": 750,
+    "src": "media/2019/12/art24-750.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art25.jpeg": {
+  "w": 216,
+  "h": 300,
+  "alpha": false,
+  "color": "#f5f6f6",
+  "variants": [
+   {
+    "w": 216,
+    "src": "media/2019/12/art25-216.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art26.jpeg": {
+  "w": 219,
+  "h": 300,
+  "alpha": false,
+  "color": "#f5f5f6",
+  "variants": [
+   {
+    "w": 219,
+    "src": "media/2019/12/art26-219.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art27.png": {
+  "w": 595,
+  "h": 380,
+  "alpha": true,
+  "color": "#a1aeac",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2019/12/art27-480.webp"
+   },
+   {
+    "w": 595,
+    "src": "media/2019/12/art27-595.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art28.jpg": {
+  "w": 212,
+  "h": 300,
+  "alpha": false,
+  "color": "#b6c7c4",
+  "variants": [
+   {
+    "w": 212,
+    "src": "media/2019/12/art28-212.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art29.jpg": {
+  "w": 212,
+  "h": 300,
+  "alpha": false,
+  "color": "#e7e6ea",
+  "variants": [
+   {
+    "w": 212,
+    "src": "media/2019/12/art29-212.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art3.jpg": {
+  "w": 225,
+  "h": 300,
+  "alpha": false,
+  "color": "#49463f",
+  "variants": [
+   {
+    "w": 225,
+    "src": "media/2019/12/art3-225.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art30.jpg": {
+  "w": 300,
+  "h": 200,
+  "alpha": false,
+  "color": "#928c8a",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art30-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art31.jpg": {
+  "w": 300,
+  "h": 200,
+  "alpha": false,
+  "color": "#8c7c73",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art31-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art32.jpg": {
+  "w": 300,
+  "h": 200,
+  "alpha": false,
+  "color": "#5d504c",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art32-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art33.jpg": {
+  "w": 225,
+  "h": 300,
+  "alpha": false,
+  "color": "#7d5c53",
+  "variants": [
+   {
+    "w": 225,
+    "src": "media/2019/12/art33-225.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art34.jpg": {
+  "w": 225,
+  "h": 300,
+  "alpha": false,
+  "color": "#785d4c",
+  "variants": [
+   {
+    "w": 225,
+    "src": "media/2019/12/art34-225.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art35.jpg": {
+  "w": 696,
+  "h": 380,
+  "alpha": false,
+  "color": "#dfcfbe",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2019/12/art35-480.webp"
+   },
+   {
+    "w": 696,
+    "src": "media/2019/12/art35-696.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art36.jpg": {
+  "w": 218,
+  "h": 300,
+  "alpha": false,
+  "color": "#e4dccb",
+  "variants": [
+   {
+    "w": 218,
+    "src": "media/2019/12/art36-218.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art37.jpg": {
+  "w": 300,
+  "h": 117,
+  "alpha": false,
+  "color": "#e8e6d8",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art37-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art4.jpg": {
+  "w": 225,
+  "h": 300,
+  "alpha": false,
+  "color": "#71635b",
+  "variants": [
+   {
+    "w": 225,
+    "src": "media/2019/12/art4-225.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art5.jpg": {
+  "w": 842,
+  "h": 380,
+  "alpha": false,
+  "color": "#636972",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2019/12/art5-480.webp"
+   },
+   {
+    "w": 842,
+    "src": "media/2019/12/art5-842.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art6.jpg": {
+  "w": 300,
+  "h": 225,
+  "alpha": false,
+  "color": "#a69a95",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art6-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art7.jpg": {
+  "w": 300,
+  "h": 225,
+  "alpha": false,
+  "color": "#9b938f",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art7-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art8.jpg": {
+  "w": 300,
+  "h": 225,
+  "alpha": false,
+  "color": "#8d7a6c",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/art8-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/art9.jpg": {
+  "w": 285,
+  "h": 380,
+  "alpha": false,
+  "color": "#71b4c5",
+  "variants": [
+   {
+    "w": 285,
+    "src": "media/2019/12/art9-285.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/grid-product-01.jpg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#33729a",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/grid-product-01-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/grid-product-02.jpg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#5d5356",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/grid-product-02-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/grid-product-03.jpg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#2f2f2e",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/grid-product-03-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/grid-product-04.jpg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#345e82",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/grid-product-04-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/grid-product-05.jpg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#b3b2ba",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/grid-product-05-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/grid-product-06.jpeg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#dadae0",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/grid-product-06-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/grid-product-07.jpg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#737c89",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/grid-product-07-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/grid-product-08.jpg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#b5bac5",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/grid-product-08-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/grid-product-09.jpg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#a7bac6",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/grid-product-09-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/grid-product-10.jpg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#dad4c9",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/grid-product-10-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/grid-product-11.jpg": {
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "color": "#e5e8ed",
+  "variants": [
+   {
+    "w": 300,
+    "src": "media/2019/12/grid-product-11-300.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/home-banner-01.jpg": {
+  "w": 1600,
+  "h": 544,
+  "alpha": false,
+  "color": "#306083",
+  "variants": [
+   {
+    "w": 768,
+    "src": "media/2019/12/home-banner-01-768.webp"
+   },
+   {
+    "w": 1280,
+    "src": "media/2019/12/home-banner-01-1280.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2019/12/home-banner-01-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/home-banner-02.jpg": {
+  "w": 1600,
+  "h": 900,
+  "alpha": false,
+  "color": "#828d82",
+  "variants": [
+   {
+    "w": 768,
+    "src": "media/2019/12/home-banner-02-768.webp"
+   },
+   {
+    "w": 1280,
+    "src": "media/2019/12/home-banner-02-1280.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2019/12/home-banner-02-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2019/12/logo-temco.png": {
+  "w": 255,
+  "h": 58,
+  "alpha": true,
+  "color": "#4c1309",
+  "variants": [
+   {
+    "w": 255,
+    "src": "media/2019/12/logo-temco-255.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2021/10/Endo-Mentor-.png": {
+  "w": 549,
+  "h": 500,
+  "alpha": false,
+  "color": "#a7a6a6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2021/10/Endo-Mentor-480.webp"
+   },
+   {
+    "w": 549,
+    "src": "media/2021/10/Endo-Mentor-549.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2021/10/IMG_4410.jpg": {
+  "w": 1125,
+  "h": 1450,
+  "alpha": false,
+  "color": "#aeb3c3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2021/10/IMG_4410-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2021/10/IMG_4410-960.webp"
+   },
+   {
+    "w": 1125,
+    "src": "media/2021/10/IMG_4410-1125.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2021/10/IMG_4411.jpg": {
+  "w": 1125,
+  "h": 1454,
+  "alpha": false,
+  "color": "#ececee",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2021/10/IMG_4411-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2021/10/IMG_4411-960.webp"
+   },
+   {
+    "w": 1125,
+    "src": "media/2021/10/IMG_4411-1125.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2021/10/IMG_4412.jpg": {
+  "w": 1125,
+  "h": 1449,
+  "alpha": false,
+  "color": "#ebecf1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2021/10/IMG_4412-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2021/10/IMG_4412-960.webp"
+   },
+   {
+    "w": 1125,
+    "src": "media/2021/10/IMG_4412-1125.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2021/10/IMG_4413.jpg": {
+  "w": 1125,
+  "h": 1430,
+  "alpha": false,
+  "color": "#f3f1f2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2021/10/IMG_4413-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2021/10/IMG_4413-960.webp"
+   },
+   {
+    "w": 1125,
+    "src": "media/2021/10/IMG_4413-1125.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2021/10/Perc-Mentor.png": {
+  "w": 369,
+  "h": 556,
+  "alpha": false,
+  "color": "#c3c2c3",
+  "variants": [
+   {
+    "w": 369,
+    "src": "media/2021/10/Perc-Mentor-369.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/1-Colentina-Flyer-pdf.jpg": {
+  "w": 1088,
+  "h": 1408,
+  "alpha": false,
+  "color": "#b4bbca",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/1-Colentina-Flyer-pdf-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2022/04/1-Colentina-Flyer-pdf-960.webp"
+   },
+   {
+    "w": 1088,
+    "src": "media/2022/04/1-Colentina-Flyer-pdf-1088.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/1-Colentina.jpg": {
+  "w": 1125,
+  "h": 1437,
+  "alpha": false,
+  "color": "#b3b9c9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/1-Colentina-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2022/04/1-Colentina-960.webp"
+   },
+   {
+    "w": 1125,
+    "src": "media/2022/04/1-Colentina-1125.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/2-Colentina.jpg": {
+  "w": 1125,
+  "h": 1450,
+  "alpha": false,
+  "color": "#f0f0f1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/2-Colentina-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2022/04/2-Colentina-960.webp"
+   },
+   {
+    "w": 1125,
+    "src": "media/2022/04/2-Colentina-1125.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/3-Colentina-1.jpg": {
+  "w": 1125,
+  "h": 1440,
+  "alpha": false,
+  "color": "#eeeeef",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/3-Colentina-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2022/04/3-Colentina-1-960.webp"
+   },
+   {
+    "w": 1125,
+    "src": "media/2022/04/3-Colentina-1-1125.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/ASI.jpg": {
+  "w": 770,
+  "h": 376,
+  "alpha": false,
+  "color": "#c0bec4",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/ASI-480.webp"
+   },
+   {
+    "w": 770,
+    "src": "media/2022/04/ASI-770.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/Ansamblu.jpg": {
+  "w": 296,
+  "h": 164,
+  "alpha": false,
+  "color": "#b9c1d6",
+  "variants": [
+   {
+    "w": 296,
+    "src": "media/2022/04/Ansamblu-296.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/Baie-de-apa.jpg": {
+  "w": 494,
+  "h": 471,
+  "alpha": false,
+  "color": "#cbced6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/Baie-de-apa-480.webp"
+   },
+   {
+    "w": 494,
+    "src": "media/2022/04/Baie-de-apa-494.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/CUT-4062.jpg": {
+  "w": 663,
+  "h": 577,
+  "alpha": false,
+  "color": "#e8e8e8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/CUT-4062-480.webp"
+   },
+   {
+    "w": 663,
+    "src": "media/2022/04/CUT-4062-663.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/CUT-5062.jpg": {
+  "w": 595,
+  "h": 582,
+  "alpha": false,
+  "color": "#e6e5e6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/CUT-5062-480.webp"
+   },
+   {
+    "w": 595,
+    "src": "media/2022/04/CUT-5062-595.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/Capture.jpg": {
+  "w": 667,
+  "h": 606,
+  "alpha": false,
+  "color": "#e9e8e9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/Capture-480.webp"
+   },
+   {
+    "w": 667,
+    "src": "media/2022/04/Capture-667.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/Cromatec-I-sau-II.jpg": {
+  "w": 616,
+  "h": 404,
+  "alpha": false,
+  "color": "#dadfe2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/Cromatec-I-sau-II-480.webp"
+   },
+   {
+    "w": 616,
+    "src": "media/2022/04/Cromatec-I-sau-II-616.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/Cuttec-S.jpg": {
+  "w": 754,
+  "h": 573,
+  "alpha": false,
+  "color": "#e5e5e8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/Cuttec-S-480.webp"
+   },
+   {
+    "w": 754,
+    "src": "media/2022/04/Cuttec-S-754.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/DP23.jpg": {
+  "w": 1424,
+  "h": 362,
+  "alpha": false,
+  "color": "#7c7796",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/DP23-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2022/04/DP23-960.webp"
+   },
+   {
+    "w": 1424,
+    "src": "media/2022/04/DP23-1424.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/DP23M.png": {
+  "w": 335,
+  "h": 295,
+  "alpha": true,
+  "color": "#c7c8c9",
+  "variants": [
+   {
+    "w": 335,
+    "src": "media/2022/04/DP23M-335.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/DP28.jpg": {
+  "w": 1424,
+  "h": 362,
+  "alpha": false,
+  "color": "#7c7796",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/DP28-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2022/04/DP28-960.webp"
+   },
+   {
+    "w": 1424,
+    "src": "media/2022/04/DP28-1424.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/Dp74.png": {
+  "w": 394,
+  "h": 296,
+  "alpha": true,
+  "color": "#a4a5a7",
+  "variants": [
+   {
+    "w": 394,
+    "src": "media/2022/04/Dp74-394.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/EP50.png": {
+  "w": 254,
+  "h": 218,
+  "alpha": true,
+  "color": "#b8b8ba",
+  "variants": [
+   {
+    "w": 254,
+    "src": "media/2022/04/EP50-254.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/EVIDENT-1.jpg": {
+  "w": 240,
+  "h": 51,
+  "alpha": false,
+  "color": "#e2e4e5",
+  "variants": [
+   {
+    "w": 240,
+    "src": "media/2022/04/EVIDENT-1-240.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/LC35.jpg": {
+  "w": 413,
+  "h": 299,
+  "alpha": false,
+  "color": "#c2c1c1",
+  "variants": [
+   {
+    "w": 413,
+    "src": "media/2022/04/LC35-413.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/MAS.jpg": {
+  "w": 601,
+  "h": 425,
+  "alpha": false,
+  "color": "#d3d6da",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/MAS-480.webp"
+   },
+   {
+    "w": 601,
+    "src": "media/2022/04/MAS-601.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/MCS-1.jpg": {
+  "w": 426,
+  "h": 442,
+  "alpha": false,
+  "color": "#c4c7c9",
+  "variants": [
+   {
+    "w": 426,
+    "src": "media/2022/04/MCS-1-426.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/MPS-P2.jpg": {
+  "w": 429,
+  "h": 349,
+  "alpha": false,
+  "color": "#caccd1",
+  "variants": [
+   {
+    "w": 429,
+    "src": "media/2022/04/MPS-P2-429.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/Olympus-logo-crop1-4.jpg": {
+  "w": 1424,
+  "h": 362,
+  "alpha": false,
+  "color": "#7c7796",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/Olympus-logo-crop1-4-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2022/04/Olympus-logo-crop1-4-960.webp"
+   },
+   {
+    "w": 1424,
+    "src": "media/2022/04/Olympus-logo-crop1-4-1424.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/Printtec-C.jpg": {
+  "w": 378,
+  "h": 498,
+  "alpha": false,
+  "color": "#d8d9da",
+  "variants": [
+   {
+    "w": 378,
+    "src": "media/2022/04/Printtec-C-378.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/Printtec-S.jpg": {
+  "w": 420,
+  "h": 502,
+  "alpha": false,
+  "color": "#dee2ea",
+  "variants": [
+   {
+    "w": 420,
+    "src": "media/2022/04/Printtec-S-420.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/SC180.png": {
+  "w": 680,
+  "h": 517,
+  "alpha": true,
+  "color": "#aeaeae",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/SC180-480.webp"
+   },
+   {
+    "w": 680,
+    "src": "media/2022/04/SC180-680.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/SLEE.jpg": {
+  "w": 376,
+  "h": 115,
+  "alpha": false,
+  "color": "#d2ebf5",
+  "variants": [
+   {
+    "w": 376,
+    "src": "media/2022/04/SLEE-376.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/criostat-MEV.jpg": {
+  "w": 406,
+  "h": 563,
+  "alpha": false,
+  "color": "#eff0f1",
+  "variants": [
+   {
+    "w": 406,
+    "src": "media/2022/04/criostat-MEV-406.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/dp23-1.jpg": {
+  "w": 780,
+  "h": 549,
+  "alpha": false,
+  "color": "#c0c1c3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/dp23-1-480.webp"
+   },
+   {
+    "w": 780,
+    "src": "media/2022/04/dp23-1-780.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/dp28.png": {
+  "w": 692,
+  "h": 522,
+  "alpha": false,
+  "color": "#c2c4c3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2022/04/dp28-480.webp"
+   },
+   {
+    "w": 692,
+    "src": "media/2022/04/dp28-692.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/04/laborator-morga.jpg": {
+  "w": 3734,
+  "h": 2480,
+  "alpha": false,
+  "color": "#6f7fa2",
+  "variants": [
+   {
+    "w": 768,
+    "src": "media/2022/04/laborator-morga-768.webp"
+   },
+   {
+    "w": 1280,
+    "src": "media/2022/04/laborator-morga-1280.webp"
+   },
+   {
+    "w": 1920,
+    "src": "media/2022/04/laborator-morga-1920.webp"
+   },
+   {
+    "w": 2560,
+    "src": "media/2022/04/laborator-morga-2560.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/05/Centrifuga.jpg": {
+  "w": 302,
+  "h": 318,
+  "alpha": false,
+  "color": "#e7e8e9",
+  "variants": [
+   {
+    "w": 302,
+    "src": "media/2022/05/Centrifuga-302.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/05/KUGEL-MEDICAL.jpg": {
+  "w": 235,
+  "h": 91,
+  "alpha": false,
+  "color": "#d4c6c5",
+  "variants": [
+   {
+    "w": 235,
+    "src": "media/2022/05/KUGEL-MEDICAL-235.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/05/Lama-microtom.jpg": {
+  "w": 434,
+  "h": 297,
+  "alpha": false,
+  "color": "#d5dae0",
+  "variants": [
+   {
+    "w": 434,
+    "src": "media/2022/05/Lama-microtom-434.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/05/Lame.jpg": {
+  "w": 240,
+  "h": 210,
+  "alpha": false,
+  "color": "#e8edf4",
+  "variants": [
+   {
+    "w": 240,
+    "src": "media/2022/05/Lame-240.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/05/MTM-I-sau-II.jpg": {
+  "w": 420,
+  "h": 646,
+  "alpha": false,
+  "color": "#dddee2",
+  "variants": [
+   {
+    "w": 420,
+    "src": "media/2022/05/MTM-I-sau-II-420.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/05/MTP.jpg": {
+  "w": 391,
+  "h": 501,
+  "alpha": false,
+  "color": "#d6d8db",
+  "variants": [
+   {
+    "w": 391,
+    "src": "media/2022/05/MTP-391.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/05/Parafina.jpg": {
+  "w": 338,
+  "h": 289,
+  "alpha": false,
+  "color": "#d5eaf0",
+  "variants": [
+   {
+    "w": 338,
+    "src": "media/2022/05/Parafina-338.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/05/ST-10pe300.jpg": {
+  "w": 458,
+  "h": 248,
+  "alpha": false,
+  "color": "#b8b3ad",
+  "variants": [
+   {
+    "w": 458,
+    "src": "media/2022/05/ST-10pe300-458.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2022/05/lame-microtom.jpg": {
+  "w": 353,
+  "h": 333,
+  "alpha": false,
+  "color": "#d5d9e0",
+  "variants": [
+   {
+    "w": 353,
+    "src": "media/2022/05/lame-microtom-353.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2023/01/03.-SC_PERS_LED.png": {
+  "w": 3840,
+  "h": 2517,
+  "alpha": true,
+  "color": "#f6f6f6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2023/01/03-SC_PERS_LED-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2023/01/03-SC_PERS_LED-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2023/01/03-SC_PERS_LED-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/07/65cc6d7b54b9e_AxCJkwXyn-scaled.webp": {
+  "w": 2560,
+  "h": 2063,
+  "alpha": true,
+  "color": "#282929",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/07/65cc6d7b54b9e_AxCJkwXyn-scaled-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/07/65cc6d7b54b9e_AxCJkwXyn-scaled-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/07/65cc6d7b54b9e_AxCJkwXyn-scaled-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/07/Olympus-un-produs-Evident-.jpg": {
+  "w": 1695,
+  "h": 142,
+  "alpha": false,
+  "color": "#c1c2cc",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/07/Olympus-un-produs-Evident-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/07/Olympus-un-produs-Evident-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/07/Olympus-un-produs-Evident-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/07/Picture1.jpg": {
+  "w": 4054,
+  "h": 1864,
+  "alpha": false,
+  "color": "#160f20",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/07/Picture1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/07/Picture1-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/07/Picture1-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/07/Picture2.jpg": {
+  "w": 2115,
+  "h": 2478,
+  "alpha": false,
+  "color": "#2e310f",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/07/Picture2-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/07/Picture2-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/07/Picture2-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/07/Picture3.jpg": {
+  "w": 2115,
+  "h": 2479,
+  "alpha": false,
+  "color": "#4d2b2e",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/07/Picture3-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/07/Picture3-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/07/Picture3-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/07/Picture4.jpg": {
+  "w": 2130,
+  "h": 1711,
+  "alpha": false,
+  "color": "#282a07",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/07/Picture4-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/07/Picture4-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/07/Picture4-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/07/Picture5.jpg": {
+  "w": 1234,
+  "h": 1356,
+  "alpha": false,
+  "color": "#2e2e2e",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/07/Picture5-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/07/Picture5-960.webp"
+   },
+   {
+    "w": 1234,
+    "src": "media/2024/07/Picture5-1234.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/07/Untitled-1.jpg": {
+  "w": 563,
+  "h": 789,
+  "alpha": false,
+  "color": "#393838",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/07/Untitled-1-480.webp"
+   },
+   {
+    "w": 563,
+    "src": "media/2024/07/Untitled-1-563.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-2.jpg": {
+  "w": 1241,
+  "h": 1754,
+  "alpha": false,
+  "color": "#224942",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-2-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-2-960.webp"
+   },
+   {
+    "w": 1241,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-2-1241.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-3.jpg": {
+  "w": 1431,
+  "h": 556,
+  "alpha": false,
+  "color": "#7d766f",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-3-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-3-960.webp"
+   },
+   {
+    "w": 1431,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-3-1431.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-4.jpg": {
+  "w": 1118,
+  "h": 478,
+  "alpha": false,
+  "color": "#988f86",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-4-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-4-960.webp"
+   },
+   {
+    "w": 1118,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-4-1118.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web.jpg": {
+  "w": 1085,
+  "h": 386,
+  "alpha": false,
+  "color": "#f4e9f2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-960.webp"
+   },
+   {
+    "w": 1085,
+    "src": "media/2024/08/Pages-from-N8602627_APX100_EN_2024_04_Web-1085.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/08/abbelight-FV3000.jpg": {
+  "w": 581,
+  "h": 621,
+  "alpha": false,
+  "color": "#cbcbcb",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/08/abbelight-FV3000-480.webp"
+   },
+   {
+    "w": 581,
+    "src": "media/2024/08/abbelight-FV3000-581.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/08/banner.jpg": {
+  "w": 772,
+  "h": 545,
+  "alpha": false,
+  "color": "#cec5cc",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/08/banner-480.webp"
+   },
+   {
+    "w": 772,
+    "src": "media/2024/08/banner-772.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/08/bnr_ixprore_top_202403.jpg": {
+  "w": 645,
+  "h": 457,
+  "alpha": false,
+  "color": "#e5e5e6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/08/bnr_ixprore_top_202403-480.webp"
+   },
+   {
+    "w": 645,
+    "src": "media/2024/08/bnr_ixprore_top_202403-645.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/08/bnr_m_ixprore_top_202403.jpg": {
+  "w": 383,
+  "h": 302,
+  "alpha": false,
+  "color": "#c5c5c5",
+  "variants": [
+   {
+    "w": 383,
+    "src": "media/2024/08/bnr_m_ixprore_top_202403-383.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/08/product-bnr_apx100.jpg": {
+  "w": 929,
+  "h": 586,
+  "alpha": false,
+  "color": "#c5c8c9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/08/product-bnr_apx100-480.webp"
+   },
+   {
+    "w": 929,
+    "src": "media/2024/08/product-bnr_apx100-929.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/08/product-bnr_vs-m1j.jpg": {
+  "w": 678,
+  "h": 538,
+  "alpha": false,
+  "color": "#c5c6c7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/08/product-bnr_vs-m1j-480.webp"
+   },
+   {
+    "w": 678,
+    "src": "media/2024/08/product-bnr_vs-m1j-678.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/08/scan-r-update-banner-2024.jpg": {
+  "w": 770,
+  "h": 640,
+  "alpha": false,
+  "color": "#888b8f",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/08/scan-r-update-banner-2024-480.webp"
+   },
+   {
+    "w": 770,
+    "src": "media/2024/08/scan-r-update-banner-2024-770.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/01.-PERS_SC.png": {
+  "w": 3840,
+  "h": 2160,
+  "alpha": true,
+  "color": "#e7e7e7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/01-PERS_SC-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/01-PERS_SC-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/09/01-PERS_SC-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/01.-SP_PERS-1.png": {
+  "w": 3840,
+  "h": 2517,
+  "alpha": true,
+  "color": "#f9f9f9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/01-SP_PERS-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/01-SP_PERS-1-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/09/01-SP_PERS-1-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/01.-SP_PERS.png": {
+  "w": 3840,
+  "h": 2517,
+  "alpha": true,
+  "color": "#f9f9f9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/01-SP_PERS-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/01-SP_PERS-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/09/01-SP_PERS-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/03.-SC_PERS_LED.png": {
+  "w": 3840,
+  "h": 2517,
+  "alpha": true,
+  "color": "#f6f6f6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/03-SC_PERS_LED-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/03-SC_PERS_LED-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/09/03-SC_PERS_LED-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/1.-1536929295488.jpg": {
+  "w": 582,
+  "h": 349,
+  "alpha": false,
+  "color": "#e7e6e8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/1-1536929295488-480.webp"
+   },
+   {
+    "w": 582,
+    "src": "media/2024/09/1-1536929295488-582.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/1.-QUICKSEAL.png": {
+  "w": 1000,
+  "h": 1000,
+  "alpha": true,
+  "color": "#ebeff3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/1-QUICKSEAL-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/1-QUICKSEAL-960.webp"
+   },
+   {
+    "w": 1000,
+    "src": "media/2024/09/1-QUICKSEAL-1000.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/1.-Theo-.jpg": {
+  "w": 1199,
+  "h": 675,
+  "alpha": false,
+  "color": "#e2e0e0",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/1-Theo-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/1-Theo-960.webp"
+   },
+   {
+    "w": 1199,
+    "src": "media/2024/09/1-Theo-1199.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/1.-tornado-2-.jpg": {
+  "w": 700,
+  "h": 700,
+  "alpha": false,
+  "color": "#c5c7ca",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/1-tornado-2-480.webp"
+   },
+   {
+    "w": 700,
+    "src": "media/2024/09/1-tornado-2-700.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/1.Hugo_.jpg": {
+  "w": 1200,
+  "h": 675,
+  "alpha": false,
+  "color": "#e9e9e9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/1-Hugo_-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/1-Hugo_-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "media/2024/09/1-Hugo_-1200.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/11.-Manual_SP_Left.png": {
+  "w": 2560,
+  "h": 1440,
+  "alpha": true,
+  "color": "#fcfcfc",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/11-Manual_SP_Left-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/11-Manual_SP_Left-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/09/11-Manual_SP_Left-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/2.-1472040828046.png": {
+  "w": 582,
+  "h": 400,
+  "alpha": true,
+  "color": "#818181",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/2-1472040828046-480.webp"
+   },
+   {
+    "w": 582,
+    "src": "media/2024/09/2-1472040828046-582.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/2.-Carl.jpg": {
+  "w": 1200,
+  "h": 675,
+  "alpha": false,
+  "color": "#e5e6e8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/2-Carl-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/2-Carl-960.webp"
+   },
+   {
+    "w": 1200,
+    "src": "media/2024/09/2-Carl-1200.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/2.-MIDMARK-60_Lateral2.png": {
+  "w": 1000,
+  "h": 1000,
+  "alpha": true,
+  "color": "#cdcccf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/2-MIDMARK-60_Lateral2-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/2-MIDMARK-60_Lateral2-960.webp"
+   },
+   {
+    "w": 1000,
+    "src": "media/2024/09/2-MIDMARK-60_Lateral2-1000.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/2.-midmark-23.png": {
+  "w": 1000,
+  "h": 1000,
+  "alpha": true,
+  "color": "#c4c6c9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/2-midmark-23-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/2-midmark-23-960.webp"
+   },
+   {
+    "w": 1000,
+    "src": "media/2024/09/2-midmark-23-1000.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/2.-midmark-B-18.png": {
+  "w": 1000,
+  "h": 1000,
+  "alpha": true,
+  "color": "#c4c6c8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/2-midmark-B-18-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/2-midmark-B-18-960.webp"
+   },
+   {
+    "w": 1000,
+    "src": "media/2024/09/2-midmark-B-18-1000.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/211118_VSP_\uc815\uba74-1.png": {
+  "w": 3000,
+  "h": 1967,
+  "alpha": true,
+  "color": "#bbbbbb",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/211118_VSP_-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/211118_VSP_-1-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/09/211118_VSP_-1-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/3.-sina-culisanta-1.jpg": {
+  "w": 525,
+  "h": 375,
+  "alpha": false,
+  "color": "#e1ddde",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/3-sina-culisanta-1-480.webp"
+   },
+   {
+    "w": 525,
+    "src": "media/2024/09/3-sina-culisanta-1-525.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/50-10-GENESI-S.jpg": {
+  "w": 500,
+  "h": 541,
+  "alpha": false,
+  "color": "#bfc5c9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/50-10-GENESI-S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/50-10-GENESI-S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/50-25-PRIME-X.jpg": {
+  "w": 500,
+  "h": 499,
+  "alpha": false,
+  "color": "#bab9ba",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/50-25-PRIME-X-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/50-25-PRIME-X-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/ASPIR-1C.jpg": {
+  "w": 400,
+  "h": 338,
+  "alpha": false,
+  "color": "#a5a6a6",
+  "variants": [
+   {
+    "w": 400,
+    "src": "media/2024/09/ASPIR-1C-400.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/Baie-ultrasunete-1.png": {
+  "w": 1000,
+  "h": 1000,
+  "alpha": true,
+  "color": "#e1e1e1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/Baie-ultrasunete-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/Baie-ultrasunete-1-960.webp"
+   },
+   {
+    "w": 1000,
+    "src": "media/2024/09/Baie-ultrasunete-1-1000.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/Baie-ultrasunete.png": {
+  "w": 1000,
+  "h": 1000,
+  "alpha": true,
+  "color": "#e1e1e1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/Baie-ultrasunete-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/Baie-ultrasunete-960.webp"
+   },
+   {
+    "w": 1000,
+    "src": "media/2024/09/Baie-ultrasunete-1000.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/Bild_Produktseite_Hygoclave50-2.jpg": {
+  "w": 600,
+  "h": 450,
+  "alpha": false,
+  "color": "#c1cdd1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/Bild_Produktseite_Hygoclave50-2-480.webp"
+   },
+   {
+    "w": 600,
+    "src": "media/2024/09/Bild_Produktseite_Hygoclave50-2-600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/Bild_Produktseite_Hygoclave50.jpg": {
+  "w": 600,
+  "h": 450,
+  "alpha": false,
+  "color": "#c1cdd1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/Bild_Produktseite_Hygoclave50-480.webp"
+   },
+   {
+    "w": 600,
+    "src": "media/2024/09/Bild_Produktseite_Hygoclave50-600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/CORP-press-image-Axano-Ambient-Light.jpg": {
+  "w": 4500,
+  "h": 2532,
+  "alpha": false,
+  "color": "#5e5d62",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/CORP-press-image-Axano-Ambient-Light-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/CORP-press-image-Axano-Ambient-Light-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/09/CORP-press-image-Axano-Ambient-Light-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/CS-50-25-PRIME-M-1.jpg": {
+  "w": 500,
+  "h": 388,
+  "alpha": false,
+  "color": "#e8edef",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/CS-50-25-PRIME-M-1-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/CS-50-25-PRIME-M-1-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/CS-50-25-PRIME-X.jpg": {
+  "w": 500,
+  "h": 443,
+  "alpha": false,
+  "color": "#e5ebed",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/CS-50-25-PRIME-X-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/CS-50-25-PRIME-X-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-100-30-PRIME-M-1.jpg": {
+  "w": 500,
+  "h": 409,
+  "alpha": false,
+  "color": "#a7aeb2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-100-30-PRIME-M-1-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-100-30-PRIME-M-1-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-100-30-PRIME-S.jpg": {
+  "w": 500,
+  "h": 402,
+  "alpha": false,
+  "color": "#cbcdce",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-100-30-PRIME-S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-100-30-PRIME-S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-100-50-PRIME-M.jpg": {
+  "w": 500,
+  "h": 413,
+  "alpha": false,
+  "color": "#adb3b7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-100-50-PRIME-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-100-50-PRIME-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-100-50-PRIME-S.jpg": {
+  "w": 500,
+  "h": 414,
+  "alpha": false,
+  "color": "#c2c5c5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-100-50-PRIME-S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-100-50-PRIME-S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-100-50-PRIME-X-3.jpg": {
+  "w": 500,
+  "h": 413,
+  "alpha": false,
+  "color": "#afb5b9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-100-50-PRIME-X-3-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-100-50-PRIME-X-3-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-200-75-PRIME-M.jpg": {
+  "w": 500,
+  "h": 388,
+  "alpha": false,
+  "color": "#adaeae",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-200-75-PRIME-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-200-75-PRIME-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-200-75-PRIME-S.jpg": {
+  "w": 500,
+  "h": 413,
+  "alpha": false,
+  "color": "#bcbdbe",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-200-75-PRIME-S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-200-75-PRIME-S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-24-10-GENESI-M.jpg": {
+  "w": 500,
+  "h": 556,
+  "alpha": false,
+  "color": "#b1b2b4",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-24-10-GENESI-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-24-10-GENESI-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-30-7-PRIME-M.jpg": {
+  "w": 500,
+  "h": 476,
+  "alpha": false,
+  "color": "#bebebf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-30-7-PRIME-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-30-7-PRIME-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-30-7-PRIME-S.jpg": {
+  "w": 471,
+  "h": 572,
+  "alpha": false,
+  "color": "#c4c8ca",
+  "variants": [
+   {
+    "w": 471,
+    "src": "media/2024/09/MGF-30-7-PRIME-S-471.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-50-10-GENESI-M.jpg": {
+  "w": 500,
+  "h": 556,
+  "alpha": false,
+  "color": "#b1b7ba",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-50-10-GENESI-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-50-10-GENESI-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-50-15-PRIME-M.jpg": {
+  "w": 500,
+  "h": 496,
+  "alpha": false,
+  "color": "#b8bec1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-50-15-PRIME-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-50-15-PRIME-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-50-15-PRIME-S.jpg": {
+  "w": 500,
+  "h": 585,
+  "alpha": false,
+  "color": "#c6cdd2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-50-15-PRIME-S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-50-15-PRIME-S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-50-25-PRIME-M.jpg": {
+  "w": 500,
+  "h": 522,
+  "alpha": false,
+  "color": "#b6bcbf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-50-25-PRIME-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-50-25-PRIME-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-50-25-PRIME-S.jpg": {
+  "w": 500,
+  "h": 565,
+  "alpha": false,
+  "color": "#c5cbcf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-50-25-PRIME-S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-50-25-PRIME-S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-CS-100-30-PRIME-M.jpg": {
+  "w": 500,
+  "h": 386,
+  "alpha": false,
+  "color": "#b4bbbf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-CS-100-30-PRIME-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-CS-100-30-PRIME-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-CS-100-50-PRIME-M.jpg": {
+  "w": 500,
+  "h": 410,
+  "alpha": false,
+  "color": "#b8bbbd",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-CS-100-50-PRIME-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-CS-100-50-PRIME-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-CS-100-50-PRIME-X-3.jpg": {
+  "w": 500,
+  "h": 410,
+  "alpha": false,
+  "color": "#babdbf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-CS-100-50-PRIME-X-3-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-CS-100-50-PRIME-X-3-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-CS-30-15-PRIME-M.jpg": {
+  "w": 500,
+  "h": 430,
+  "alpha": false,
+  "color": "#ced3d6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-CS-30-15-PRIME-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-CS-30-15-PRIME-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-CS-30-15-PRIME-S.jpg": {
+  "w": 500,
+  "h": 464,
+  "alpha": false,
+  "color": "#d9dee1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-CS-30-15-PRIME-S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-CS-30-15-PRIME-S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-CS-50-25-PRIME-S.jpg": {
+  "w": 500,
+  "h": 446,
+  "alpha": false,
+  "color": "#d3d8db",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-CS-50-25-PRIME-S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-CS-50-25-PRIME-S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-Hybrid-1s.jpg": {
+  "w": 489,
+  "h": 660,
+  "alpha": false,
+  "color": "#c1c2c0",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-Hybrid-1s-480.webp"
+   },
+   {
+    "w": 489,
+    "src": "media/2024/09/MGF-Hybrid-1s-489.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-SKY-100-30-TANDEM-PRIME-M.jpg": {
+  "w": 500,
+  "h": 403,
+  "alpha": false,
+  "color": "#b1b8c1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-SKY-100-30-TANDEM-PRIME-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-SKY-100-30-TANDEM-PRIME-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-SKY-100-30-TANDEM-PRIME-S.jpg": {
+  "w": 500,
+  "h": 407,
+  "alpha": false,
+  "color": "#c5cbd5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-SKY-100-30-TANDEM-PRIME-S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-SKY-100-30-TANDEM-PRIME-S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-SKY-50-10-GENESI-M.jpg": {
+  "w": 500,
+  "h": 466,
+  "alpha": false,
+  "color": "#d0ccd1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-SKY-50-10-GENESI-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-SKY-50-10-GENESI-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-SKY-50-15-PRIME-M.jpg": {
+  "w": 500,
+  "h": 466,
+  "alpha": false,
+  "color": "#d1cdd2",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-SKY-50-15-PRIME-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-SKY-50-15-PRIME-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MGF-SKY-50-15-prime-S-1.jpg": {
+  "w": 500,
+  "h": 490,
+  "alpha": false,
+  "color": "#cbcdd5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MGF-SKY-50-15-prime-S-1-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MGF-SKY-50-15-prime-S-1-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MINI-BOX-24-7-PRIME-M.jpg": {
+  "w": 500,
+  "h": 445,
+  "alpha": false,
+  "color": "#f4f7f8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MINI-BOX-24-7-PRIME-M-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MINI-BOX-24-7-PRIME-M-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/MINI-BOX-24-7-PRIME.jpg": {
+  "w": 500,
+  "h": 412,
+  "alpha": false,
+  "color": "#f2f5f7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/MINI-BOX-24-7-PRIME-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/MINI-BOX-24-7-PRIME-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/SKY-50-10-GENESI-S.jpg": {
+  "w": 500,
+  "h": 490,
+  "alpha": false,
+  "color": "#cbcdd5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/SKY-50-10-GENESI-S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/SKY-50-10-GENESI-S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/Screenshot-2022-02-04-162401.png": {
+  "w": 705,
+  "h": 652,
+  "alpha": true,
+  "color": "#c9c8c9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/Screenshot-2022-02-04-162401-480.webp"
+   },
+   {
+    "w": 705,
+    "src": "media/2024/09/Screenshot-2022-02-04-162401-705.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/Sigilatir-Hygopack-1.png": {
+  "w": 517,
+  "h": 343,
+  "alpha": true,
+  "color": "#c8d1d3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/Sigilatir-Hygopack-1-480.webp"
+   },
+   {
+    "w": 517,
+    "src": "media/2024/09/Sigilatir-Hygopack-1-517.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/Silent-1.png": {
+  "w": 500,
+  "h": 444,
+  "alpha": true,
+  "color": "#959594",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/Silent-1-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/Silent-1-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/Silent-2.jpg": {
+  "w": 500,
+  "h": 358,
+  "alpha": false,
+  "color": "#9d9fa5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/Silent-2-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/Silent-2-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/Silent-3-1.jpg": {
+  "w": 500,
+  "h": 445,
+  "alpha": false,
+  "color": "#d5d8d9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/Silent-3-1-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/Silent-3-1-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/Tornado-4-cu-uscator.jpg": {
+  "w": 285,
+  "h": 278,
+  "alpha": false,
+  "color": "#aaabad",
+  "variants": [
+   {
+    "w": 285,
+    "src": "media/2024/09/Tornado-4-cu-uscator-285.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/V-1200-S.jpg": {
+  "w": 209,
+  "h": 223,
+  "alpha": false,
+  "color": "#b4b5b9",
+  "variants": [
+   {
+    "w": 209,
+    "src": "media/2024/09/V-1200-S-209.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/V-2400.jpg": {
+  "w": 201,
+  "h": 236,
+  "alpha": false,
+  "color": "#d1d2d3",
+  "variants": [
+   {
+    "w": 201,
+    "src": "media/2024/09/V-2400-201.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/V-600.jpg": {
+  "w": 292,
+  "h": 236,
+  "alpha": false,
+  "color": "#a7acb3",
+  "variants": [
+   {
+    "w": 292,
+    "src": "media/2024/09/V-600-292.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/V-900-S.jpg": {
+  "w": 181,
+  "h": 221,
+  "alpha": false,
+  "color": "#aaabaf",
+  "variants": [
+   {
+    "w": 181,
+    "src": "media/2024/09/V-900-S-181.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/VS1200S.jpg": {
+  "w": 230,
+  "h": 229,
+  "alpha": false,
+  "color": "#b1b3b6",
+  "variants": [
+   {
+    "w": 230,
+    "src": "media/2024/09/VS1200S-230.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/VS250S.jpg": {
+  "w": 298,
+  "h": 345,
+  "alpha": false,
+  "color": "#afb5bc",
+  "variants": [
+   {
+    "w": 298,
+    "src": "media/2024/09/VS250S-298.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/VSA-900.jpg": {
+  "w": 1832,
+  "h": 1832,
+  "alpha": false,
+  "color": "#bfbebe",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/VSA-900-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/VSA-900-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/09/VSA-900-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/Vatech-EzScan-6.png": {
+  "w": 3840,
+  "h": 2160,
+  "alpha": true,
+  "color": "#ecedef",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/Vatech-EzScan-6-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/Vatech-EzScan-6-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/09/Vatech-EzScan-6-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/VistaScan_Mini_View2.0_Produktbild-1.jpg": {
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "color": "#d9dce1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/VistaScan_Mini_View2-0_Produktbild-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/VistaScan_Mini_View2-0_Produktbild-1-960.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/cerec-primescan-ac-sirona.jpg": {
+  "w": 800,
+  "h": 800,
+  "alpha": false,
+  "color": "#e8e8e8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/cerec-primescan-ac-sirona-480.webp"
+   },
+   {
+    "w": 800,
+    "src": "media/2024/09/cerec-primescan-ac-sirona-800.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/compresor-durr-duo-tandem-med.jpg": {
+  "w": 710,
+  "h": 800,
+  "alpha": false,
+  "color": "#d2d4d5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/compresor-durr-duo-tandem-med-480.webp"
+   },
+   {
+    "w": 710,
+    "src": "media/2024/09/compresor-durr-duo-tandem-med-710.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/compresor-primo.jpg": {
+  "w": 691,
+  "h": 700,
+  "alpha": false,
+  "color": "#cbccd0",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/compresor-primo-480.webp"
+   },
+   {
+    "w": 691,
+    "src": "media/2024/09/compresor-primo-691.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/compresor_duo-1.jpg": {
+  "w": 500,
+  "h": 375,
+  "alpha": false,
+  "color": "#d4d5d7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/compresor_duo-1-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/compresor_duo-1-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/connect.png": {
+  "w": 513,
+  "h": 326,
+  "alpha": true,
+  "color": "#c7ced4",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/connect-480.webp"
+   },
+   {
+    "w": 513,
+    "src": "media/2024/09/connect-513.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/cq5dam.web_.1280.1280.jpeg": {
+  "w": 1280,
+  "h": 853,
+  "alpha": false,
+  "color": "#c0bdbe",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/cq5dam-web_-1280-1280-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/cq5dam-web_-1280-1280-960.webp"
+   },
+   {
+    "w": 1280,
+    "src": "media/2024/09/cq5dam-web_-1280-1280-1280.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/csm_ASPIR-COMP-30_CLOSED-2016_LIGHT_01_d929875a01.jpg": {
+  "w": 500,
+  "h": 730,
+  "alpha": false,
+  "color": "#dde0e0",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/csm_ASPIR-COMP-30_CLOSED-2016_LIGHT_01_d929875a01-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/csm_ASPIR-COMP-30_CLOSED-2016_LIGHT_01_d929875a01-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/csm_ASPIR-COMP-30_CLOSED-2016_LIGHT_16_c6f0094c3c.jpg": {
+  "w": 500,
+  "h": 730,
+  "alpha": false,
+  "color": "#dde0e0",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/csm_ASPIR-COMP-30_CLOSED-2016_LIGHT_16_c6f0094c3c-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/csm_ASPIR-COMP-30_CLOSED-2016_LIGHT_16_c6f0094c3c-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/csm_ASPIR-COMP-CHIUSO-2016_light_05_7d3f41bbb2.jpg": {
+  "w": 250,
+  "h": 218,
+  "alpha": false,
+  "color": "#f2f2f3",
+  "variants": [
+   {
+    "w": 250,
+    "src": "media/2024/09/csm_ASPIR-COMP-CHIUSO-2016_light_05_7d3f41bbb2-250.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/csm_ASPIR-COMP-CHIUSO-2016_light_25_e13e56d358.jpg": {
+  "w": 500,
+  "h": 435,
+  "alpha": false,
+  "color": "#f2f2f3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/csm_ASPIR-COMP-CHIUSO-2016_light_25_e13e56d358-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/csm_ASPIR-COMP-CHIUSO-2016_light_25_e13e56d358-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/csm_MGF-200-75-PRIME-M-BLK_09_7b833c2aff.jpg": {
+  "w": 500,
+  "h": 388,
+  "alpha": false,
+  "color": "#b0b1b1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/csm_MGF-200-75-PRIME-M-BLK_09_7b833c2aff-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/csm_MGF-200-75-PRIME-M-BLK_09_7b833c2aff-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/csm_MGF-hybrid-2.jpg": {
+  "w": 500,
+  "h": 702,
+  "alpha": false,
+  "color": "#c8c8c6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/csm_MGF-hybrid-2-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/csm_MGF-hybrid-2-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/csm_MGF-hybrid-5.jpg": {
+  "w": 500,
+  "h": 572,
+  "alpha": false,
+  "color": "#cdcccc",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/csm_MGF-hybrid-5-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/csm_MGF-hybrid-5-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/csm_MGF-hybrid-A-2.jpg": {
+  "w": 500,
+  "h": 437,
+  "alpha": false,
+  "color": "#d1d0d1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/csm_MGF-hybrid-A-2-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/csm_MGF-hybrid-A-2-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/csm_MGF-hybrid-A1S.jpg": {
+  "w": 500,
+  "h": 471,
+  "alpha": false,
+  "color": "#c7c8c7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/csm_MGF-hybrid-A1S-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/csm_MGF-hybrid-A1S-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/csm_MGF-hybrid-A5.jpg": {
+  "w": 500,
+  "h": 342,
+  "alpha": false,
+  "color": "#c9c8ca",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/csm_MGF-hybrid-A5-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/csm_MGF-hybrid-A5-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/csm_SILENT_1C.jpg": {
+  "w": 800,
+  "h": 711,
+  "alpha": false,
+  "color": "#e1e3e3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/csm_SILENT_1C-480.webp"
+   },
+   {
+    "w": 800,
+    "src": "media/2024/09/csm_SILENT_1C-800.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/duo-tandem.jpg": {
+  "w": 255,
+  "h": 232,
+  "alpha": false,
+  "color": "#888b8f",
+  "variants": [
+   {
+    "w": 255,
+    "src": "media/2024/09/duo-tandem-255.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/durr-trio-1.jpg": {
+  "w": 1000,
+  "h": 1000,
+  "alpha": false,
+  "color": "#bbc2c8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/durr-trio-1-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/durr-trio-1-960.webp"
+   },
+   {
+    "w": 1000,
+    "src": "media/2024/09/durr-trio-1-1000.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/extaro-300-1.png": {
+  "w": 820,
+  "h": 788,
+  "alpha": true,
+  "color": "#d6d7d9",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/extaro-300-1-480.webp"
+   },
+   {
+    "w": 820,
+    "src": "media/2024/09/extaro-300-1-820.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/fb60d4b8c9822e774b8c66e01fc152b6.jpg": {
+  "w": 1440,
+  "h": 1440,
+  "alpha": false,
+  "color": "#f5f5f6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/fb60d4b8c9822e774b8c66e01fc152b6-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/fb60d4b8c9822e774b8c66e01fc152b6-960.webp"
+   },
+   {
+    "w": 1440,
+    "src": "media/2024/09/fb60d4b8c9822e774b8c66e01fc152b6-1440.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/led.jpg": {
+  "w": 384,
+  "h": 469,
+  "alpha": false,
+  "color": "#d6d8dc",
+  "variants": [
+   {
+    "w": 384,
+    "src": "media/2024/09/led-384.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/mgf-Aspir-2-QC.jpg": {
+  "w": 350,
+  "h": 277,
+  "alpha": false,
+  "color": "#ccd9db",
+  "variants": [
+   {
+    "w": 350,
+    "src": "media/2024/09/mgf-Aspir-2-QC-350.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/mgf-Aspir-3-QC.jpg": {
+  "w": 350,
+  "h": 277,
+  "alpha": false,
+  "color": "#ccd9db",
+  "variants": [
+   {
+    "w": 350,
+    "src": "media/2024/09/mgf-Aspir-3-QC-350.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/modjaw-4d.png": {
+  "w": 500,
+  "h": 500,
+  "alpha": true,
+  "color": "#dfdedf",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/modjaw-4d-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/modjaw-4d-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/pi_paul_manual_200.jpg": {
+  "w": 400,
+  "h": 400,
+  "alpha": false,
+  "color": "#e7e7e7",
+  "variants": [
+   {
+    "w": 400,
+    "src": "media/2024/09/pi_paul_manual_200-400.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/quattro-tandem-1.jpg": {
+  "w": 339,
+  "h": 282,
+  "alpha": false,
+  "color": "#878a8e",
+  "variants": [
+   {
+    "w": 339,
+    "src": "media/2024/09/quattro-tandem-1-339.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/quattro-tandem.jpg": {
+  "w": 339,
+  "h": 282,
+  "alpha": false,
+  "color": "#878a8e",
+  "variants": [
+   {
+    "w": 339,
+    "src": "media/2024/09/quattro-tandem-339.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/quattro.png": {
+  "w": 499,
+  "h": 499,
+  "alpha": true,
+  "color": "#aeb2b5",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/quattro-480.webp"
+   },
+   {
+    "w": 499,
+    "src": "media/2024/09/quattro-499.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/v250.png": {
+  "w": 387,
+  "h": 347,
+  "alpha": true,
+  "color": "#cbcbcd",
+  "variants": [
+   {
+    "w": 387,
+    "src": "media/2024/09/v250-387.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/v600-1.jpg": {
+  "w": 400,
+  "h": 400,
+  "alpha": false,
+  "color": "#b6babc",
+  "variants": [
+   {
+    "w": 400,
+    "src": "media/2024/09/v600-1-400.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/vistascan_mini_view2.0_header.jpg": {
+  "w": 1920,
+  "h": 1080,
+  "alpha": false,
+  "color": "#b5aeac",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/vistascan_mini_view2-0_header-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/vistascan_mini_view2-0_header-960.webp"
+   },
+   {
+    "w": 1600,
+    "src": "media/2024/09/vistascan_mini_view2-0_header-1600.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/vistascan_mini_view2.0_iq_image_plates.jpg": {
+  "w": 800,
+  "h": 600,
+  "alpha": false,
+  "color": "#b6aca3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/vistascan_mini_view2-0_iq_image_plates-480.webp"
+   },
+   {
+    "w": 800,
+    "src": "media/2024/09/vistascan_mini_view2-0_iq_image_plates-800.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/vs600_1.jpg": {
+  "w": 500,
+  "h": 500,
+  "alpha": false,
+  "color": "#cecfd0",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/vs600_1-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/vs600_1-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/vs_900_s.jpg": {
+  "w": 400,
+  "h": 400,
+  "alpha": false,
+  "color": "#909b9c",
+  "variants": [
+   {
+    "w": 400,
+    "src": "media/2024/09/vs_900_s-400.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/vsa-1200-.png": {
+  "w": 500,
+  "h": 572,
+  "alpha": true,
+  "color": "#bab6b3",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/vsa-1200-480.webp"
+   },
+   {
+    "w": 500,
+    "src": "media/2024/09/vsa-1200-500.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/vsa-600-.png": {
+  "w": 392,
+  "h": 397,
+  "alpha": true,
+  "color": "#d7dbdf",
+  "variants": [
+   {
+    "w": 392,
+    "src": "media/2024/09/vsa-600-392.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/09/vsa_300_processed.jpg": {
+  "w": 1031,
+  "h": 1600,
+  "alpha": false,
+  "color": "#c3c3c4",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/09/vsa_300_processed-480.webp"
+   },
+   {
+    "w": 960,
+    "src": "media/2024/09/vsa_300_processed-960.webp"
+   },
+   {
+    "w": 1031,
+    "src": "media/2024/09/vsa_300_processed-1031.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/11/D-6-hexa-cu-camera.jpeg": {
+  "w": 806,
+  "h": 3260,
+  "alpha": false,
+  "color": "#dddcd7",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/11/D-6-hexa-cu-camera-480.webp"
+   },
+   {
+    "w": 806,
+    "src": "media/2024/11/D-6-hexa-cu-camera-806.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/11/D6-Hexa-fara-camera.jpg": {
+  "w": 761,
+  "h": 4810,
+  "alpha": false,
+  "color": "#e9ece6",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/11/D6-Hexa-fara-camera-480.webp"
+   },
+   {
+    "w": 761,
+    "src": "media/2024/11/D6-Hexa-fara-camera-761.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/11/b75-1-800x800-1.jpg": {
+  "w": 800,
+  "h": 800,
+  "alpha": false,
+  "color": "#f2f1f1",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/11/b75-1-800x800-1-480.webp"
+   },
+   {
+    "w": 800,
+    "src": "media/2024/11/b75-1-800x800-1-800.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/11/c-3000_m.jpg": {
+  "w": 490,
+  "h": 400,
+  "alpha": false,
+  "color": "#d2d7d8",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/11/c-3000_m-480.webp"
+   },
+   {
+    "w": 490,
+    "src": "media/2024/11/c-3000_m-490.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/11/d6_2_edit_800pix_1.jpg": {
+  "w": 544,
+  "h": 471,
+  "alpha": false,
+  "color": "#eaebea",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/11/d6_2_edit_800pix_1-480.webp"
+   },
+   {
+    "w": 544,
+    "src": "media/2024/11/d6_2_edit_800pix_1-544.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2024/11/gold_image_front.jpg": {
+  "w": 508,
+  "h": 624,
+  "alpha": false,
+  "color": "#e3e2e0",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2024/11/gold_image_front-480.webp"
+   },
+   {
+    "w": 508,
+    "src": "media/2024/11/gold_image_front-508.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2025/10/ISO-13485.jpg": {
+  "w": 726,
+  "h": 1024,
+  "alpha": false,
+  "color": "#dadbe0",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2025/10/ISO-13485-480.webp"
+   },
+   {
+    "w": 726,
+    "src": "media/2025/10/ISO-13485-726.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2025/10/ISO-14001.jpg": {
+  "w": 726,
+  "h": 1024,
+  "alpha": false,
+  "color": "#d2dadd",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2025/10/ISO-14001-480.webp"
+   },
+   {
+    "w": 726,
+    "src": "media/2025/10/ISO-14001-726.webp"
+   }
+  ]
+ },
+ "https://www.temco.ro/wp-content/uploads/2025/10/ISO-9001.jpg": {
+  "w": 726,
+  "h": 1024,
+  "alpha": false,
+  "color": "#d1d7e0",
+  "variants": [
+   {
+    "w": 480,
+    "src": "media/2025/10/ISO-9001-480.webp"
+   },
+   {
+    "w": 726,
+    "src": "media/2025/10/ISO-9001-726.webp"
+   }
+  ]
+ }
+}
