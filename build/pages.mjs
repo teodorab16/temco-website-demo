@@ -36,8 +36,11 @@ export function home() {
         ${HOME.slides.map((_, i) => `<button class="hero-dot${i === 0 ? ' is-active' : ''}" type="button" aria-label="Imaginea ${i + 1}" data-dot="${i}"><span></span></button>`).join('')}
       </div>
       <ul class="hero-values" aria-label="Valorile TEMCO">${HOME.values.map((v, i) => `
-        <li class="fade-up" style="--d:${0.36 + i * 0.08}s"><strong>${v.title}</strong><span>${v.text}</span></li>`).join('')}
+        <li class="fade-up" style="--d:${0.36 + i * 0.08}s"><span class="ico">${icon(v.icon, { size: 18 })}</span><div><strong>${v.title}</strong><span>${v.text}</span></div></li>`).join('')}
       </ul>
+    </div>
+    <div class="hero-brands fade-up" style="--d:.6s" aria-label="Producători reprezentați">
+      <div class="marquee" style="--dur:80s"><div class="marquee-track">${brands}<span aria-hidden="true" style="display:contents">${brands.replace(/<a /g, '<a tabindex="-1" ')}</span></div></div>
     </div>
   </section>
 
@@ -62,10 +65,6 @@ export function home() {
       ${sectionHead('Premiere în România', more('/despre-noi/', 'Povestea noastră'))}
       <ul class="firsts">${ABOUT.milestones.map((m, i) => `<li data-reveal style="--rd:${i * 70}"><b>${m.year}</b><span>${m.short}</span></li>`).join('')}</ul>
     </div>
-  </section>
-
-  <section class="section is-tight" aria-label="Producători reprezentați">
-    <div class="marquee" style="--dur:70s"><div class="marquee-track">${brands}<span aria-hidden="true" style="display:contents">${brands.replace(/<a /g, '<a tabindex="-1" ')}</span></div></div>
   </section>
 
   <section class="section">
@@ -379,6 +378,57 @@ export function searchPage() {
     </div>
   </section>`;
   return page({ path: '/cautare/', title: 'Căutare', description: 'Caută în catalogul TEMCO.', body, noindex: true });
+}
+
+// ============================================================== CATALOG OPTIONS (temporary preview page)
+export function variantsPage() {
+  const order = ['stomatologie', 'endoscopie', 'microscopie', 'diagnostic', 'ati-sala-operatie', 'orl', 'imagistica', 'laborator-morga', 'chirurgie-laparoscopica', 'simulatoare-medicale-realitate-virtuala', 'periferice-medicale', 'terapie'];
+  const doms = order.map((sl) => topCategories.find((c) => c.slug === sl));
+  const count = (c) => plural(c.count, 'produs', 'produse');
+  const media = (c, sizes) => c.image ? img(c.image, { alt: '', sizes }) : '';
+  const label = (k, name, note) => `<div class="variant-label"><span>${k}</span><div><strong>${name}</strong><p>${note}</p></div></div>`;
+
+  const bento = `<ul class="bento">${doms.map((c, i) => `
+    <li class="${i === 0 ? 'b-xl' : i === 1 ? 'b-wide' : ''}"><a class="b-card" href="${u(c.url)}">${media(c, i < 2 ? '(max-width:720px) 100vw, 640px' : '(max-width:720px) 50vw, 320px')}
+      <span class="b-go">${icon('arrowUpRight', { size: 18 })}</span>
+      <span class="b-txt"><strong>${esc(c.name)}</strong><span>${count(c)}</span></span></a></li>`).join('')}</ul>`;
+
+  const carousel = `
+    <div class="hs" data-hscroll>
+      <div class="hs-head"><h2 class="h2">Produse</h2><div class="hs-arrows">
+        <button type="button" data-hs-prev aria-label="Înapoi">${icon('arrowLeft', { size: 20 })}</button>
+        <button type="button" data-hs-next aria-label="Înainte">${icon('arrowRight', { size: 20 })}</button></div></div>
+      <ul class="hs-track" data-hs-track>${topCategories.map((c) => `
+        <li><a class="hs-card" href="${u(c.url)}">${media(c, '340px')}<span class="b-txt"><strong>${esc(c.name)}</strong><span>${count(c)}</span></span></a></li>`).join('')}</ul>
+      <div class="hs-bar"><span data-hs-bar></span></div>
+    </div>`;
+
+  const list = `
+    <div class="dlist" data-dlist>
+      <ol>${topCategories.map((c, i) => `
+        <li><a href="${u(c.url)}" data-i="${i}"><span class="n">${String(i + 1).padStart(2, '0')}</span><span class="thumb">${media(c, '64px')}</span><strong>${esc(c.name)}</strong><span class="c">${c.count}</span>${icon('arrowRight', { size: 22 })}</a></li>`).join('')}</ol>
+      <div class="dlist-preview" aria-hidden="true">${topCategories.map((c, i) => `<div class="${i === 0 ? 'is-on' : ''}">${media(c, '520px')}</div>`).join('')}</div>
+    </div>`;
+
+  const body = `
+  ${pageHead({ title: 'Variante catalog', sub: 'Patru variante pentru secțiunea „Produse” de pe prima pagină. Treceți cu mouse-ul peste ele.' })}
+  <section class="section" style="padding-top:0"><div class="container">
+    ${label('A', 'Mozaic', 'Imagini mari de dimensiuni diferite; domeniile cu cele mai multe produse ies în evidență.')}
+    ${sectionHead('Produse', more('/produse/', 'Toate produsele'))}${bento}
+  </div></section>
+  <section class="section is-soft"><div class="container">
+    ${label('B', 'Carusel', 'Carduri înalte, defilare orizontală cu săgeți sau prin glisare.')}
+    ${carousel}
+  </div></section>
+  <section class="section"><div class="container">
+    ${label('C', 'Listă interactivă', 'Tipografie mare; imaginea domeniului apare la trecerea cu mouse-ul.')}
+    ${sectionHead('Produse', more('/produse/', 'Toate produsele'))}${list}
+  </div></section>
+  <section class="section is-soft"><div class="container">
+    ${label('D', 'Grila actuală', 'Pentru comparație.')}
+    ${sectionHead('Produse', more('/produse/', 'Toate produsele'))}<ul class="tiles">${topCategories.map(tile).join('')}</ul>
+  </div></section>`;
+  return page({ path: '/variante/', title: 'Variante catalog', body, noindex: true });
 }
 
 // ============================================================== 404 + redirects

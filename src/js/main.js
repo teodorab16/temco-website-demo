@@ -164,6 +164,37 @@
     schedule();
   }
 
+  // ------------------------------------------------------------ horizontal carousel (arrows, drag, progress)
+  $$('[data-hscroll]').forEach((hs) => {
+    const track = $('[data-hs-track]', hs), bar = $('[data-hs-bar]', hs);
+    const prev = $('[data-hs-prev]', hs), next = $('[data-hs-next]', hs);
+    const step = () => (track.firstElementChild?.getBoundingClientRect().width || 300) + 16;
+    const upd = () => {
+      const max = track.scrollWidth - track.clientWidth;
+      const vis = track.clientWidth / track.scrollWidth;
+      if (bar) { bar.style.width = (vis * 100) + '%'; bar.style.transform = `translateX(${max > 0 ? (track.scrollLeft / max) * (1 / vis - 1) * 100 : 0}%)`; }
+      if (prev) prev.disabled = track.scrollLeft < 4;
+      if (next) next.disabled = track.scrollLeft > max - 4;
+    };
+    prev?.addEventListener('click', () => track.scrollBy({ left: -step(), behavior: reduced ? 'auto' : 'smooth' }));
+    next?.addEventListener('click', () => track.scrollBy({ left: step(), behavior: reduced ? 'auto' : 'smooth' }));
+    track.addEventListener('scroll', () => requestAnimationFrame(upd), { passive: true });
+    addEventListener('resize', upd);
+    let down = null, moved = false;
+    track.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse') return; down = { x: e.clientX, left: track.scrollLeft }; moved = false; });
+    addEventListener('pointermove', (e) => { if (!down) return; const dx = e.clientX - down.x; if (Math.abs(dx) > 4) { moved = true; track.classList.add('is-drag'); } track.scrollLeft = down.left - dx; });
+    addEventListener('pointerup', () => { if (!down) return; down = null; track.classList.remove('is-drag'); });
+    track.addEventListener('click', (e) => { if (moved) { e.preventDefault(); moved = false; } }, true);
+    upd();
+  });
+
+  // ------------------------------------------------------------ interactive list with image preview
+  $$('[data-dlist]').forEach((dl) => {
+    const imgs = $$('.dlist-preview > div', dl);
+    const show = (i) => imgs.forEach((d, k) => d.classList.toggle('is-on', k === i));
+    $$('a[data-i]', dl).forEach((a) => { a.addEventListener('mouseenter', () => show(+a.dataset.i)); a.addEventListener('focus', () => show(+a.dataset.i)); });
+  });
+
   // ------------------------------------------------------------ catalog filters
   $$('[data-catalog]').forEach((cat) => {
     const grid = $('[data-grid]', cat);

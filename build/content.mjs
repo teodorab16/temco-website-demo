@@ -38,9 +38,9 @@ export const HOME = {
   ],
   // The three statements of the original home page (shown on the first screen)
   values: [
-    { title: 'Când vorbim despre sănătate', text: 'TEMCO pune întotdeauna oamenii pe primul loc.' },
-    { title: 'Doar împreună', text: 'putem oferi servicii de calitate.' },
-    { title: 'Mulțumim pentru încrederea', text: 'acordată produselor și serviciilor noastre.' },
+    { icon: 'crown', title: 'Când vorbim despre sănătate', text: 'TEMCO pune întotdeauna oamenii pe primul loc.' },
+    { icon: 'star', title: 'Doar împreună', text: 'putem oferi servicii de calitate.' },
+    { icon: 'heart', title: 'Mulțumim pentru încrederea', text: 'acordată produselor și serviciilor noastre.' },
   ],
 };
 
