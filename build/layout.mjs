@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 import path from 'node:path';
 import { ROOT, esc, attr, u, img, srcOf, rootPrefix } from './lib.mjs';
 import { icon, DOMAIN_ICON } from './icons.mjs';
@@ -8,7 +9,11 @@ import { topCategories, products } from './data.mjs';
 // Logo is referenced from a cached sprite; the charcoal part uses currentColor
 // so it can turn white on dark backgrounds.
 const logo = () => `<svg class="logo" viewBox="0 0 2834 628" width="190" height="42" role="img" aria-label="TEMCO — Tehno Electro Medical Company"><use href="${u('/assets/brand/logo-sprite.svg')}#logo"/></svg>`;
-export const ASSET_VERSION = Date.now().toString(36);
+// Cache-busting token derived from the CSS/JS content: identical sources → identical HTML.
+export const ASSET_VERSION = crypto.createHash('sha1')
+  .update(fs.readFileSync(path.join(ROOT, 'src/css/main.css')))
+  .update(fs.readFileSync(path.join(ROOT, 'src/js/main.js')))
+  .digest('hex').slice(0, 8);
 
 // Concentric arcs echoing the TEMCO mark (decorative, drawn on load).
 export function arcs(cls = 'hero-arcs') {

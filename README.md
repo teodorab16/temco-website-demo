@@ -70,3 +70,9 @@ npm run build
 2. **Broșuri PDF** (~550 MB) — rămân deocamdată în `https://www.temco.ro/wp-content/uploads/`. Dacă WordPress
    este oprit, copiați fișierele PDF din `wp-content/uploads/` pe noul server și modificați `DOCS_BASE` în `build/lib.mjs`.
 3. **Găzduire într-un subfolder** (ex. GitHub Pages): `SITE_BASE=/nume-folder/ npm run build` pentru pagina 404.
+
+## Previzualizare online (GitHub Pages)
+
+Site-ul este publicat din ramura `gh-pages`: **https://teodorab16.github.io/temco-website-demo/**
+La fiecare push pe ramura implicită, workflow-ul `.github/workflows/pages.yml` reconstruiește site-ul și actualizează `gh-pages`.
+(Setare necesară o singură dată: Settings → Pages → Deploy from a branch → `gh-pages` / root.)
