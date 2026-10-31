@@ -27,22 +27,18 @@ export function home() {
         <p class="sub fade-up" style="--d:.12s">Din 1990, pentru medicii din toată România.</p>
         <div class="hero-cta fade-up" style="--d:.22s">
           <a class="btn btn-primary" href="${u('/produsele-noastre/')}">Descoperă produsele ${icon('arrowRight', { cls: 'i-arrow', size: 18 })}</a>
-          <a class="text-link" href="${u('/contact/')}">Contact</a>
-        </div>
-        <div class="hero-contact fade-up" style="--d:.3s">
-          <a href="${SITE.phone.href}">${icon('phone', { size: 16 })}${SITE.phone.label}</a>
-          <a href="mailto:${SITE.email}">${icon('mail', { size: 16 })}${SITE.email}</a>
+          <a class="hero-contact" href="${SITE.phone.href}">${icon('phone', { size: 17 })}${SITE.phone.label}</a>
+          <a class="hero-contact" href="mailto:${SITE.email}">${icon('mail', { size: 17 })}${SITE.email}</a>
         </div>
       </div>
       <div class="hero-progress fade-up" style="--d:.3s">
         <span><b data-hero-current>01</b> / 0${HOME.slides.length}</span>
         ${HOME.slides.map((_, i) => `<button class="hero-dot${i === 0 ? ' is-active' : ''}" type="button" aria-label="Imaginea ${i + 1}" data-dot="${i}"><span></span></button>`).join('')}
       </div>
+      <ul class="hero-values" aria-label="Valorile TEMCO">${HOME.values.map((v, i) => `
+        <li class="fade-up" style="--d:${0.36 + i * 0.08}s"><strong>${v.title}</strong><span>${v.text}</span></li>`).join('')}
+      </ul>
     </div>
-  </section>
-
-  <section class="section statement" aria-label="Valorile TEMCO">
-    <div class="container"><p data-statement>${HOME.statement}</p></div>
   </section>
 
   <section class="section" style="padding-top:0">

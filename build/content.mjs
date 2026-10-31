@@ -36,8 +36,12 @@ export const HOME = {
     'https://www.temco.ro/wp-content/uploads/2019/12/home-banner-01.jpg',
     'https://www.temco.ro/wp-content/uploads/2019/12/home-banner-02.jpg',
   ],
-  // The three statements of the original home page
-  statement: 'Când vorbim despre sănătate, TEMCO pune întotdeauna oamenii pe primul loc. Doar împreună putem oferi servicii de calitate. Mulțumim pentru încrederea acordată produselor și serviciilor noastre.',
+  // The three statements of the original home page (shown on the first screen)
+  values: [
+    { title: 'Când vorbim despre sănătate', text: 'TEMCO pune întotdeauna oamenii pe primul loc.' },
+    { title: 'Doar împreună', text: 'putem oferi servicii de calitate.' },
+    { title: 'Mulțumim pentru încrederea', text: 'acordată produselor și serviciilor noastre.' },
+  ],
 };
 
 export const ABOUT = {
