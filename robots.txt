@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /cautare/
+
+Sitemap: https://teodorab16.github.io/temco-website-demo/sitemap.xml
