@@ -87,9 +87,9 @@ export function stripTags(h = '') { return h.replace(/<[^>]+>/g, ' ').replace(/\
 export function truncate(s = '', n = 160) {
   if (s.length <= n) return s;
   const cut = s.slice(0, n);
-  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,.;:\-–\s]+$/, '') + '…';
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,.;:\--\s]+$/, '') + '…';
 }
-// Romanian numerals: 1 produs · 2–19 produse · 20+ de produse (101–119 → no "de")
+// Romanian numerals: 1 produs · 2-19 produse · 20+ de produse (101-119 → no "de")
 export function plural(n, one, many) {
   const de = n % 100 >= 20 || (n > 0 && n % 100 === 0);
   return `${n.toLocaleString('ro-RO')} ${n === 1 ? one : (de ? 'de ' + many : many)}`;

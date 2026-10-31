@@ -4,11 +4,25 @@ import { ROOT, fold, stripTags } from './lib.mjs';
 
 const read = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data', f), 'utf8'));
 
-export const products = read('products.json');
-export const categories = read('categories.json');
-export const tags = read('tags.json');
-export const posts = read('posts.json').sort((a, b) => b.date.localeCompare(a.date));
-export const pages = read('pages.json');
+// No long dashes anywhere on the site: ranges become "65-67", separators " - ".
+export const undash = (s) => typeof s !== 'string' ? s : s
+  .replace(/(\d)\s*[\u2013\u2014]\s*(\d)/g, '$1-$2')
+  .replace(/\s+[\u2013\u2014]\s+/g, ' - ')
+  .replace(/[\u2013\u2014]/g, '-');
+const BRAND = { 'Surgical Science – Simbionix': 'Surgical Science Simbionix' };
+
+export const products = read('products.json').map((p) => ({
+  ...p,
+  title: undash(p.title), name: undash(p.name), model: undash(p.model), description: undash(p.description), summary: undash(p.summary),
+  manufacturer: undash(BRAND[p.manufacturer] || p.manufacturer), extra: p.extra.map(undash),
+  docs: p.docs.map((d) => ({ ...d, label: undash(d.label) })),
+  imageAlt: undash(p.imageAlt), logos: p.logos.map((l) => ({ ...l, alt: undash(l.alt) })),
+}));
+export const categories = read('categories.json').map((c) => ({ ...c, name: undash(c.name), description: undash(c.description) }));
+export const tags = read('tags.json').map((t) => ({ ...t, name: undash(t.name) }));
+export const posts = read('posts.json').map((p) => ({ ...p, title: undash(p.title), body: undash(p.body), excerpt: undash(p.excerpt) }))
+  .sort((a, b) => b.date.localeCompare(a.date));
+export const pages = Object.fromEntries(Object.entries(read('pages.json')).map(([k, v]) => [k, { ...v, title: undash(v.title), body: undash(v.body) }]));
 export const siteAssets = read('site-assets.json');
 
 // Four products were never assigned a category in the old CMS (reachable only

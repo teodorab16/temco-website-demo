@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Static site generator for temco.ro — `npm run build` → ./site
+// Static site generator for temco.ro · `npm run build` → ./site
 import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT, OUT, setPage, write, fold } from './lib.mjs';
@@ -92,7 +92,7 @@ ${urls.map((x) => `  <url><loc>${SITE.url}${x.p}</loc><lastmod>${today}</lastmod
 `);
 fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /cautare/\n\nSitemap: ${SITE.url}/sitemap.xml\n`);
 fs.writeFileSync(path.join(OUT, 'site.webmanifest'), JSON.stringify({
-  name: 'TEMCO — Tehno Electro Medical Company', short_name: 'TEMCO', lang: 'ro', start_url: './', display: 'standalone',
+  name: 'TEMCO · Tehno Electro Medical Company', short_name: 'TEMCO', lang: 'ro', start_url: './', display: 'standalone',
   background_color: '#ffffff', theme_color: '#d42e12',
   icons: [{ src: 'assets/brand/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: 'assets/brand/icon-512.png', sizes: '512x512', type: 'image/png' }, { src: 'assets/brand/favicon.svg', sizes: 'any', type: 'image/svg+xml' }],
 }, null, 2));

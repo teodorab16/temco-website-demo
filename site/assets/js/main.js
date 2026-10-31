@@ -1,4 +1,4 @@
-/* TEMCO — site interactions (no dependencies) */
+/* TEMCO · site interactions (no dependencies) */
 (() => {
   'use strict';
   const $ = (s, c = document) => c.querySelector(s);
@@ -36,98 +36,48 @@
   $$('[data-kbd]').forEach((k) => { k.textContent = isMac ? '⌘ K' : 'Ctrl K'; });
   $$('[data-year]').forEach((y) => { if (y.tagName === 'SPAN') y.textContent = new Date().getFullYear(); });
 
-  // ------------------------------------------------------------ masthead
-  const mast = $('[data-masthead]');
-  let lastY = scrollY, ticking = false;
+  // ------------------------------------------------------------ header (stays in place, gains a border when scrolled)
+  const header = $('[data-header]');
   const toTop = $('[data-to-top]');
-  const readBar = $('[data-read-progress]');
+  let ticking = false;
   function onScroll() {
     const y = scrollY;
-    if (mast) {
-      mast.classList.toggle('is-scrolled', y > 12);
-      mast.classList.toggle('is-collapsed', y > 40);
-      const goingDown = y > lastY + 4, goingUp = y < lastY - 4;
-      if (goingDown && y > 420 && !mast.classList.contains('mega-open')) mast.classList.add('is-hidden');
-      else if (goingUp || y < 200) mast.classList.remove('is-hidden');
-      document.body.classList.toggle('masthead-hidden', mast.classList.contains('is-hidden'));
-    }
-    const max = document.documentElement.scrollHeight - innerHeight;
-    const p = max > 0 ? Math.min(1, y / max) : 0;
-    if (toTop) { toTop.classList.toggle('is-on', y > 700); toTop.style.setProperty('--p', p.toFixed(3)); }
-    if (readBar) {
-      const art = $('article');
-      const r = art.getBoundingClientRect();
-      const prog = Math.min(1, Math.max(0, -r.top / Math.max(1, r.height - innerHeight)));
-      readBar.style.transform = `scaleX(${prog})`;
-    }
-    lastY = y;
+    header?.classList.toggle('is-scrolled', y > 8);
+    toTop?.classList.toggle('is-on', y > 900);
     ticking = false;
   }
   addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
   onScroll();
   toTop?.addEventListener('click', () => { scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' }); $('#main')?.focus({ preventScroll: true }); });
 
-  // ------------------------------------------------------------ nav hover pill
-  const nav = $('.main-nav');
-  const pill = $('.nav-pill');
-  if (nav && pill) {
-    const links = $$('.nav-link', nav);
-    links.forEach((l) => l.addEventListener('mouseenter', () => {
-      const r = l.getBoundingClientRect(), nr = nav.getBoundingClientRect();
-      pill.style.width = r.width + 'px';
-      pill.style.transform = `translateX(${r.left - nr.left}px)`;
-      pill.style.opacity = '1';
-    }));
-    nav.addEventListener('mouseleave', () => { pill.style.opacity = '0'; });
-  }
-
-  // ------------------------------------------------------------ mega menu
-  const megaItem = $('[data-mega]');
-  const scrim = $('[data-mega-scrim]');
-  if (megaItem && mast) {
-    const trigger = $('.nav-link', megaItem);
-    const mega = $('#mega-produse');
-    let openT, closeT;
-    const setOpen = (on) => {
-      clearTimeout(openT); clearTimeout(closeT);
-      mast.classList.toggle('mega-open', on);
-      megaItem.classList.toggle('is-open', on);
-      trigger.setAttribute('aria-expanded', on);
-      scrim?.classList.toggle('is-on', on);
-    };
-    const activate = (slug) => {
-      $$('.mega-domain', mega).forEach((d) => d.classList.toggle('is-active', d.dataset.domain === slug));
-      $$('.mega-panel', mega).forEach((p) => p.classList.toggle('is-active', p.dataset.panel === slug));
-    };
+  // ------------------------------------------------------------ Produse dropdown (small card, no overlay)
+  $$('[data-dropdown]').forEach((item) => {
+    const trigger = $('.nav-link', item);
+    let t;
+    const set = (on) => { clearTimeout(t); item.classList.toggle('is-open', on); trigger.setAttribute('aria-expanded', on); };
     if (finePointer) {
-      megaItem.addEventListener('mouseenter', () => { clearTimeout(closeT); openT = setTimeout(() => setOpen(true), 90); });
-      megaItem.addEventListener('mouseleave', () => { clearTimeout(openT); closeT = setTimeout(() => setOpen(false), 220); });
-      mega.addEventListener('mouseenter', () => clearTimeout(closeT));
-      mega.addEventListener('mouseleave', () => { closeT = setTimeout(() => setOpen(false), 220); });
-      let hoverT;
-      $$('.mega-domain', mega).forEach((d) => d.addEventListener('mouseenter', () => { clearTimeout(hoverT); hoverT = setTimeout(() => activate(d.dataset.domain), 60); }));
+      item.addEventListener('mouseenter', () => { clearTimeout(t); t = setTimeout(() => set(true), 60); });
+      item.addEventListener('mouseleave', () => { clearTimeout(t); t = setTimeout(() => set(false), 120); });
     }
-    $$('.mega-domain', mega).forEach((d) => d.addEventListener('focus', () => activate(d.dataset.domain)));
     trigger.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowDown' || e.key === ' ') { e.preventDefault(); setOpen(true); $('.mega-domain', mega)?.focus(); }
+      if (e.key === 'ArrowDown') { e.preventDefault(); set(true); $('.dropdown a', item)?.focus(); }
     });
-    mega.addEventListener('focusout', (e) => { if (!mast.contains(e.relatedTarget)) setOpen(false); });
-    scrim?.addEventListener('click', () => setOpen(false));
-    addEventListener('keydown', (e) => { if (e.key === 'Escape' && mast.classList.contains('mega-open')) { setOpen(false); trigger.focus(); } });
-  }
+    item.addEventListener('focusout', (e) => { if (!item.contains(e.relatedTarget)) set(false); });
+    addEventListener('keydown', (e) => { if (e.key === 'Escape' && item.classList.contains('is-open')) { set(false); trigger.focus(); } });
+  });
 
   // ------------------------------------------------------------ mobile nav
   const menuBtn = $('.menu-toggle');
   const mnav = $('#mobile-nav');
   if (menuBtn && mnav) {
+    const MENU = '<svg class="i" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h10"/></svg>';
+    const CLOSE = '<svg class="i" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
     const set = (on) => {
       menuBtn.setAttribute('aria-expanded', on);
       menuBtn.setAttribute('aria-label', on ? 'Închide meniul' : 'Deschide meniul');
-      menuBtn.innerHTML = on
-        ? '<svg class="i" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>'
-        : '<svg class="i" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h10"/></svg>';
+      menuBtn.innerHTML = on ? CLOSE : MENU;
       mnav.classList.toggle('is-open', on);
-      mast?.classList.toggle('is-menu-open', on);
+      header?.classList.toggle('is-open', on);
       lockScroll(on);
     };
     menuBtn.addEventListener('click', () => set(menuBtn.getAttribute('aria-expanded') !== 'true'));
@@ -140,27 +90,19 @@
     matchMedia('(min-width: 1081px)').addEventListener('change', (e) => { if (e.matches && mnav.classList.contains('is-open')) set(false); });
   }
 
-  // ------------------------------------------------------------ split headings into words
-  $$('[data-split]').forEach((el) => {
-    let i = 0;
-    const walk = (node) => {
-      [...node.childNodes].forEach((n) => {
-        if (n.nodeType === 3) {
-          const frag = document.createDocumentFragment();
-          n.textContent.split(/(\s+)/).forEach((part) => {
-            if (!part) return;
-            if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); return; }
-            const w = document.createElement('span'); w.className = 'w';
-            const inner = document.createElement('span'); inner.textContent = part; inner.style.setProperty('--wi', i++);
-            w.appendChild(inner); frag.appendChild(w);
-          });
-          n.replaceWith(frag);
-        } else if (n.nodeType === 1) walk(n);
-      });
+  // ------------------------------------------------------------ statement: words light up as it scrolls into view
+  $$('[data-statement]').forEach((el) => {
+    const words = el.textContent.trim().split(/\s+/);
+    el.innerHTML = `<span class="sr-only">${escHtml(el.textContent.trim())}</span>` + words.map((w) => `<span class="sw" aria-hidden="true">${escHtml(w)}</span>`).join(' ');
+    const spans = $$('.sw', el);
+    const upd = () => {
+      const r = el.getBoundingClientRect();
+      const p = Math.min(1, Math.max(0, (innerHeight * 0.85 - r.top) / (r.height + innerHeight * 0.35)));
+      const n = Math.round(p * spans.length);
+      spans.forEach((s, i) => s.classList.toggle('is-lit', i < n));
     };
-    el.setAttribute('aria-label', el.textContent.trim());
-    walk(el);
-    $$('.w', el).forEach((w) => w.setAttribute('aria-hidden', 'true'));
+    addEventListener('scroll', () => requestAnimationFrame(upd), { passive: true });
+    upd();
   });
 
   // ------------------------------------------------------------ reveal on scroll + counters
@@ -186,7 +128,7 @@
       io.unobserve(el);
     });
   }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
-  $$('[data-reveal], .section-head, [data-split]').forEach((el) => io.observe(el));
+  $$('[data-reveal]').forEach((el) => io.observe(el));
   $$('[data-count-to]').forEach((el) => { if (!el.closest('[data-reveal]')) io.observe(el); });
 
   // ------------------------------------------------------------ hero slider
@@ -209,11 +151,9 @@
     };
     const schedule = () => { clearTimeout(timer); if (!reduced && !hero.classList.contains('is-paused')) timer = setTimeout(() => go(idx + 1), DUR); };
     dots.forEach((d) => d.addEventListener('click', () => go(+d.dataset.dot, true)));
-    $('[data-hero-next]', hero)?.addEventListener('click', () => go(idx + 1, true));
-    $('[data-hero-prev]', hero)?.addEventListener('click', () => go(idx - 1, true));
     const pause = (on) => { hero.classList.toggle('is-paused', on); if (on) clearTimeout(timer); else schedule(); };
-    $('.hero-controls', hero)?.addEventListener('mouseenter', () => pause(true));
-    $('.hero-controls', hero)?.addEventListener('mouseleave', () => pause(false));
+    $('.hero-progress', hero)?.addEventListener('mouseenter', () => pause(true));
+    $('.hero-progress', hero)?.addEventListener('mouseleave', () => pause(false));
     document.addEventListener('visibilitychange', () => pause(document.hidden));
     let sx = null;
     hero.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse') sx = e.clientX; });
@@ -224,20 +164,6 @@
     schedule();
   }
 
-  // ------------------------------------------------------------ timeline progress
-  const tl = $('[data-timeline]');
-  if (tl) {
-    const items = $$('.tl-item', tl);
-    const upd = () => {
-      const r = tl.getBoundingClientRect();
-      const p = Math.min(1, Math.max(0, (innerHeight * 0.6 - r.top) / r.height));
-      tl.style.setProperty('--p', p.toFixed(3));
-      items.forEach((it) => it.classList.toggle('is-lit', it.getBoundingClientRect().top < innerHeight * 0.6));
-    };
-    addEventListener('scroll', () => requestAnimationFrame(upd), { passive: true });
-    upd();
-  }
-
   // ------------------------------------------------------------ catalog filters
   $$('[data-catalog]').forEach((cat) => {
     const grid = $('[data-grid]', cat);
@@ -245,25 +171,34 @@
     const pageSize = +cat.dataset.pageSize || 24;
     const qIn = $('[data-q]', cat), qClear = $('[data-q-clear]', cat), sortSel = $('[data-sort]', cat);
     const countEl = $('[data-count]', cat), countLbl = $('[data-count-label]', cat);
-    const empty = $('[data-empty]', cat), moreWrap = $('[data-more-wrap]', cat), moreBtn = $('[data-load-more]', cat);
-    const shown = $('[data-shown]', cat), progress = $('[data-progress]', cat), active = $('[data-active]', cat);
-    const side = $('[data-side]', cat), sideScrim = $('[data-side-scrim]', cat), filterCount = $('[data-filter-count]', cat);
+    const empty = $('[data-empty]', cat), moreWrap = $('[data-more-wrap]', cat), moreBtn = $('[data-load-more]', cat), shown = $('[data-shown]', cat);
     const chips = $$('[data-chip]', cat);
     const brandBoxes = $$('input[name="brand"]', cat);
+    const brandCount = $('[data-brand-count]', cat);
     const params = new URLSearchParams(location.search);
     const state = { q: params.get('q') || '', brands: new Set(params.getAll('producator')), chip: '', sort: params.get('sort') || 'az', limit: pageSize };
     const chipFromUrl = params.get('sub');
     if (chipFromUrl) { const c = chips.find((x) => x.dataset.chipSlug === chipFromUrl); if (c) state.chip = c.dataset.chip; }
     if (qIn) qIn.value = state.q;
     if (sortSel) sortSel.value = state.sort;
-    brandBoxes.forEach((b) => { b.checked = state.brands.has(b.value); if (b.checked) b.closest('[data-more]')?.removeAttribute('hidden'); });
+    brandBoxes.forEach((b) => { b.checked = state.brands.has(b.value); });
+
+    // Producător popover
+    const pop = $('[data-pop]', cat);
+    if (pop) {
+      const btn = $('button', pop), panel = $('.pop-panel', pop);
+      const setPop = (on) => { panel.hidden = !on; btn.setAttribute('aria-expanded', on); };
+      btn.addEventListener('click', () => setPop(panel.hidden));
+      document.addEventListener('click', (e) => { if (!pop.contains(e.target)) setPop(false); });
+      addEventListener('keydown', (e) => { if (e.key === 'Escape' && !panel.hidden) { setPop(false); btn.focus(); } });
+    }
 
     const sorters = {
       az: (a, b) => a.dataset.sort.localeCompare(b.dataset.sort, 'ro'),
       za: (a, b) => b.dataset.sort.localeCompare(a.dataset.sort, 'ro'),
       new: (a, b) => b.dataset.date.localeCompare(a.dataset.date),
-      brand: (a, b) => (a.dataset.brand || 'zz').localeCompare(b.dataset.brand || 'zz', 'ro') || a.dataset.sort.localeCompare(b.dataset.sort, 'ro'),
     };
+    const label = (n) => n === 1 ? 'produs' : (n % 100 >= 20 || (n && n % 100 === 0) ? 'de produse' : 'produse');
     let first = true;
     function apply(resetLimit) {
       if (resetLimit) state.limit = pageSize;
@@ -280,52 +215,33 @@
       vis.forEach((it) => frag.appendChild(it));
       items.filter((it) => !visSet.has(it)).forEach((it) => frag.appendChild(it));
       grid.appendChild(frag);
-      let n = 0;
       items.forEach((it) => {
         const pos = vis.indexOf(it);
         const show = pos > -1 && pos < state.limit;
         const wasHidden = it.hidden;
         it.hidden = !show;
-        const card = it.firstElementChild;
-        if (show && (wasHidden || !first) && !reduced) {
-          card.classList.remove('is-entering'); void card.offsetWidth;
-          card.style.setProperty('--i', Math.min(n++, 16));
-          card.classList.add('is-entering');
-        }
+        if (show && wasHidden && !first && !reduced) { it.classList.remove('is-entering'); void it.offsetWidth; it.classList.add('is-entering'); }
       });
       first = false;
       countEl.textContent = vis.length;
-      countLbl.textContent = vis.length === 1 ? 'produs' : (vis.length % 100 >= 20 || (vis.length && vis.length % 100 === 0) ? 'de produse' : 'produse');
+      countLbl.textContent = label(vis.length);
       empty.hidden = vis.length > 0;
       grid.hidden = vis.length === 0;
       const visibleNow = Math.min(state.limit, vis.length);
-      moreWrap.hidden = vis.length <= pageSize;
-      if (!moreWrap.hidden) {
-        shown.textContent = `Afișate ${visibleNow} din ${vis.length}`;
-        progress.style.transform = `scaleX(${visibleNow / vis.length})`;
-        moreBtn.hidden = visibleNow >= vis.length;
-      }
+      moreWrap.hidden = visibleNow >= vis.length;
+      if (!moreWrap.hidden) shown.textContent = `${visibleNow} din ${vis.length}`;
       chips.forEach((c) => c.setAttribute('aria-pressed', c.dataset.chip === state.chip));
-      qClear.hidden = !state.q;
-      // active filter pills
-      const pills = [];
-      if (state.q) pills.push(`<button class="chip" type="button" data-rm="q">„${escHtml(state.q)}” ${xIcon}</button>`);
-      state.brands.forEach((b) => pills.push(`<button class="chip" type="button" data-rm="brand" data-v="${escHtml(b)}">${escHtml(b)} ${xIcon}</button>`));
-      active.innerHTML = pills.length ? pills.join('') + '<button class="reset" type="button" data-reset>Șterge filtrele</button>' : '';
-      active.hidden = !pills.length;
-      const fc = state.brands.size + (state.chip ? 1 : 0);
-      if (filterCount) filterCount.textContent = fc ? `(${fc})` : '';
-      // URL sync (shareable filtered views)
+      if (qClear) qClear.hidden = !state.q;
+      if (brandCount) brandCount.textContent = state.brands.size || '';
       const sp = new URLSearchParams();
       if (state.q) sp.set('q', state.q);
       state.brands.forEach((b) => sp.append('producator', b));
-      const chipEl = chips.find((c) => c.dataset.chip === state.chip && state.chip);
+      const chipEl = chips.find((c) => state.chip && c.dataset.chip === state.chip);
       if (chipEl) sp.set('sub', chipEl.dataset.chipSlug);
       if (state.sort !== 'az') sp.set('sort', state.sort);
       const qs = sp.toString();
       history.replaceState(history.state, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
     }
-    const xIcon = '<svg class="i" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
     let qT;
     qIn?.addEventListener('input', () => { clearTimeout(qT); qT = setTimeout(() => { state.q = qIn.value.trim(); apply(true); }, 120); });
     qClear?.addEventListener('click', () => { qIn.value = ''; state.q = ''; apply(true); qIn.focus(); });
@@ -335,29 +251,13 @@
     moreBtn?.addEventListener('click', () => {
       const firstNew = state.limit;
       state.limit += pageSize; apply(false);
-      const vis = items.filter((it) => !it.hidden);
-      vis[firstNew]?.querySelector('a')?.focus({ preventScroll: true });
+      items.filter((it) => !it.hidden)[firstNew]?.querySelector('a')?.focus({ preventScroll: true });
     });
-    cat.addEventListener('click', (e) => {
-      const rm = e.target.closest('[data-rm]');
-      if (rm) {
-        if (rm.dataset.rm === 'q') { state.q = ''; if (qIn) qIn.value = ''; }
-        if (rm.dataset.rm === 'brand') { state.brands.delete(rm.dataset.v); brandBoxes.forEach((b) => { if (b.value === rm.dataset.v) b.checked = false; }); }
-        apply(true);
-      }
-      if (e.target.closest('[data-reset]')) {
-        state.q = ''; state.brands.clear(); state.chip = ''; if (qIn) qIn.value = '';
-        brandBoxes.forEach((b) => { b.checked = false; });
-        apply(true);
-      }
-      const more = e.target.closest('[data-more-toggle]');
-      if (more) { $$('[data-more]', cat).forEach((m) => m.removeAttribute('hidden')); more.remove(); }
-    });
-    const openSide = (on) => { side.classList.toggle('is-open', on); sideScrim.classList.toggle('is-on', on); lockScroll(on); if (on) side.querySelector('button, a, input')?.focus(); };
-    $('[data-side-open]', cat)?.addEventListener('click', () => openSide(true));
-    $$('[data-side-close]', cat).forEach((b) => b.addEventListener('click', () => openSide(false)));
-    sideScrim?.addEventListener('click', () => openSide(false));
-    addEventListener('keydown', (e) => { if (e.key === 'Escape' && side.classList.contains('is-open')) openSide(false); });
+    $$('[data-reset]', cat).forEach((b) => b.addEventListener('click', () => {
+      state.q = ''; state.brands.clear(); state.chip = ''; if (qIn) qIn.value = '';
+      brandBoxes.forEach((x) => { x.checked = false; });
+      apply(true);
+    }));
     apply(true);
   });
 
@@ -483,20 +383,6 @@
     stage.addEventListener('pointerup', (e) => { if (sx !== null && Math.abs(e.clientX - sx) > 40) go(i + (e.clientX < sx ? 1 : -1)); sx = null; });
   });
 
-  // ------------------------------------------------------------ product section tabs (scroll-spy)
-  const tabs = $('[data-tabs]');
-  if (tabs) {
-    const links = $$('a', tabs);
-    const secs = links.map((a) => $(a.getAttribute('href'))).filter(Boolean);
-    const spy = () => {
-      const y = innerHeight * 0.35;
-      let active = secs[0];
-      secs.forEach((s) => { if (s.getBoundingClientRect().top < y) active = s; });
-      links.forEach((a) => a.classList.toggle('is-active', a.getAttribute('href') === '#' + active.id));
-    };
-    addEventListener('scroll', () => requestAnimationFrame(spy), { passive: true });
-    spy();
-  }
   document.addEventListener('click', (e) => {
     const a = e.target.closest('[data-focus-form]');
     if (!a) return;
@@ -527,26 +413,18 @@
     yf.addEventListener('click', (e) => {
       const b = e.target.closest('[data-year]'); if (!b) return;
       $$('[data-year]', yf).forEach((x) => x.setAttribute('aria-pressed', x === b));
-      const y = b.dataset.year;
-      let first = true;
-      list.forEach((li) => {
-        const show = !y || li.dataset.year === y;
-        li.hidden = !show;
-        const card = li.firstElementChild;
-        const feat = show && first; if (show) first = false;
-        card.classList.toggle('is-featured', feat);
-        li.style.gridColumn = feat ? '1 / -1' : '';
-        if (show && !reduced) { li.classList.remove('is-in'); void li.offsetWidth; li.classList.add('is-in'); }
-      });
+      list.forEach((li) => { li.hidden = !!b.dataset.year && li.dataset.year !== b.dataset.year; });
     });
   }
 
-  // ------------------------------------------------------------ copy link
+  // ------------------------------------------------------------ share / copy link
   document.addEventListener('click', async (e) => {
-    const b = e.target.closest('[data-copy]');
+    const b = e.target.closest('[data-share], [data-copy]');
     if (!b) return;
-    try { await navigator.clipboard.writeText(b.dataset.copy); toast('Linkul a fost copiat'); }
-    catch { prompt('Copiați linkul:', b.dataset.copy); }
+    const url = b.dataset.share || b.dataset.copy;
+    if (b.dataset.share && navigator.share) { try { await navigator.share({ title: b.dataset.shareTitle || document.title, url }); return; } catch { return; } }
+    try { await navigator.clipboard.writeText(url); toast('Link copiat'); }
+    catch { prompt('Copiați linkul:', url); }
   });
 
   // ------------------------------------------------------------ cookie consent + maps
@@ -753,7 +631,7 @@
       }
       const res = search(q);
       if (!res.length) {
-        body.innerHTML = `<div class="sd-empty"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.5"/><path d="m20.5 20.5-4.2-4.2"/></svg><strong>Niciun rezultat pentru „${escHtml(q)}”</strong><span>Verificați ortografia sau încercați un termen mai general (ex. „microscop”, „Olympus”).</span></div>`;
+        body.innerHTML = `<div class="sd-empty"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7.5"/><path d="m20.5 20.5-4.2-4.2"/></svg><strong>Niciun rezultat pentru „${escHtml(q)}”</strong></div>`;
         return;
       }
       const groups = { c: [], p: [], a: [], g: [] };
@@ -815,26 +693,15 @@
       $('[data-search-summary]').innerHTML = q ? `<b>${res.length}</b> rezultate pentru „${escHtml(q)}”` : 'Introduceți un termen de căutare.';
       $('[data-search-cats]').innerHTML = cats.length ? `<div class="chip-row">${cats.map((c) => `<a class="chip" href="${ROOT + c.u}">${escHtml(c.n)} <span class="count">${c.q}</span></a>`).join('')}</div>` : '';
       $('[data-search-products]').innerHTML = prods.map((p) => `
-        <li><article class="p-card"><div class="media on-white">${p.i ? `<img src="${ROOT + p.i}" alt="" loading="lazy">` : ''}</div>
-          <span class="go" aria-hidden="true">${arrowSvg.replace('i go', 'i')}</span>
-          <div class="body"><span class="cat">${escHtml(p.c.split(' › ').pop() || '')}</span><h3><a href="${ROOT + p.u}">${highlight(p.n, q)}</a></h3>
-          <div class="meta"><span class="brand-name">${escHtml(p.b || 'TEMCO')}</span>${p.m ? `<span class="model">${escHtml(p.m)}</span>` : ''}</div></div></article></li>`).join('');
-      $('[data-search-posts]').innerHTML = arts.length ? `<h2 class="mini-title">Pagini și evenimente</h2><div class="sd-group" style="max-width:720px">${arts.map((a, k) => itemHtml(a, q, 'sp-' + k, false)).join('')}</div>` : '';
-      if (q && !res.length) $('[data-search-products]').outerHTML = `<div class="empty-state"><h3>Niciun rezultat</h3><p>Încercați un termen mai general sau <a href="${ROOT}produsele-noastre/" style="text-decoration:underline">explorați catalogul</a>.</p></div>`;
-      document.title = q ? `„${q}” — Căutare — TEMCO` : document.title;
+        <li class="p-item"><article class="p-card"><div class="media">${p.i ? `<img src="${ROOT + p.i}" alt="" loading="lazy">` : ''}</div>
+          <h3><a href="${ROOT + p.u}">${highlight(p.n, q)}</a></h3>${p.b ? `<p>${escHtml(p.b)}</p>` : ''}</article></li>`).join('');
+      $('[data-search-posts]').innerHTML = arts.length ? `<h2 class="label" style="margin-bottom:12px">Pagini și evenimente</h2><div class="sd-group" style="max-width:720px">${arts.map((a, k) => itemHtml(a, q, 'sp-' + k, false)).join('')}</div>` : '';
+      if (q && !res.length) $('[data-search-products]').outerHTML = `<div class="empty-state"><h2>Niciun rezultat</h2><a class="text-link" href="${ROOT}produsele-noastre/">Vezi produsele</a></div>`;
+      document.title = q ? `${q} | Căutare | TEMCO` : document.title;
     });
   }
   // WordPress-style search URLs (/?s=...) keep working
   const s = new URLSearchParams(location.search).get('s');
   if (s !== null) location.replace(ROOT + 'cautare/?q=' + encodeURIComponent(s));
 
-  // ------------------------------------------------------------ view transitions: morph product image
-  document.addEventListener('click', (e) => {
-    const a = e.target.closest('.p-card a[data-vt-link]');
-    if (!a || e.metaKey || e.ctrlKey || e.shiftKey) return;
-    $$('[style*="product-hero"]').forEach((x) => { x.style.viewTransitionName = ''; });
-    const im = a.closest('.p-card').querySelector('.media img');
-    if (im) im.style.viewTransitionName = 'product-hero';
-  });
-  addEventListener('pageshow', () => $$('.p-card .media img').forEach((x) => { x.style.viewTransitionName = ''; }));
 })();
