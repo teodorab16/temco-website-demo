@@ -29,6 +29,10 @@ export function home() {
           <a class="btn btn-primary" href="${u('/produsele-noastre/')}">Descoperă produsele ${icon('arrowRight', { cls: 'i-arrow', size: 18 })}</a>
           <a class="text-link" href="${u('/contact/')}">Contact</a>
         </div>
+        <div class="hero-contact fade-up" style="--d:.3s">
+          <a href="${SITE.phone.href}">${icon('phone', { size: 16 })}${SITE.phone.label}</a>
+          <a href="mailto:${SITE.email}">${icon('mail', { size: 16 })}${SITE.email}</a>
+        </div>
       </div>
       <div class="hero-progress fade-up" style="--d:.3s">
         <span><b data-hero-current>01</b> / 0${HOME.slides.length}</span>
