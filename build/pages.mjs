@@ -23,21 +23,12 @@ function mosaic() {
     <span class="go">${icon('arrowRight', { size: 22 })}</span>
   </a>`;
 }
-function domainList() {
-  return `
-    <div class="dlist" data-dlist>
-      <ol>${topCategories.map((c, i) => `
-        <li><a href="${u(c.url)}" data-i="${i}"><span class="n">${String(i + 1).padStart(2, '0')}</span><span class="thumb">${c.image ? img(c.image, { alt: '', sizes: '64px' }) : ''}</span><strong>${esc(c.name)}</strong><span class="c">${c.count}</span>${icon('arrowRight', { size: 22 })}</a></li>`).join('')}</ol>
-      <div class="dlist-preview" aria-hidden="true">${topCategories.map((c, i) => `<div class="${i === 0 ? 'is-on' : ''}">${c.image ? img(c.image, { alt: '', sizes: '520px' }) : ''}</div>`).join('')}</div>
-    </div>`;
-}
-
 // ============================================================== HOME
 export function home() {
   const slides = HOME.slides.map((s, i) => `
     <figure class="hero-slide${i === 0 ? ' is-active' : ''}" data-slide>${img(s, { alt: i === 0 ? 'Sală de endoscopie echipată cu tehnologie OLYMPUS' : 'Ilustrație a rețelei neuronale', sizes: '100vw', eager: i === 0, priority: i === 0 })}</figure>`).join('');
   const brands = manufacturers.filter((m) => manufacturerCounts[m] >= 2)
-    .map((m) => `<a href="${u('/produse/')}?producator=${encodeURIComponent(m)}">${esc(m)}</a>`).join('');
+    .map((m) => `<a href="${u('/produsele-noastre/')}?producator=${encodeURIComponent(m)}">${esc(m)}</a>`).join('');
   const heroM = mediaInfo(HOME.slides[0]);
   const preload = heroM ? `<link rel="preload" as="image" imagesrcset="${heroM.variants.map((v) => `${u('/' + v.src)} ${v.w}w`).join(', ')}" imagesizes="100vw" fetchpriority="high">` : '';
 
@@ -93,7 +84,7 @@ export function home() {
     </div>
   </section>`;
 
-  return page({ path: '/', head: preload, heroTheme: 'dark', title: '', description: 'Când vorbim despre sănătate, TEMCO pune întotdeauna oamenii pe primul loc. Aparatură medicală de referință pentru toată România, din 1990.', body, ogImage: HOME.slides[0],
+  return page({ path: '/', head: preload, heroTheme: 'dark', title: '', description: 'Când vorbim despre sănătate, TEMCO pune întotdeauna oamenii pe primul loc. Aparatură medicală de referință pentru toată România, din 1990.', body, ogCard: 'home', ogTitle: 'TEMCO · Tehnologie medicală de referință',
     jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: 'Temco', url: SITE.url + '/', potentialAction: { '@type': 'SearchAction', target: SITE.url + '/cautare/?q={search_term_string}', 'query-input': 'required name=search_term_string' } }] });
 }
 
@@ -133,39 +124,21 @@ export function about() {
       </div>
     </div>
   </section>`;
-  return page({ path: '/despre-noi/', title: 'Despre noi', description: stripTags(ABOUT.lead), body, jsonld: [breadcrumbLd([{ name: 'Despre noi', url: '/despre-noi/' }])], ogImage: HOME.slides[1] });
+  return page({ path: '/despre-noi/', title: 'Despre noi', description: stripTags(ABOUT.lead), body, jsonld: [breadcrumbLd([{ name: 'Despre noi', url: '/despre-noi/' }])], ogCard: 'despre-noi' });
 }
 
-// ============================================================== PRODUCTS HUB
+// ============================================================== PRODUCTS (the single catalogue)
 export function productsHub() {
   const body = `
-  ${pageHead({ title: 'Produse', sub: `${products.length} de produse în ${topCategories.length} domenii.`,
-    extra: `<button class="head-search fade-up" style="--d:.2s" type="button" data-search-open>${icon('search', { size: 20 })}<span>Caută un produs</span></button>` })}
+  ${pageHead({ title: 'Produse', sub: `${products.length} de produse în ${topCategories.length} domenii.` })}
   <section class="section" style="padding-top:0">
-    <div class="container">
-      <h2 class="sr-only">Domenii</h2>
-      ${domainList()}
-      <a class="explore" href="${u('/produse/')}" style="margin-top:48px">
-        <span><strong>Toate produsele</strong><span>Catalogul complet, cu filtre după domeniu și producător</span></span>
-        <span class="go">${icon('arrowRight', { size: 22 })}</span>
-      </a>
-    </div>
+    <div class="container">${catalog({ items: products, domains: topCategories })}</div>
   </section>
   <script>
   // Old addresses /produsele-noastre/?taxonomy_id=13 keep working
   (function(){var q=new URLSearchParams(location.search),id=q.get('taxonomy_id');var m=${JSON.stringify(Object.fromEntries(categories.map((c) => [c.id, c.url.slice(1)])))};if(id&&m[id])location.replace(document.documentElement.dataset.root+m[id]);})();
   </script>`;
-  return page({ path: '/produsele-noastre/', title: 'Produse', description: `Catalogul TEMCO: ${products.length} de produse medicale. ${topCategories.map((c) => c.name).join(', ')}.`, body, jsonld: [breadcrumbLd([{ name: 'Produse', url: '/produsele-noastre/' }])] });
-}
-
-// ============================================================== ALL PRODUCTS
-export function allProducts() {
-  const body = `
-  ${pageHead({ title: 'Toate produsele', back: { name: 'Produse', url: '/produsele-noastre/' } })}
-  <section class="section" style="padding-top:0">
-    <div class="container">${catalog({ items: products, chips: topCategories.filter((c) => c.count) })}</div>
-  </section>`;
-  return page({ path: '/produse/', title: 'Toate produsele', description: `Catalogul complet TEMCO: ${products.length} de produse medicale.`, body, jsonld: [breadcrumbLd([{ name: 'Produse', url: '/produsele-noastre/' }, { name: 'Toate produsele', url: '/produse/' }]), itemList(products.slice(0, 50))] });
+  return page({ path: '/produsele-noastre/', title: 'Produse', ogCard: 'produse', description: `Catalogul TEMCO: ${products.length} de produse medicale. ${topCategories.map((c) => c.name).join(', ')}.`, body, jsonld: [breadcrumbLd([{ name: 'Produse', url: '/produsele-noastre/' }]), itemList(products.slice(0, 50))] });
 }
 
 // ============================================================== CATEGORY
@@ -182,7 +155,7 @@ export function categoryPage(c) {
   ${pageHead({ title: esc(c.name), sub: esc(sub), back: parent, media, mediaProduct: c.image && !isPhoto })}
   <section class="section" style="padding-top:0"><div class="container">${content}</div></section>`;
   const crumbs = [{ name: 'Produse', url: '/produsele-noastre/' }, ...chain.map((x) => ({ name: x.name, url: x.url }))];
-  return page({ path: c.url, title: c.name, description: truncate(`${c.name}. ${sub}. ${c.products.slice(0, 4).map((p) => p.name).join(', ')}`, 158), body, jsonld: [breadcrumbLd(crumbs), itemList(c.products)], ogImage: c.image });
+  return page({ path: c.url, title: c.name, description: truncate(`${c.name}. ${sub}. ${c.products.slice(0, 4).map((p) => p.name).join(', ')}`, 158), body, jsonld: [breadcrumbLd(crumbs), itemList(c.products)], ogCard: 'produse' });
 }
 
 // ============================================================== PRODUCT
@@ -193,7 +166,7 @@ export function productPage(p, related) {
   const desc = stripTags(p.description);
   const tagLinks = p.tags.map((id) => tagById.get(id)).filter(Boolean);
   const tagsHtml = tagLinks.length ? `<p class="tags">${tagLinks.map((t) => `<a href="${u(t.url)}">#${esc(t.name)}</a>`).join('')}</p>` : '';
-  const back = p.primary ? { name: p.primary.name, url: p.primary.url } : { name: 'Toate produsele', url: '/produse/' };
+  const back = p.primary ? { name: p.primary.name, url: p.primary.url } : { name: 'Produse', url: '/produsele-noastre/' };
   const kv = [
     p.model && ['Model', esc(p.model)],
     p.manufacturer && ['Producător', p.manufacturerUrl ? `<a href="${attr(p.manufacturerUrl)}" target="_blank" rel="noopener">${esc(p.manufacturer)}</a>` : esc(p.manufacturer)],
@@ -256,7 +229,7 @@ export function productPage(p, related) {
     ...(p.manufacturer ? { brand: { '@type': 'Brand', name: p.manufacturer } } : {}),
     category: p.chain.map((c) => c.name).join(' > '),
   };
-  return page({ path: p.url, title: p.title, description: truncate(desc || `${p.name}${p.model ? ', model ' + p.model : ''}${p.manufacturer ? ', producător ' + p.manufacturer : ''}. Distribuit în România de TEMCO.`, 158), body, jsonld: [breadcrumbLd(crumbs), ld], ogImage: p.cover, ogType: 'product' });
+  return page({ path: p.url, title: p.title, description: truncate(desc || `${p.name}${p.model ? ', model ' + p.model : ''}${p.manufacturer ? ', producător ' + p.manufacturer : ''}. Distribuit în România de TEMCO.`, 158), body, jsonld: [breadcrumbLd(crumbs), ld], ogCard: 'produse', ogType: 'product' });
 }
 
 // ============================================================== TAG
@@ -265,7 +238,7 @@ export function tagPage(t) {
   ${pageHead({ title: '#' + esc(t.name), sub: t.products.length ? plural(t.products.length, 'produs', 'produse') : '', back: { name: 'Produse', url: '/produsele-noastre/' } })}
   <section class="section" style="padding-top:0"><div class="container">
     <h2 class="sr-only">Produse</h2>
-    ${t.products.length ? `<ul class="grid">${t.products.map((p) => productCard(p)).join('')}</ul>` : `<div class="empty-state"><h2>Niciun produs</h2>${more('/produse/', 'Toate produsele')}</div>`}
+    ${t.products.length ? `<ul class="grid">${t.products.map((p) => productCard(p)).join('')}</ul>` : `<div class="empty-state"><h2>Niciun produs</h2>${more('/produsele-noastre/', 'Toate produsele')}</div>`}
   </div></section>`;
   return page({ path: t.url, title: `#${t.name}`, description: `Produse TEMCO: ${t.products.map((p) => p.name).slice(0, 4).join(', ')}.`, body, jsonld: [breadcrumbLd([{ name: 'Produse', url: '/produsele-noastre/' }, { name: '#' + t.name, url: t.url }])], noindex: t.products.length < 2 });
 }
@@ -285,7 +258,7 @@ export function eventsPage(path = '/instruire-evenimente/') {
       <ul class="events" data-events>${posts.map(eventCard).join('')}</ul>
     </div>
   </section>`;
-  return page({ path, title: 'Instruire / Evenimente', description: 'Instruire și evenimente TEMCO: cursuri, congrese și workshop-uri de endoscopie, urologie și ORL.', body, jsonld: [breadcrumbLd([{ name: 'Instruire / Evenimente', url: '/instruire-evenimente/' }])], noindex: path !== '/instruire-evenimente/' });
+  return page({ path, title: 'Instruire / Evenimente', description: 'Instruire și evenimente TEMCO: cursuri, congrese și workshop-uri de endoscopie, urologie și ORL.', body, ogCard: 'evenimente', jsonld: [breadcrumbLd([{ name: 'Instruire / Evenimente', url: '/instruire-evenimente/' }])], noindex: path !== '/instruire-evenimente/' });
 }
 
 // ============================================================== ARTICLE
@@ -321,7 +294,7 @@ export function articlePage(post, prev, next) {
     </nav>
   </div>`;
   const ld = { '@context': 'https://schema.org', '@type': 'Article', headline: post.title, datePublished: post.date, dateModified: post.modified, author: { '@type': 'Person', name: post.author }, image: post.featured ? SITE.url + '/' + flat(srcOf(post.featured, 1600)) : undefined, publisher: { '@id': SITE.url + '/#organization' } };
-  return page({ path: post.url, title: post.title, description: truncate(post.excerpt || post.title, 158), body, isPost: true, jsonld: [breadcrumbLd([{ name: 'Instruire / Evenimente', url: '/instruire-evenimente/' }, { name: post.title, url: post.url }]), ld], ogImage: post.featured, ogType: 'article' });
+  return page({ path: post.url, title: post.title, description: truncate(post.excerpt || post.title, 158), body, isPost: true, jsonld: [breadcrumbLd([{ name: 'Instruire / Evenimente', url: '/instruire-evenimente/' }, { name: post.title, url: post.url }]), ld], ogCard: 'evenimente', ogType: 'article' });
 }
 
 // ============================================================== CONTACT
@@ -354,7 +327,7 @@ export function contactPage() {
   <section class="section" style="padding-top:0" id="harta">
     <div class="container">${mapEmbed(hq.map, 'TEMCO, Str. Călușei 69A, București')}</div>
   </section>`;
-  return page({ path: '/contact/', title: 'Contact', description: 'Contact TEMCO: Str. Călușei nr. 69A, sector 2, București. Tel/fax 021/252 46 50, office@temco.ro. Puncte de lucru în Cluj-Napoca, Iași, Constanța, Alexandria.', body, jsonld: [breadcrumbLd([{ name: 'Contact', url: '/contact/' }]), { '@context': 'https://schema.org', '@type': 'ContactPage', name: 'Contact TEMCO', url: SITE.url + '/contact/' }] });
+  return page({ path: '/contact/', title: 'Contact', ogCard: 'contact', description: 'Contact TEMCO: Str. Călușei nr. 69A, sector 2, București. Tel/fax 021/252 46 50, office@temco.ro. Puncte de lucru în Cluj-Napoca, Iași, Constanța, Alexandria.', body, jsonld: [breadcrumbLd([{ name: 'Contact', url: '/contact/' }]), { '@context': 'https://schema.org', '@type': 'ContactPage', name: 'Contact TEMCO', url: SITE.url + '/contact/' }] });
 }
 
 // ============================================================== LEGAL
@@ -426,7 +399,7 @@ export function redirect(path, to, title = 'Redirecționare') {
   const root = depth ? '../'.repeat(depth) : './';
   return `<!doctype html><html lang="ro"><head><meta charset="utf-8"><title>${esc(title)} | TEMCO</title>
 <meta name="robots" content="noindex"><link rel="canonical" href="${SITE.url}${to}">
-<script>(function(){var r=${JSON.stringify(root)},m=${map},q=new URLSearchParams(location.search),c=q.get('wpvcategorieprodus');location.replace(r+(c&&m[c]?m[c]:${JSON.stringify(to.slice(1))}));})();</script>
+<script>(function(){var r=${JSON.stringify(root)},m=${map},q=new URLSearchParams(location.search),c=q.get('wpvcategorieprodus');location.replace(r+(c&&m[c]?m[c]:${JSON.stringify(to.slice(1))}+location.search+location.hash));})();</script>
 <meta http-equiv="refresh" content="0; url=${root}${to.slice(1)}">
 </head><body><p>Pagina s-a mutat: <a href="${root}${to.slice(1)}">${esc(title)}</a></p></body></html>`;
 }

@@ -162,13 +162,6 @@
     schedule();
   }
 
-  // ------------------------------------------------------------ interactive list with image preview
-  $$('[data-dlist]').forEach((dl) => {
-    const imgs = $$('.dlist-preview > div', dl);
-    const show = (i) => imgs.forEach((d, k) => d.classList.toggle('is-on', k === i));
-    $$('a[data-i]', dl).forEach((a) => { a.addEventListener('mouseenter', () => show(+a.dataset.i)); a.addEventListener('focus', () => show(+a.dataset.i)); });
-  });
-
   // ------------------------------------------------------------ catalog filters
   $$('[data-catalog]').forEach((cat) => {
     const grid = $('[data-grid]', cat);
@@ -178,12 +171,27 @@
     const countEl = $('[data-count]', cat), countLbl = $('[data-count-label]', cat);
     const empty = $('[data-empty]', cat), moreWrap = $('[data-more-wrap]', cat), moreBtn = $('[data-load-more]', cat), shown = $('[data-shown]', cat);
     const chips = $$('[data-chip]', cat);
+    const doms = $$('[data-domain]', cat), subRows = $$('[data-subs]', cat);
     const brandBoxes = $$('input[name="brand"]', cat);
     const brandCount = $('[data-brand-count]', cat);
     const params = new URLSearchParams(location.search);
-    const state = { q: params.get('q') || '', brands: new Set(params.getAll('producator')), chip: '', sort: params.get('sort') || 'az', limit: pageSize };
+    const state = { q: params.get('q') || '', brands: new Set(params.getAll('producator')), chip: '', domain: '', domainIds: null, sort: params.get('sort') || 'az', limit: pageSize };
+    const setDomain = (slug) => {
+      const d = doms.find((x) => x.dataset.domain === slug) || doms[0];
+      state.domain = d ? d.dataset.domain : '';
+      state.domainIds = state.domain ? new Set(d.dataset.ids.split(' ')) : null;
+      subRows.forEach((r) => { r.hidden = r.dataset.subs !== state.domain; });
+    };
+    const centerDomain = () => {
+      const row = doms[0]?.parentElement, d = doms.find((x) => x.dataset.domain === state.domain);
+      if (row && d && row.scrollWidth > row.clientWidth) row.scrollTo({ left: d.offsetLeft - row.clientWidth / 2 + d.clientWidth / 2, behavior: reduced ? 'auto' : 'smooth' });
+    };
+    if (doms.length) { setDomain(params.get('domeniu') || ''); requestAnimationFrame(centerDomain); }
     const chipFromUrl = params.get('sub');
-    if (chipFromUrl) { const c = chips.find((x) => x.dataset.chipSlug === chipFromUrl); if (c) state.chip = c.dataset.chip; }
+    if (chipFromUrl) {
+      const scope = subRows.find((r) => !r.hidden) || cat;
+      const c = $$('[data-chip]', scope).find((x) => x.dataset.chipSlug === chipFromUrl); if (c) state.chip = c.dataset.chip;
+    }
     if (qIn) qIn.value = state.q;
     if (sortSel) sortSel.value = state.sort;
     brandBoxes.forEach((b) => { b.checked = state.brands.has(b.value); });
@@ -213,6 +221,7 @@
         if (tokens.length && !tokens.every((t) => it.dataset.name.includes(t))) return false;
         if (state.brands.size && !state.brands.has(it.dataset.brand)) return false;
         if (chipIds && !it.dataset.cats.split(' ').some((c) => chipIds.has(c))) return false;
+        if (state.domainIds && !it.dataset.cats.split(' ').some((c) => state.domainIds.has(c))) return false;
         return true;
       }).sort(sorters[state.sort] || sorters.az);
       const visSet = new Set(vis);
@@ -236,9 +245,11 @@
       moreWrap.hidden = visibleNow >= vis.length;
       if (!moreWrap.hidden) shown.textContent = `${visibleNow} din ${vis.length}`;
       chips.forEach((c) => c.setAttribute('aria-pressed', c.dataset.chip === state.chip));
+      doms.forEach((d) => d.setAttribute('aria-pressed', d.dataset.domain === state.domain));
       if (qClear) qClear.hidden = !state.q;
       if (brandCount) brandCount.textContent = state.brands.size || '';
       const sp = new URLSearchParams();
+      if (state.domain) sp.set('domeniu', state.domain);
       if (state.q) sp.set('q', state.q);
       state.brands.forEach((b) => sp.append('producator', b));
       const chipEl = chips.find((c) => state.chip && c.dataset.chip === state.chip);
@@ -252,6 +263,9 @@
     qClear?.addEventListener('click', () => { qIn.value = ''; state.q = ''; apply(true); qIn.focus(); });
     sortSel?.addEventListener('change', () => { state.sort = sortSel.value; apply(false); });
     chips.forEach((c) => c.addEventListener('click', () => { state.chip = c.dataset.chip; apply(true); }));
+    doms.forEach((d) => d.addEventListener('click', () => {
+      setDomain(d.dataset.domain); state.chip = ''; apply(true); centerDomain();
+    }));
     brandBoxes.forEach((b) => b.addEventListener('change', () => { b.checked ? state.brands.add(b.value) : state.brands.delete(b.value); apply(true); }));
     moreBtn?.addEventListener('click', () => {
       const firstNew = state.limit;
@@ -259,7 +273,7 @@
       items.filter((it) => !it.hidden)[firstNew]?.querySelector('a')?.focus({ preventScroll: true });
     });
     $$('[data-reset]', cat).forEach((b) => b.addEventListener('click', () => {
-      state.q = ''; state.brands.clear(); state.chip = ''; if (qIn) qIn.value = '';
+      state.q = ''; state.brands.clear(); state.chip = ''; if (qIn) qIn.value = ''; if (doms.length) setDomain('');
       brandBoxes.forEach((x) => { x.checked = false; });
       apply(true);
     }));

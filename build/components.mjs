@@ -105,11 +105,23 @@ export function contactForm({ product = null, id = 'formular' } = {}) {
 }
 
 // ---------------------------------------------------------------- catalog (filterable grid)
-export function catalog({ items, chips = [], pageSize = 24 }) {
+export function catalog({ items, chips = [], domains = [], pageSize = 24 }) {
   const brands = [...new Set(items.map((p) => p.manufacturer).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ro'));
   const bCount = (b) => items.filter((p) => p.manufacturer === b).length;
+  // Domain → subcategory filters (the structure of the original site), shown as photos + chips
+  const domainFilter = domains.length ? `
+    <div class="dom-filter" role="group" aria-label="Domenii">
+      <button class="dom" type="button" aria-pressed="true" data-domain=""><span class="dot-img">${icon('grid', { size: 24 })}</span><span>Toate</span></button>
+      ${domains.map((d) => `<button class="dom" type="button" aria-pressed="false" data-domain="${d.slug}" data-ids="${descIds(d)}"><span class="dot-img">${d.image ? img(d.image, { alt: '', sizes: '80px' }) : ''}</span><span>${esc(d.name)}</span></button>`).join('')}
+    </div>
+    ${domains.filter((d) => subLevel(d).length).map((d) => `
+    <div class="chip-row is-scroll sub-row" data-subs="${d.slug}" role="group" aria-label="Subcategorii ${attr(d.name)}" hidden>
+      <button class="chip" type="button" aria-pressed="true" data-chip="">Toate</button>
+      ${subLevel(d).map((k) => `<button class="chip" type="button" aria-pressed="false" data-chip="${descIds(k)}" data-chip-slug="${k.slug}">${esc(k.name)}</button>`).join('')}
+    </div>`).join('')}` : '';
   return `
   <div class="catalog" data-catalog data-page-size="${pageSize}">
+    ${domainFilter}
     <div class="toolbar">
       <label class="field-search">${icon('search', { size: 18 })}<span class="sr-only">Caută în listă</span>
         <input type="search" placeholder="Caută" data-q autocomplete="off">
@@ -138,6 +150,13 @@ export function catalog({ items, chips = [], pageSize = 24 }) {
       <button class="btn btn-line" type="button" data-load-more>Mai multe</button>
     </div>
   </div>`;
+}
+// Most useful subcategory level: skip levels that hold a single subcategory
+// (e.g. Microscopie > Microscoape biologice > Stereomicroscoape, Camere digitale...)
+function subLevel(d) {
+  let nodes = d.children.filter((k) => k.count);
+  while (nodes.length === 1 && nodes[0].children.some((k) => k.count)) nodes = nodes[0].children.filter((k) => k.count);
+  return nodes.length > 1 ? nodes : [];
 }
 function descIds(c) {
   const out = [c.id];

@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import path from 'node:path';
-import { ROOT, esc, attr, u, srcOf, rootPrefix } from './lib.mjs';
+import { ROOT, esc, attr, u, rootPrefix } from './lib.mjs';
 import { icon } from './icons.mjs';
 import { SITE, NAV, FOOTER_LINKS, FOOTER_OFFICES, COOKIE, CONTACT } from './content.mjs';
 import { topCategories } from './data.mjs';
@@ -32,7 +32,7 @@ function header(current, isPost) {
         <a class="${cls}" href="${u(n.href)}"${aria} aria-haspopup="true" aria-expanded="false">${n.label}${icon('chevronDown')}</a>
         <div class="dropdown">
           <ul>${topCategories.map((c) => `<li><a href="${u(c.url)}">${esc(c.name)}</a></li>`).join('')}</ul>
-          <a class="all" href="${u('/produse/')}">Toate produsele ${icon('arrowRight', { size: 18 })}</a>
+          <a class="all" href="${u('/produsele-noastre/')}">Toate produsele ${icon('arrowRight', { size: 18 })}</a>
         </div>
       </li>`;
     }
@@ -43,7 +43,7 @@ function header(current, isPost) {
     ? `<li><button class="m-link" type="button" aria-expanded="false" aria-controls="m-produse">${n.label}${icon('chevronDown')}</button>
         <div class="m-sub" id="m-produse"><div><ul>
           ${topCategories.map((c) => `<li><a href="${u(c.url)}">${esc(c.name)}</a></li>`).join('')}
-          <li><a href="${u('/produse/')}"><strong>Toate produsele</strong></a></li>
+          <li><a href="${u('/produsele-noastre/')}"><strong>Toate produsele</strong></a></li>
         </ul></div></div></li>`
     : `<li><a class="m-link" href="${u(n.href)}"${current === n.href ? ' aria-current="page"' : ''}>${n.label}</a></li>`).join('');
 
@@ -139,11 +139,13 @@ function chrome() {
 <div class="toast" role="status" aria-live="polite" data-toast></div>`;
 }
 
-export function page({ path: p, title, description, body, heroTheme = 'light', jsonld = [], ogImage, ogType = 'website', bodyClass = '', isPost = false, noindex = false, head = '' }) {
+export function page({ path: p, title, description, body, heroTheme = 'light', jsonld = [], ogCard = 'home', ogTitle, ogType = 'website', bodyClass = '', isPost = false, noindex = false, head = '' }) {
   const canonical = SITE.url + p;
   const fullTitle = title ? `${title} | TEMCO` : 'TEMCO | Tehno Electro Medical Company';
   const desc = description || SITE.description;
-  const og = ogImage ? (SITE.url + '/' + srcOf(ogImage, 1200).replace(/^(\.\.\/)+/, '')) : SITE.url + '/assets/og-default.jpg';
+  // Designed 1200x630 preview card (WhatsApp, Facebook, LinkedIn, iMessage)
+  const og = `${SITE.url}/assets/og/${ogCard}.jpg?v=${ASSET_VERSION}`;
+  const isDemo = !SITE.url.includes('temco.ro');
   const ld = [{
     '@context': 'https://schema.org', '@type': 'MedicalBusiness', '@id': SITE.url + '/#organization',
     name: 'TEMCO, Tehno Electro Medical Company', alternateName: 'TEMCO', url: SITE.url + '/', email: SITE.email,
@@ -158,16 +160,22 @@ export function page({ path: p, title, description, body, heroTheme = 'light', j
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${attr(desc)}">
 <link rel="canonical" href="${canonical}">
-${noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large">'}
+${noindex || isDemo ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large">'}
 <meta name="theme-color" content="#ffffff">
 <meta property="og:locale" content="ro_RO">
 <meta property="og:site_name" content="Temco">
 <meta property="og:type" content="${ogType}">
-<meta property="og:title" content="${attr(title || 'TEMCO, Tehno Electro Medical Company')}">
+<meta property="og:title" content="${attr(ogTitle || title || 'TEMCO, Tehno Electro Medical Company')}">
 <meta property="og:description" content="${attr(desc)}">
 <meta property="og:url" content="${canonical}">
 <meta property="og:image" content="${attr(og)}">
+<meta property="og:image:secure_url" content="${attr(og)}">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="TEMCO, Tehnologie medicală de referință. Din 1990, pentru medicii din toată România.">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${attr(og)}">
 <link rel="icon" href="${u('/assets/brand/favicon.svg')}" type="image/svg+xml">
 <link rel="icon" href="${u('/assets/brand/favicon-32.png')}" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="${u('/assets/brand/apple-touch-icon.png')}">

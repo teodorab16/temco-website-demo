@@ -118,7 +118,7 @@ export function searchIndex() {
     ['Despre noi', '/despre-noi/', 'despre noi istoric companie iso certificari brosura'],
     ['Contact', '/contact/', 'contact adresa telefon email sediu cluj bucuresti iasi constanta alexandria'],
     ['Instruire / Evenimente', '/instruire-evenimente/', 'instruire evenimente cursuri congrese workshop'],
-    ['Toate produsele', '/produse/', 'toate produsele catalog'],
+    ['Produse', '/produsele-noastre/', 'toate produsele catalog'],
     ['Politică de confidențialitate', '/politica-de-confidentialitate/', 'politica confidentialitate gdpr date personale'],
     ['Politica cookies', '/politica-cookies/', 'politica cookies cookie-uri'],
   ]) items.push({ t: 'g', n, u, k: fold(n + ' ' + k) });

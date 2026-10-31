@@ -27,8 +27,9 @@ fs.mkdirSync(path.join(OUT, 'assets/css'), { recursive: true });
 fs.writeFileSync(path.join(OUT, 'assets/css/main.css'), minCss(fs.readFileSync(path.join(ROOT, 'src/css/main.css'), 'utf8')));
 fs.mkdirSync(path.join(OUT, 'assets/js'), { recursive: true });
 for (const f of fs.readdirSync(path.join(ROOT, 'src/js'))) copy(`src/js/${f}`, `assets/js/${f}`);
-for (const f of fs.readdirSync(path.join(ROOT, 'src/brand'))) copy(`src/brand/${f}`, `assets/brand/${f}`);
-copy('src/brand/og-default.jpg', 'assets/og-default.jpg');
+for (const f of fs.readdirSync(path.join(ROOT, 'src/brand'))) if (fs.statSync(path.join(ROOT, 'src/brand', f)).isFile()) copy(`src/brand/${f}`, `assets/brand/${f}`);
+for (const f of fs.readdirSync(path.join(ROOT, 'src/brand/og'))) if (f.endsWith('.jpg')) copy(`src/brand/og/${f}`, `assets/og/${f}`);
+copy('src/brand/og/home.jpg', 'assets/og-default.jpg');
 
 // ---------------------------------------------------------------- pages
 const urls = [];
@@ -41,7 +42,6 @@ function emit(p, render, { sitemap = true, priority = 0.5 } = {}) {
 emit('/', P.home, { priority: 1 });
 emit('/despre-noi/', P.about, { priority: 0.8 });
 emit('/produsele-noastre/', P.productsHub, { priority: 0.9 });
-emit('/produse/', P.allProducts, { priority: 0.8 });
 emit('/instruire-evenimente/', () => P.eventsPage(), { priority: 0.7 });
 emit('/contact/', P.contactPage, { priority: 0.8 });
 emit('/politica-de-confidentialitate/', () => P.legalPage('politica-de-confidentialitate'), { priority: 0.2 });
@@ -65,8 +65,9 @@ write('/404.html', P.notFound());
 
 // Old WordPress URLs → new homes (keeps bookmarks & search-engine links alive)
 const redirects = {
-  '/lista-produse/': ['/produse/', 'Lista produse'],
-  '/lista-produse-2/': ['/produse/', 'Lista produse'],
+  '/produse/': ['/produsele-noastre/', 'Produse'],
+  '/lista-produse/': ['/produsele-noastre/', 'Lista produse'],
+  '/lista-produse-2/': ['/produsele-noastre/', 'Lista produse'],
   '/category/articole/': ['/instruire-evenimente/', 'Articole'],
   '/author/madalina/': ['/instruire-evenimente/', 'Lupu Madalina'],
   '/test/': ['/contact/', 'Contact'],

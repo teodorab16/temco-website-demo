@@ -5,7 +5,9 @@
 export const SITE = {
   name: 'TEMCO',
   legalName: 'Tehno Electro Medical Company',
-  url: 'https://www.temco.ro',
+  // Absolute base for link previews, canonical URLs and the sitemap.
+  // The GitHub Pages demo build sets SITE_URL to its own address.
+  url: (process.env.SITE_URL || 'https://www.temco.ro').replace(/\/$/, ''),
   locale: 'ro_RO',
   email: 'office@temco.ro',
   phone: { label: '021 252 46 50', href: 'tel:+40212524650' },
