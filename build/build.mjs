@@ -47,7 +47,6 @@ emit('/contact/', P.contactPage, { priority: 0.8 });
 emit('/politica-de-confidentialitate/', () => P.legalPage('politica-de-confidentialitate'), { priority: 0.2 });
 emit('/politica-cookies/', () => P.legalPage('politica-cookies'), { priority: 0.2 });
 emit('/cautare/', P.searchPage, { sitemap: false });
-emit('/variante/', P.variantsPage, { sitemap: false }); // temporary: catalog design options
 
 for (const c of categories) emit(c.url, () => P.categoryPage(c), { priority: c.parent ? 0.6 : 0.8 });
 
