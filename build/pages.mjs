@@ -54,10 +54,6 @@ export function home() {
           <a class="hero-contact" href="mailto:${SITE.email}">${icon('mail', { size: 17 })}${SITE.email}</a>
         </div>
       </div>
-      <div class="hero-progress fade-up" style="--d:.3s">
-        <span><b data-hero-current>01</b> / 0${HOME.slides.length}</span>
-        ${HOME.slides.map((_, i) => `<button class="hero-dot${i === 0 ? ' is-active' : ''}" type="button" aria-label="Imaginea ${i + 1}" data-dot="${i}"><span></span></button>`).join('')}
-      </div>
       <ul class="hero-values" aria-label="Valorile TEMCO">${HOME.values.map((v, i) => `
         <li class="fade-up" style="--d:${0.36 + i * 0.08}s"><span class="ico">${icon(v.icon, { size: 18 })}</span><div><strong>${v.title}</strong><span>${v.text}</span></div></li>`).join('')}
       </ul>

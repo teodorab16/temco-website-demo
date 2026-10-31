@@ -152,8 +152,6 @@
     const schedule = () => { clearTimeout(timer); if (!reduced && !hero.classList.contains('is-paused')) timer = setTimeout(() => go(idx + 1), DUR); };
     dots.forEach((d) => d.addEventListener('click', () => go(+d.dataset.dot, true)));
     const pause = (on) => { hero.classList.toggle('is-paused', on); if (on) clearTimeout(timer); else schedule(); };
-    $('.hero-progress', hero)?.addEventListener('mouseenter', () => pause(true));
-    $('.hero-progress', hero)?.addEventListener('mouseleave', () => pause(false));
     document.addEventListener('visibilitychange', () => pause(document.hidden));
     let sx = null;
     hero.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse') sx = e.clientX; });
